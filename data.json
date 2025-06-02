@@ -10,21 +10,69 @@
       "text": "</>"
     },
     "navLinks": [
-      { "label": "About", "section": "about" },
-      { "label": "Skills", "section": "skills" },
-      { "label": "Experience", "section": "experience" },
-      { "label": "Projects", "section": "portfolio" },
-      { "label": "Achievements", "section": "achievements" },
-      { "label": "Contact", "section": "contact" }
+      {
+        "label": "About",
+        "section": "about"
+      },
+      {
+        "label": "Skills",
+        "section": "skills"
+      },
+      {
+        "label": "Experience",
+        "section": "experience"
+      },
+      {
+        "label": "Projects",
+        "section": "portfolio"
+      },
+      {
+        "label": "Achievements",
+        "section": "achievements"
+      },
+      {
+        "label": "Contact",
+        "section": "contact"
+      }
     ]
   },
   "codeElements": [
-    { "text": "<Code />", "x": 10, "y": 20, "delay": 0 },
-    { "text": "function()", "x": 80, "y": 40, "delay": 0.2 },
-    { "text": "const dev = true", "x": 30, "y": 70, "delay": 0.4 },
-    { "text": "return <Awesome />", "x": 70, "y": 90, "delay": 0.6 },
-    { "text": "404: Boredom not found", "x": 20, "y": 50, "delay": 0.8 },
-    { "text": "while(alive) { code() }", "x": 60, "y": 30, "delay": 1.0 }
+    {
+      "text": "<Code />",
+      "x": 10,
+      "y": 20,
+      "delay": 0
+    },
+    {
+      "text": "function()",
+      "x": 80,
+      "y": 40,
+      "delay": 0.2
+    },
+    {
+      "text": "const dev = true",
+      "x": 30,
+      "y": 70,
+      "delay": 0.4
+    },
+    {
+      "text": "return <Awesome />",
+      "x": 70,
+      "y": 90,
+      "delay": 0.6
+    },
+    {
+      "text": "404: Boredom not found",
+      "x": 20,
+      "y": 50,
+      "delay": 0.8
+    },
+    {
+      "text": "while(alive) { code() }",
+      "x": 60,
+      "y": 30,
+      "delay": 1.0
+    }
   ],
   "intro": {
     "enabled": true,
@@ -45,10 +93,22 @@
   "stats": {
     "enabled": true,
     "items": [
-      { "value": "5+", "label": "Years of Experience" },
-      { "value": "12+", "label": "Projects Completed" },
-      { "value": "5+", "label": "Competitions/ Hackathon Winner" },
-      { "value": "2", "label": "DevOps Cloud Certified" }
+      {
+        "value": "5+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "12+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "5+",
+        "label": "Competitions/ Hackathon Winner"
+      },
+      {
+        "value": "2",
+        "label": "DevOps Cloud Certified"
+      }
     ]
   },
   "skills": {
@@ -270,7 +330,6 @@
       }
     ]
   },
-  {
   "contactForm": {
     "serviceId": "service_wtvd89b",
     "templateId": "template_i61yh8q",
@@ -330,8 +389,7 @@
         }
       }
     ]
-  }
-},
+  },
   "contact": {
     "enabled": true,
     "title": "Let's Connect",
