@@ -7,8 +7,7 @@
   "header": {
     "enabled": true,
     "logo": {
-      "text": "BR",
-      "gradient": "from-purple-400 to-pink-600"
+      "text": "</>"
     },
     "navLinks": [
       { "label": "About", "section": "about" },
