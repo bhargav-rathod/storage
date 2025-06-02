@@ -19,6 +19,14 @@
       { "label": "Contact", "section": "contact" }
     ]
   },
+  "codeElements": [
+    { "text": "<Code />", "x": 10, "y": 20, "delay": 0 },
+    { "text": "function()", "x": 80, "y": 40, "delay": 0.2 },
+    { "text": "const dev = true", "x": 30, "y": 70, "delay": 0.4 },
+    { "text": "return <Awesome />", "x": 70, "y": 90, "delay": 0.6 },
+    { "text": "404: Boredom not found", "x": 20, "y": 50, "delay": 0.8 },
+    { "text": "while(alive) { code() }", "x": 60, "y": 30, "delay": 1.0 }
+  ],
   "intro": {
     "enabled": true,
     "tagline": "Hey There, I'm Bhargav Rathod",
@@ -295,7 +303,6 @@
   },
   "analytics": {
     "enabled": true,
-    "trackingId": "G-XXXXXXXXXX",
-    "trackingURL": "https://docs.google.com/forms/d/e/1FAIpQLSfcRXBAPshSP8tDMY_inAYtvs6HqjbdwaIsKt_7Q6FtMXGw9Q/formResponse"
+    "trackingId": "G-XXXXXXXXXX"
   }
 }
