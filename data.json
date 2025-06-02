@@ -7,7 +7,7 @@
   "header": {
     "enabled": true,
     "logo": {
-      "text": "</>"
+      "text": "</> BR"
     },
     "navLinks": [
       { "label": "About", "section": "about" },
