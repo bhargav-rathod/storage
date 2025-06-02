@@ -10,69 +10,21 @@
       "text": "</>"
     },
     "navLinks": [
-      {
-        "label": "About",
-        "section": "about"
-      },
-      {
-        "label": "Skills",
-        "section": "skills"
-      },
-      {
-        "label": "Experience",
-        "section": "experience"
-      },
-      {
-        "label": "Projects",
-        "section": "portfolio"
-      },
-      {
-        "label": "Achievements",
-        "section": "achievements"
-      },
-      {
-        "label": "Contact",
-        "section": "contact"
-      }
+      { "label": "About", "section": "about" },
+      { "label": "Skills", "section": "skills" },
+      { "label": "Experience", "section": "experience" },
+      { "label": "Projects", "section": "portfolio" },
+      { "label": "Achievements", "section": "achievements" },
+      { "label": "Contact", "section": "contact" }
     ]
   },
   "codeElements": [
-    {
-      "text": "<Code />",
-      "x": 10,
-      "y": 20,
-      "delay": 0
-    },
-    {
-      "text": "function()",
-      "x": 80,
-      "y": 40,
-      "delay": 0.2
-    },
-    {
-      "text": "const dev = true",
-      "x": 30,
-      "y": 70,
-      "delay": 0.4
-    },
-    {
-      "text": "return <Awesome />",
-      "x": 70,
-      "y": 90,
-      "delay": 0.6
-    },
-    {
-      "text": "404: Boredom not found",
-      "x": 20,
-      "y": 50,
-      "delay": 0.8
-    },
-    {
-      "text": "while(alive) { code() }",
-      "x": 60,
-      "y": 30,
-      "delay": 1.0
-    }
+    { "text": "<Code />", "x": 10, "y": 20, "delay": 0 },
+    { "text": "function()", "x": 80, "y": 40, "delay": 0.2 },
+    { "text": "const dev = true", "x": 30, "y": 70, "delay": 0.4 },
+    { "text": "return <Awesome />", "x": 70, "y": 90, "delay": 0.6 },
+    { "text": "404: Boredom not found", "x": 20, "y": 50, "delay": 0.8 },
+    { "text": "while(alive) { code() }", "x": 60, "y": 30, "delay": 1.0 }
   ],
   "intro": {
     "enabled": true,
@@ -93,22 +45,10 @@
   "stats": {
     "enabled": true,
     "items": [
-      {
-        "value": "5+",
-        "label": "Years of Experience"
-      },
-      {
-        "value": "12+",
-        "label": "Projects Completed"
-      },
-      {
-        "value": "5+",
-        "label": "Competitions/ Hackathon Winner"
-      },
-      {
-        "value": "2",
-        "label": "DevOps Cloud Certified"
-      }
+      { "value": "5+", "label": "Years of Experience" },
+      { "value": "12+", "label": "Projects Completed" },
+      { "value": "5+", "label": "Competitions/ Hackathon Winner" },
+      { "value": "2", "label": "DevOps Cloud Certified" }
     ]
   },
   "skills": {
@@ -284,16 +224,6 @@
       },
       {
         "index": 2,
-        "title": "JsonFolio – Loosely Coupled JSON-Based Portfolio Creator",
-        "description": "Easily create and maintain your portfolio by updating a single JSON file. Simply set the file URL as an environment variable—no redeployment required. JsonFolio is simple, fast, and loosely coupled, enabling dynamic updates without touching the codebase.",
-        "githubLink": "https://github.com/bhargav-rathod/",
-        "technologies": [
-          "Next.js"
-        ],
-        "type": "Frontend Implementation, Loosely Coupled Architecture"
-      },
-      {
-        "index": 3,
         "title": "Training & Placement System",
         "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
         "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
@@ -327,66 +257,6 @@
         "name": "Google Cloud Certified - Associate Cloud Engineer",
         "issuer": "Google Cloud",
         "icon": "/gcp.jpg"
-      }
-    ]
-  },
-  "contactForm": {
-    "serviceId": "service_wtvd89b",
-    "templateId": "template_i61yh8q",
-    "publicKey": "fNx1j7-rMJ08ylQDD",
-    "successMessage": "Message sent successfully! I'll get back to you soon.",
-    "errorMessage": "Failed to send message. Please try again or contact me directly at your@email.com",
-    "fields": [
-      {
-        "name": "name",
-        "label": "Name",
-        "type": "text",
-        "required": true,
-        "placeholder": "Your name",
-        "validation": {
-          "minLength": 2,
-          "maxLength": 50
-        }
-      },
-      {
-        "name": "email",
-        "label": "Email",
-        "type": "email",
-        "required": true,
-        "placeholder": "your@email.com",
-        "validation": {
-          "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
-          "patternMessage": "Please enter a valid email"
-        }
-      },
-      {
-        "name": "phone",
-        "label": "Phone",
-        "type": "tel",
-        "required": false,
-        "placeholder": "Your phone number"
-      },
-      {
-        "name": "subject",
-        "label": "Subject",
-        "type": "text",
-        "required": true,
-        "placeholder": "What's this about?",
-        "validation": {
-          "minLength": 2,
-          "maxLength": 100
-        }
-      },
-      {
-        "name": "message",
-        "label": "Message",
-        "type": "textarea",
-        "required": true,
-        "placeholder": "Your message here...",
-        "validation": {
-          "minLength": 10,
-          "maxLength": 1000
-        }
       }
     ]
   },
