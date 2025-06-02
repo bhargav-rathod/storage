@@ -224,6 +224,16 @@
       },
       {
         "index": 2,
+        "title": "JsonFolio – Loosely Coupled JSON-Based Portfolio Creator",
+        "description": "Easily create and maintain your portfolio by updating a single JSON file. Simply set the file URL as an environment variable—no redeployment required. JsonFolio is simple, fast, and loosely coupled, enabling dynamic updates without touching the codebase.",
+        "githubLink": "https://github.com/bhargav-rathod/",
+        "technologies": [
+          "Next.js"
+        ],
+        "type": "Frontend Implementation, Loosely Coupled Architecture"
+      },
+      {
+        "index": 3,
         "title": "Training & Placement System",
         "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
         "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
