@@ -38,7 +38,8 @@
     },
     "cta": {
       "resumeUrl": "https://github.com/bhargav-rathod/storage/raw/main/Bhargav_Rathod_Resume.pdf",
-      "buttonText": "Download CV"
+      "buttonText": "Download CV",
+      "resumeName": "Bhargav_Rathod_Resume.pdf"
     }
   },
   "stats": {
