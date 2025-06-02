@@ -1,200 +1,238 @@
 {
-  "intro": {
-    "tagline": "Hey There, I'm Bhargav Rathod",
-    "professional": "Software Engineer",
-    "description": "Senior Software Engineer who lives and breathes DSA, because let's be real—tech stacks change, but solid logic never goes out of style. Currently vibing with Python, .NET, Angular, and Next.js. System design - Been there, built that."
+  "meta": {
+    "title": "Bhargav Rathod - Portfolio",
+    "description": "Senior Software Engineer specializing in full-stack development and system design.",
+    "favicon": "/favicon.ico"
   },
-  "location": "Bengaluru, Karnataka, India",
-  "stats": [
-    { "value": "5+", "label": "Years of Experience" },
-    { "value": "12+", "label": "Projects Completed" },
-    { "value": "5+", "label": "Competitions/ Hackathon Winner" },
-    { "value": "2", "label": "DevOps Cloud Certified" }
-  ],
-  "skills": {
-    "core": [
-      "Data Structures",
-      "Algorithms",
-      "System Design",
-      "Design Principles",
-      "Database Management",
-      "Performance Optimization",
-      "Code Review"
-    ],
-    "technical": [
-      "Python",
-      ".NET",
-      "C#",
-      "Angular",
-      "Microservices",
-      "OOPs",
-      "SDLC",
-      "DevOps"
-    ],
-    "leadership": [
-      "Agile/ Scrum",
-      "Team Management",
-      "Release Management",
-      "Delivery",
-      "Support"
-    ],
-    "tools": [
-      "JIRA",
-      "Azure DevOps",
-      "Jenkins",
-      "GitHub",
-      "VS IDEs",
-      "Copilot",
-      "Gen AI Consoles",
-      "NPM",
-      "Postman"
+  "header": {
+    "enabled": true,
+    "logo": {
+      "text": "BR",
+      "gradient": "from-purple-400 to-pink-600"
+    },
+    "navLinks": [
+      { "label": "About", "section": "about" },
+      { "label": "Skills", "section": "skills" },
+      { "label": "Experience", "section": "experience" },
+      { "label": "Projects", "section": "portfolio" },
+      { "label": "Achievements", "section": "achievements" },
+      { "label": "Contact", "section": "contact" }
     ]
   },
-  "experiences": [
-    {
-      "id": 1,
-      "title": "Full-Stack Software Developer",
-      "period": "Apr 2024 - Current",
-      "company": "DataArt (Client - IQVIA Healthcare)",
-      "location": "Bangalore, India",
-      "description": [
-        "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL Databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
-        "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
-        "Conducted performance optimization, code reviews, security audits, and developed end-to-end test suites, improving release quality and reducing regression incidents by ∼60%"
-      ],
-      "tags": [
-        ".NET",
-        "Angular",
-        "Microservices",
-        "SQL",
-        "DevOps"
-      ]
+  "intro": {
+    "enabled": true,
+    "tagline": "Hey There, I'm Bhargav Rathod",
+    "professional": "Software Engineer",
+    "description": "Senior Software Engineer who lives and breathes DSA, because let's be real—tech stacks change, but solid logic never goes out of style. Currently vibing with Python, .NET, Angular, and Next.js. System design - Been there, built that.",
+    "avatar": {
+      "image": "/bhargav-rathod-avatar-trp-2.gif",
+      "alt": "Bhargav Rathod 3D Avatar"
     },
-    {
-      "id": 2,
-      "title": "Member of Technical Staff",
-      "period": "Dec 2021 - Mar 2024",
-      "company": "EdgeVerve Systems Limited (An Infosys Company)",
-      "location": "Pune, India",
-      "description": [
-        "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
-        "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ∼50% and enabling containerization.",
-        "Developed full-stack features using Angular, implemented role-based access control, and integrated telemetry to track user behavior.",
-        "Authored integration and unit test frameworks, improving code coverage to ∼89%+ and ensuring system stability during major releases."
-      ],
-      "tags": [
-        ".NET Core",
-        "Entity Framework",
-        "Node.js",
-        "Angular",
-        "SaaS"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Senior Systems Engineer",
-      "period": "Aug 2019 - Dec 2021",
-      "company": "Infosys Limited",
-      "location": "Pune, India",
-      "description": [
-        "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
-        "Integrated RPA with back-end systems and APIs to reduce manual effort by ∼92% and enhanced operational accuracy across client business processes"
-      ],
-      "tags": [
-        "RPA",
-        "Process Automation",
-        "Python",
-        "API Integration"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Intern",
-      "period": "Dec 2018 - May 2019",
-      "company": "Infosys Limited",
-      "location": "Mysore, India",
-      "description": [
-        "Worked on Python3 Programming Grinding, RPA Skills and created set of activities to implement AssistEdge Automation RPA Studio Product."
-      ],
-      "tags": [
-        "Python",
-        "RPA",
-        "Automation"
-      ]
+    "cta": {
+      "resumeUrl": "https://github.com/bhargav-rathod/storage/raw/main/Bhargav_Rathod_Resume.pdf",
+      "buttonText": "Download CV"
     }
-  ],
-  "socialLinks": [
-    {
-      "name": "GitHub",
-      "url": "https://github.com/bhargav-rathod",
-      "icon": "FiGithub"
-    },
-    {
-      "name": "LinkedIn",
-      "url": "https://linkedin.com/in/bhargav-rathod",
-      "icon": "FiLinkedin"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://x.com/bhargav__rathod",
-      "icon": "FiTwitter"
-    },
-    {
-      "name": "LeetCode",
-      "url": "https://leetcode.com/u/bhargav-rathod/",
-      "icon": "SiLeetcode"
-    },
-    {
-      "name": "Email",
-      "url": "mailto:bhargavrathod98@gmail.com",
-      "icon": "FiMail"
-    }
-  ],
-  "projects": [
-    {
-      "index": 0,
-      "title": "Roadmap.IO - AI-Powered Roadmap Generation",
-      "description": "Developed a full-stack web application for AI-powered interview roadmap generation using Next.js and PostgreSQL. Integrated advanced LLM models including LLaMA 3.3, Qwen-QWQ, and Whisper Large v3 for contextual generation. Implemented user authentication, credit-based payments, and a dynamic UI with role-specific roadmap generation features.",
-      "githubLink": "https://github.com/bhargav-rathod/roadmap-io",
-      "technologies": [
-        "Next.js",
-        "Tailwind CSS",
-        "LLM: LLaMA, Qwen-QWQ, Whisper",
-        "OpenAI GPT",
-        "Hugging Face",
-        "PostgreSQL"
-      ],
-      "type": "Artificial Intelligence, Machine Learning, LLM Integration, Data Analytics, Full-Stack Implementation"
-    },
-    {
-      "index": 1,
-      "title": "Invoice Generation System",
-      "description": "Designed and built an offline utility tool for invoice generation and inventory management. Key features include streamlined invoice creation, printing functionality, record keeping, and a basic analytics dashboard.",
-      "githubLink": "https://github.com/bhargav-rathod/invoice-generation",
-      "technologies": [
-        "Python",
-        "Pandas",
-        "Matplotlib",
-        "SQLite"
-      ],
-      "type": "Python, Backend Implementation, Low-weight UI/UX"
-    },
-    {
-      "index": 2,
-      "title": "Training & Placement System",
-      "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
-      "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
-      "technologies": [
-        ".NET",
-        "C#",
-        "HTML",
-        "JavaScript",
-        "MSSQL"
-      ],
-      "type": "MVC, Full-Stack Implementation, Database Management, Role Based Features"
-    }
-  ],
+  },
+  "stats": {
+    "enabled": true,
+    "items": [
+      { "value": "5+", "label": "Years of Experience" },
+      { "value": "12+", "label": "Projects Completed" },
+      { "value": "5+", "label": "Competitions/ Hackathon Winner" },
+      { "value": "2", "label": "DevOps Cloud Certified" }
+    ]
+  },
+  "skills": {
+    "enabled": true,
+    "title": "Professional Skills",
+    "highlight": "Skills",
+    "categories": [
+      {
+        "name": "Core",
+        "highlight": "Core",
+        "items": [
+          "Data Structures",
+          "Algorithms",
+          "System Design",
+          "Design Principles",
+          "Database Management",
+          "Performance Optimization",
+          "Code Review"
+        ]
+      },
+      {
+        "name": "Technical",
+        "highlight": "Technical",
+        "items": [
+          "Python",
+          ".NET",
+          "C#",
+          "Angular",
+          "Microservices",
+          "OOPs",
+          "SDLC",
+          "DevOps"
+        ]
+      },
+      {
+        "name": "Leadership",
+        "highlight": "Leadership",
+        "items": [
+          "Agile/ Scrum",
+          "Team Management",
+          "Release Management",
+          "Delivery",
+          "Support"
+        ]
+      },
+      {
+        "name": "Tools",
+        "highlight": "Tools",
+        "items": [
+          "JIRA",
+          "Azure DevOps",
+          "Jenkins",
+          "GitHub",
+          "VS IDEs",
+          "Copilot",
+          "Gen AI Consoles",
+          "NPM",
+          "Postman"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "enabled": true,
+    "title": "Work Experience",
+    "highlight": "Experience",
+    "items": [
+      {
+        "id": 1,
+        "title": "Full-Stack Software Developer",
+        "period": "Apr 2024 - Current",
+        "company": "DataArt (Client - IQVIA Healthcare)",
+        "location": "Bangalore, India",
+        "description": [
+          "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL Databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
+          "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
+          "Conducted performance optimization, code reviews, security audits, and developed end-to-end test suites, improving release quality and reducing regression incidents by ∼60%"
+        ],
+        "tags": [
+          ".NET",
+          "Angular",
+          "Microservices",
+          "SQL",
+          "DevOps"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Member of Technical Staff",
+        "period": "Dec 2021 - Mar 2024",
+        "company": "EdgeVerve Systems Limited (An Infosys Company)",
+        "location": "Pune, India",
+        "description": [
+          "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
+          "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ∼50% and enabling containerization.",
+          "Developed full-stack features using Angular, implemented role-based access control, and integrated telemetry to track user behavior.",
+          "Authored integration and unit test frameworks, improving code coverage to ∼89%+ and ensuring system stability during major releases."
+        ],
+        "tags": [
+          ".NET Core",
+          "Entity Framework",
+          "Node.js",
+          "Angular",
+          "SaaS"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Senior Systems Engineer",
+        "period": "Aug 2019 - Dec 2021",
+        "company": "Infosys Limited",
+        "location": "Pune, India",
+        "description": [
+          "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
+          "Integrated RPA with back-end systems and APIs to reduce manual effort by ∼92% and enhanced operational accuracy across client business processes"
+        ],
+        "tags": [
+          "RPA",
+          "Process Automation",
+          "Python",
+          "API Integration"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Intern",
+        "period": "Dec 2018 - May 2019",
+        "company": "Infosys Limited",
+        "location": "Mysore, India",
+        "description": [
+          "Worked on Python3 Programming Grinding, RPA Skills and created set of activities to implement AssistEdge Automation RPA Studio Product."
+        ],
+        "tags": [
+          "Python",
+          "RPA",
+          "Automation"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "enabled": true,
+    "title": "Things I've Built",
+    "highlight": "Projects",
+    "items": [
+      {
+        "index": 0,
+        "title": "Roadmap.IO - AI-Powered Roadmap Generation",
+        "description": "Developed a full-stack web application for AI-powered interview roadmap generation using Next.js and PostgreSQL. Integrated advanced LLM models including LLaMA 3.3, Qwen-QWQ, and Whisper Large v3 for contextual generation. Implemented user authentication, credit-based payments, and a dynamic UI with role-specific roadmap generation features.",
+        "githubLink": "https://github.com/bhargav-rathod/roadmap-io",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "LLM: LLaMA, Qwen-QWQ, Whisper",
+          "OpenAI GPT",
+          "Hugging Face",
+          "PostgreSQL"
+        ],
+        "type": "Artificial Intelligence, Machine Learning, LLM Integration, Data Analytics, Full-Stack Implementation"
+      },
+      {
+        "index": 1,
+        "title": "Invoice Generation System",
+        "description": "Designed and built an offline utility tool for invoice generation and inventory management. Key features include streamlined invoice creation, printing functionality, record keeping, and a basic analytics dashboard.",
+        "githubLink": "https://github.com/bhargav-rathod/invoice-generation",
+        "technologies": [
+          "Python",
+          "Pandas",
+          "Matplotlib",
+          "SQLite"
+        ],
+        "type": "Python, Backend Implementation, Low-weight UI/UX"
+      },
+      {
+        "index": 2,
+        "title": "Training & Placement System",
+        "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
+        "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
+        "technologies": [
+          ".NET",
+          "C#",
+          "HTML",
+          "JavaScript",
+          "MSSQL"
+        ],
+        "type": "MVC, Full-Stack Implementation, Database Management, Role Based Features"
+      }
+    ]
+  },
   "achievements": {
+    "enabled": true,
+    "title": "Certifications & Achievements",
+    "highlight": "Certifications",
     "description": [
       "Led major product releases, including AssistEdge RPA by EdgeVerve and Erequisition by Q2 Labs Solutions for IQVIA, serving over 1M+ active users and key industry stakeholders. Played a pivotal role as Development Lead, ensuring successful product delivery within defined timelines.",
       "Recognized as Top Performer at EdgeVerve Systems for exceptional contributions to product development and innovation.",
@@ -213,5 +251,51 @@
       }
     ]
   },
-  "quote": "Brute force isn't stupidity - it's the spark that starts the real solution."
+  "contact": {
+    "enabled": true,
+    "title": "Let's Connect",
+    "highlight": "Connect",
+    "email": "bhargavrathod98@gmail.com",
+    "location": "Bengaluru, Karnataka, India",
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/bhargav-rathod",
+        "icon": "FiGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/bhargav-rathod",
+        "icon": "FiLinkedin"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://x.com/bhargav__rathod",
+        "icon": "FiTwitter"
+      },
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/u/bhargav-rathod/",
+        "icon": "SiLeetcode"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:bhargavrathod98@gmail.com",
+        "icon": "FiMail"
+      }
+    ]
+  },
+  "quote": {
+    "enabled": true,
+    "text": "Brute force isn't stupidity - it's the spark that starts the real solution."
+  },
+  "footer": {
+    "enabled": true,
+    "text": "© {year} Bhargav Rathod | All rights reserved."
+  },
+  "analytics": {
+    "enabled": true,
+    "trackingId": "G-XXXXXXXXXX",
+    "trackingURL": "https://docs.google.com/forms/d/e/1FAIpQLSfcRXBAPshSP8tDMY_inAYtvs6HqjbdwaIsKt_7Q6FtMXGw9Q/formResponse"
+  }
 }
