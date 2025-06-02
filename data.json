@@ -301,8 +301,35 @@
     "enabled": true,
     "text": "© {year} Bhargav Rathod | All rights reserved."
   },
-  "analytics": {
+  "tracking": {
     "enabled": true,
-    "trackingId": "G-XXXXXXXXXX"
+    "googleForm": {
+      "actionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfcRXBAPshSP8tDMY_inAYtvs6HqjbdwaIsKt_7Q6FtMXGw9Q/formResponse",
+      "fields": {
+        "timestamp": "entry.1140258330",
+        "eventType": "entry.195524830",
+        "ipAddress": "entry.647965690",
+        "userAgent": "entry.1538100985",
+        "country": "entry.281744220",
+        "additionalData": "entry.1386921354"
+      }
+    },
+    "ipServices": {
+      "ipLookup": "https://api.ipify.org?format=json",
+      "geoLookup": "https://ipapi.co/{ip}/json/"
+    },
+    "sourceDetection": {
+      "ignoreParam": "s",
+      "ignoreValue": "n",
+      "referrers": {
+        "instagram": "instagram",
+        "facebook": "facebook",
+        "twitter": "twitter",
+        "linkedin": "linked",
+        "leetcode": "leetcode",
+        "github": "github"
+      },
+      "defaultSource": "direct/unknown"
+    }
   }
 }
