@@ -270,6 +270,68 @@
       }
     ]
   },
+  {
+  "contactForm": {
+    "serviceId": "service_wtvd89b",
+    "templateId": "template_i61yh8q",
+    "publicKey": "fNx1j7-rMJ08ylQDD",
+    "successMessage": "Message sent successfully! I'll get back to you soon.",
+    "errorMessage": "Failed to send message. Please try again or contact me directly at your@email.com",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Your name",
+        "validation": {
+          "minLength": 2,
+          "maxLength": 50
+        }
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "placeholder": "your@email.com",
+        "validation": {
+          "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+          "patternMessage": "Please enter a valid email"
+        }
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Your phone number"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text",
+        "required": true,
+        "placeholder": "What's this about?",
+        "validation": {
+          "minLength": 2,
+          "maxLength": 100
+        }
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Your message here...",
+        "validation": {
+          "minLength": 10,
+          "maxLength": 1000
+        }
+      }
+    ]
+  }
+},
   "contact": {
     "enabled": true,
     "title": "Let's Connect",
