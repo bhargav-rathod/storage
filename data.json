@@ -286,7 +286,7 @@
         "index": 2,
         "title": "Training & Placement System",
         "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
-        "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
+        "githubLink": "https://github.com/bhargav-rathod/training-and-placement-system",
         "technologies": [
           ".NET",
           "C#",
