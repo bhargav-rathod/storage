@@ -10,21 +10,69 @@
       "text": "</>"
     },
     "navLinks": [
-      { "label": "About", "section": "about" },
-      { "label": "Skills", "section": "skills" },
-      { "label": "Experience", "section": "experience" },
-      { "label": "Projects", "section": "portfolio" },
-      { "label": "Achievements", "section": "achievements" },
-      { "label": "Contact", "section": "contact" }
+      {
+        "label": "About",
+        "section": "about"
+      },
+      {
+        "label": "Skills",
+        "section": "skills"
+      },
+      {
+        "label": "Experience",
+        "section": "experience"
+      },
+      {
+        "label": "Projects",
+        "section": "portfolio"
+      },
+      {
+        "label": "Achievements",
+        "section": "achievements"
+      },
+      {
+        "label": "Contact",
+        "section": "contact"
+      }
     ]
   },
   "codeElements": [
-    { "text": "<Code />", "x": 10, "y": 20, "delay": 0 },
-    { "text": "function()", "x": 80, "y": 40, "delay": 0.2 },
-    { "text": "const dev = true", "x": 30, "y": 70, "delay": 0.4 },
-    { "text": "return <Awesome />", "x": 70, "y": 90, "delay": 0.6 },
-    { "text": "404: Boredom not found", "x": 20, "y": 50, "delay": 0.8 },
-    { "text": "while(alive) { code() }", "x": 60, "y": 30, "delay": 1.0 }
+    {
+      "text": "<Code />",
+      "x": 10,
+      "y": 20,
+      "delay": 0
+    },
+    {
+      "text": "function()",
+      "x": 80,
+      "y": 40,
+      "delay": 0.2
+    },
+    {
+      "text": "const dev = true",
+      "x": 30,
+      "y": 70,
+      "delay": 0.4
+    },
+    {
+      "text": "return <Awesome />",
+      "x": 70,
+      "y": 90,
+      "delay": 0.6
+    },
+    {
+      "text": "404: Boredom not found",
+      "x": 20,
+      "y": 50,
+      "delay": 0.8
+    },
+    {
+      "text": "while(alive) { code() }",
+      "x": 60,
+      "y": 30,
+      "delay": 1.0
+    }
   ],
   "intro": {
     "enabled": true,
@@ -45,10 +93,22 @@
   "stats": {
     "enabled": true,
     "items": [
-      { "value": "5+", "label": "Years of Experience" },
-      { "value": "12+", "label": "Projects Completed" },
-      { "value": "5+", "label": "Competitions/ Hackathon Winner" },
-      { "value": "2", "label": "DevOps Cloud Certified" }
+      {
+        "value": "5+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "12+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "5+",
+        "label": "Competitions/ Hackathon Winner"
+      },
+      {
+        "value": "2",
+        "label": "DevOps Cloud Certified"
+      }
     ]
   },
   "skills": {
@@ -259,6 +319,48 @@
         "icon": "/gcp.jpg"
       }
     ]
+  },
+  "contactForm": {
+    "emailJsConfig": {
+      "serviceId": "service_wtvd89b",
+      "templateId": "template_i61yh8q",
+      "publicKey": "fNx1j7-rMJ08ylQDD"
+    },
+    "formFields": {
+      "name": {
+        "label": "Your Name",
+        "placeholder": "Enter your full name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "your.email@example.com"
+      },
+      "phone": {
+        "label": "Phone (Optional)",
+        "placeholder": "+1 234 567 8900"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "What's this about?"
+      },
+      "message": {
+        "label": "Your Message",
+        "placeholder": "Hello Bhargav, I'd like to talk about..."
+      }
+    },
+    "submitButton": {
+      "text": "Send Message",
+      "sendingText": "Sending..."
+    },
+    "successMessage": "Message sent successfully! I'll get back to you soon.",
+    "errorMessage": "Failed to send message. Please try again or contact me directly at bhargavrathod98@gmail.com",
+    "validationMessages": {
+      "name": "Name must be at least 2 characters",
+      "email": "Please enter a valid email address",
+      "messageMin": "Message is too short",
+      "messageMax": "Message exceeds 1000 characters",
+      "subject": "Subject is required"
+    }
   },
   "contact": {
     "enabled": true,
