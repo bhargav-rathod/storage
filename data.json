@@ -282,8 +282,19 @@
         ],
         "type": "Python, Backend Implementation, Low-weight UI/UX"
       },
-      {
+       {
         "index": 2,
+        "title": "JsonFolio - Cool Portfolio in Minutes",
+        "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments.",
+        "githubLink": "https://github.com/bhargav-rathod/json-folio",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+        ],
+        "type": "Frontend Implementation, JSON Based Configuration, Dynamic Data Loading, No Frequent Redeployments"
+      },
+      {
+        "index": 3,
         "title": "Training & Placement System",
         "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
         "githubLink": "https://github.com/bhargav-rathod/training-and-placement-system",
