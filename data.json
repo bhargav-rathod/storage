@@ -282,14 +282,14 @@
         ],
         "type": "Python, Backend Implementation, Low-weight UI/UX"
       },
-       {
+      {
         "index": 2,
         "title": "JsonFolio - Cool Portfolio in Minutes",
         "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments.",
         "githubLink": "https://github.com/bhargav-rathod/json-folio",
         "technologies": [
           "Next.js",
-          "Tailwind CSS",
+          "Tailwind CSS"
         ],
         "type": "Frontend Implementation, JSON Based Configuration, Dynamic Data Loading, No Frequent Redeployments"
       },
