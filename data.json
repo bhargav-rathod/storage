@@ -249,6 +249,29 @@
       }
     ]
   },
+  "education": {
+    "enabled": false,
+    "title": "",
+    "highlight": "Education",
+    "items": [
+      {
+        "degree": "B.Tech",
+        "stream": "Computer Engineering",
+        "institute": "Dharmsinh Desai University",
+        "result": "CGPA 8.29 / 10",
+        "duration": "2015-2019",
+        "location": "Nadiad, Gujarat, India"
+      },
+      {
+        "degree": "HSC",
+        "stream": "Science",
+        "institute": "Gyanmanjari Vidhyapith",
+        "result": "99.91 %tile",
+        "duration": "2013-2015",
+        "location": "Bhavnagar, Gujarat, India"
+      }
+    ]
+  },
   "projects": {
     "enabled": true,
     "title": "Things I've Built",
@@ -284,20 +307,9 @@
       },
       {
         "index": 2,
-        "title": "JsonFolio - Cool Portfolio in Minutes",
-        "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments.",
-        "githubLink": "https://github.com/bhargav-rathod/json-folio",
-        "technologies": [
-          "Next.js",
-          "Tailwind CSS"
-        ],
-        "type": "Frontend Implementation, JSON Based Configuration, Dynamic Data Loading, No Frequent Redeployments"
-      },
-      {
-        "index": 3,
         "title": "Training & Placement System",
         "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
-        "githubLink": "https://github.com/bhargav-rathod/training-and-placement-system",
+        "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
         "technologies": [
           ".NET",
           "C#",
@@ -331,6 +343,49 @@
       }
     ]
   },
+  "testimonials": {
+    "enabled": true,
+    "title": "What People Say",
+    "highlight": "About Me",
+    "items": [
+      {
+        "testemonyReceivedFrom": "Dr. Brijesh Bhatt",
+        "testemonyReceivedFromDesignation": "NLP Researcher & Professor at Dharmsinh Desai University",
+        "linkedinUserName": "drbrijeshbhatt",
+        "testemonyMessage": "I have taught Bhargav Design and analysis of algorithm and Software Engineering during his Bachelor of technology. I have also mentored him in laboratory work and I also mentored him during his Project on 'Training and Placement Systems'. He is true team leader, he has very high coding skills and he gives his high level of dedication and commitment towards work. He has ablities on learning new things and had an excellent grasping power. I can say that he will contribute wherever he goes since he possesses genuine interest in the subject, works tirelessly in knowing the subject well, is a quick learner and also good at time management."
+      },
+      {
+        "testemonyReceivedFrom": "Amit Karir",
+        "testemonyReceivedFromDesignation": "Senior Manager at Amgen",
+        "linkedinUserName": "amit-karir-63096a39",
+        "testemonyMessage": "Bhargav was part of my team supporting a major US telecom customer for their business process optimization program by leveraging RPA and custom-code automation. He has performed the role of automation developer and supported various process functions while part of this automation account. He is a hard working developer and I would highly recommend him for any technical and engineering profile or work."
+      },
+      {
+        "testemonyReceivedFrom": "G V Roshan Kumar",
+        "testemonyReceivedFromDesignation": "Product Manager at Neilsen",
+        "linkedinUserName": "g-v-roshan-kumar",
+        "testemonyMessage": "I had the pleasure of collaborating with Bhargav at Edgeverve on the CoE Cockpit project. As a product manager, I was consistently impressed by his technical acumen, problem-solving skills, and unwavering dedication. Bhargav's ability to bridge the gap between engineering and product, coupled with his collaborative spirit, made him a valuable asset to our team. I wholeheartedly recommend Bhargav for any role that requires a talented and versatile individual."
+      },
+      {
+        "testemonyReceivedFrom": "Neeraj B",
+        "testemonyReceivedFromDesignation": "Technology Lead at Infosys",
+        "linkedinUserName": "neeraj-b-46967540",
+        "testemonyMessage": "Bhargav is a real gem to work with. He is very hard working and posses good technical understanding. He has good problem solving skills and is a quick learner. He has worked extensively on c# . Net and RPA."
+      },
+      {
+        "testemonyReceivedFrom": "Hariom Pandya",
+        "testemonyReceivedFromDesignation": "Researcher at Dharmsinh Desai University",
+        "linkedinUserName": "pandya-hariom",
+        "testemonyMessage": "I remember Bhargav as one of my enthusiastic and hard-working students. He has learned C programming, Linux OS concepts, DSA, and core computer engineering principles under me during his B.Tech program. His problem-solving capacity and eagerness towards learning the concepts in depth make him the best fit for the industry. I wish Bhargav all the very best in his future endeavors!"
+      },
+      {
+        "testemonyReceivedFrom": "Swasti Ray",
+        "testemonyReceivedFromDesignation": "Senior Consultant at Infosys",
+        "linkedinUserName": "swasti-ray-4a77b296",
+        "testemonyMessage": "Bhargav was an intern in Infosys Limited. He worked enthusiastically on application development using .Net Technologies - C#, SQL Server, EF Core and various front end tools."
+      }
+    ]
+  },
   "contactForm": {
     "emailJsConfig": {
       "serviceId": "service_wtvd89b",
@@ -339,8 +394,8 @@
     },
     "formFields": {
       "name": {
-        "label": "Your Name",
-        "placeholder": "Enter your full name"
+        "label": "Name",
+        "placeholder": "First Name and Last Name"
       },
       "email": {
         "label": "Email Address",
