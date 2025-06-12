@@ -76,7 +76,7 @@
   ],
   "intro": {
     "enabled": true,
-    "tagline": "Hey There, I'm Bhargav Rathod",
+    "tagline": "< Hey There! I'm Bhargav Rathod />",
     "professional": "{Software Engineer}",
     "description": "Senior Software Engineer who lives and breathes DSA, because let's be real—tech stacks change, but solid logic never goes out of style. Currently vibing with Python, .NET, Angular, and Next.js. System design - Been there, built that.",
     "avatar": {
