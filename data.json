@@ -354,6 +354,32 @@
       }
     ]
   },
+  "articles": {
+    "enabled": true,
+    "title": "Articles & Blogs",
+    "highlight": "",
+    "description": "",
+    "articles": [
+      {
+        "title": "TITLE 1",
+        "url": "https://medium.com/@bhargav-rathod/title-1",
+        "platform": "Medium",
+        "date": "01-01-2001"
+      },
+      {
+        "title": "TITLE 2",
+        "url": "https://dev.io/@bhargav-rathod/title-2",
+        "platform": "Dev.IO",
+        "date": "01-01-2000"
+      },
+      {
+        "title": "TITLE 3",
+        "url": "https://medium.com/@bhargav-rathod/title-3",
+        "platform": "Medium",
+        "date": "01-01-2000"
+      }
+    ]
+  },
   "testimonials": {
     "enabled": true,
     "title": "What People Say",
