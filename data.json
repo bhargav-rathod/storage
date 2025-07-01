@@ -354,29 +354,25 @@
       }
     ]
   },
-  "articles": {
+  "articlesAndBlogs": {
     "enabled": true,
     "title": "Articles & Blogs",
-    "highlight": "",
-    "description": "",
+    "highlight": "Articles",
+    "description": [
+      "A curated list of my technical articles and blogs published on various platforms."
+    ],
     "articles": [
       {
-        "title": "TITLE 1",
-        "url": "https://medium.com/@bhargav-rathod/title-1",
+        "title": "Optimizing Microservices for Scalability",
+        "url": "https://medium.com/@bhargav-rathod/optimizing-microservices-for-scalability-123456",
         "platform": "Medium",
-        "date": "01-01-2001"
+        "date": "2024-05-10"
       },
       {
-        "title": "TITLE 2",
-        "url": "https://dev.io/@bhargav-rathod/title-2",
-        "platform": "Dev.IO",
-        "date": "01-01-2000"
-      },
-      {
-        "title": "TITLE 3",
-        "url": "https://medium.com/@bhargav-rathod/title-3",
-        "platform": "Medium",
-        "date": "01-01-2000"
+        "title": "Getting Started with .NET and Angular Integration",
+        "url": "https://dev.to/bhargav-rathod/getting-started-with-dotnet-angular-78910",
+        "platform": "Dev.to",
+        "date": "2024-04-22"
       }
     ]
   },
