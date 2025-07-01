@@ -355,7 +355,7 @@
     ]
   },
   "articlesAndBlogs": {
-    "enabled": true,
+    "enabled": false,
     "title": "Articles & Blogs",
     "highlight": "Articles",
     "description": [
