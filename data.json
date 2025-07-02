@@ -1,543 +1,593 @@
 {
-  "meta": {
-    "title": "Bhargav Rathod - Portfolio",
-    "description": "Senior Software Engineer specializing in full-stack development and system design.",
-    "favicon": "/favicon.ico"
-  },
-  "header": {
-    "enabled": true,
-    "logo": {
-      "text": "</>"
+    "meta": {
+        "title": "Bhargav Rathod - Portfolio",
+        "description": "Senior Software Engineer specializing in full-stack development and system design.",
+        "favicon": "/favicon.ico"
     },
-    "navLinks": [
-      {
-        "label": "About",
-        "section": "about"
-      },
-      {
-        "label": "Skills",
-        "section": "skills"
-      },
-      {
-        "label": "Experience",
-        "section": "experience"
-      },
-      {
-        "label": "Projects",
-        "section": "portfolio"
-      },
-      {
-        "label": "Achievements",
-        "section": "achievements"
-      },
-      {
-        "label": "Contact",
-        "section": "contact"
-      }
-    ]
-  },
-  "codeElements": [
-    {
-      "text": "<Code />",
-      "x": 10,
-      "y": 20,
-      "delay": 0
+    "header": {
+        "enabled": true,
+        "logo": {
+            "text": "</>"
+        },
+        "navLinks": [
+            {
+                "label": "About",
+                "section": "about"
+            },
+            {
+                "label": "Skills",
+                "section": "skills"
+            },
+            {
+                "label": "Experience",
+                "section": "experience"
+            },
+            {
+                "label": "Projects",
+                "section": "portfolio"
+            },
+            {
+                "label": "Achievements",
+                "section": "achievements"
+            },
+            {
+                "label": "Contact",
+                "section": "contact"
+            }
+        ]
     },
-    {
-      "text": "function()",
-      "x": 80,
-      "y": 40,
-      "delay": 0.2
-    },
-    {
-      "text": "const dev = true",
-      "x": 30,
-      "y": 70,
-      "delay": 0.4
-    },
-    {
-      "text": "return <Awesome />",
-      "x": 70,
-      "y": 90,
-      "delay": 0.6
-    },
-    {
-      "text": "404: Boredom not found",
-      "x": 20,
-      "y": 50,
-      "delay": 0.8
-    },
-    {
-      "text": "while(alive) { code() }",
-      "x": 60,
-      "y": 30,
-      "delay": 1.0
-    }
-  ],
-  "intro": {
-    "enabled": true,
-    "tagline": "< Hi, I'm Bhargav Rathod />",
-    "professional": "{Software Engineer}",
-    "description": "Senior Software Engineer who lives and breathes DSA, because let's be real—tech stacks change, but solid logic never goes out of style. Currently vibing with Python, .NET, Angular, and Next.js. System design - Been there, built that.",
-    "avatar": {
-      "enabled": true,
-      "image": "/bhargav-rathod-avatar-trp-2.gif",
-      "alt": "Bhargav Rathod 3D Avatar"
-    },
-    "cta": {
-      "resumeUrl": "https://github.com/bhargav-rathod/storage/raw/main/Bhargav_Rathod_Resume.pdf",
-      "buttonText": "Download CV",
-      "resumeFileName": "Bhargav_Rathod_Resume.pdf"
-    }
-  },
-  "stats": {
-    "enabled": true,
-    "items": [
-      {
-        "value": "5+",
-        "label": "Years of Experience"
-      },
-      {
-        "value": "12+",
-        "label": "Projects Completed"
-      },
-      {
-        "value": "5+",
-        "label": "Competitions/ Hackathon Winner"
-      },
-      {
-        "value": "2",
-        "label": "DevOps Cloud Certified"
-      }
-    ]
-  },
-  "skills": {
-    "enabled": true,
-    "title": "Professional Skills",
-    "highlight": "Skills",
-    "categories": [
-      {
-        "name": "Core",
-        "highlight": "Core",
-        "items": [
-          "Data Structures",
-          "Algorithms",
-          "System Design",
-          "Design Principles",
-          "Database Management",
-          "Performance Optimization",
-          "Code Review"
-        ]
-      },
-      {
-        "name": "Technical",
-        "highlight": "Technical",
-        "items": [
-          "Python",
-          ".NET",
-          "C#",
-          "Angular",
-          "Microservices",
-          "OOPs",
-          "SDLC",
-          "DevOps"
-        ]
-      },
-      {
-        "name": "Leadership",
-        "highlight": "Leadership",
-        "items": [
-          "Agile/ Scrum",
-          "Team Management",
-          "Release Management",
-          "Delivery",
-          "Support"
-        ]
-      },
-      {
-        "name": "Tools",
-        "highlight": "Tools",
-        "items": [
-          "JIRA",
-          "Azure DevOps",
-          "Jenkins",
-          "GitHub",
-          "VS IDEs",
-          "Copilot",
-          "Gen AI Consoles",
-          "NPM",
-          "Postman"
-        ]
-      }
-    ]
-  },
-  "experience": {
-    "enabled": true,
-    "title": "Work Experience",
-    "highlight": "Experience",
-    "items": [
-      {
-        "id": 1,
-        "title": "Full-Stack Software Developer",
-        "period": "Apr 2024 - Current",
-        "company": "DataArt (Client - IQVIA Healthcare)",
-        "location": "Bangalore, India",
-        "description": [
-          "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL Databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
-          "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
-          "Conducted performance optimization, code reviews, security audits, and developed end-to-end test suites, improving release quality and reducing regression incidents by ∼60%"
-        ],
-        "tags": [
-          ".NET",
-          "Angular",
-          "Microservices",
-          "SQL",
-          "DevOps"
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Member of Technical Staff",
-        "period": "Dec 2021 - Mar 2024",
-        "company": "EdgeVerve Systems Limited (An Infosys Company)",
-        "location": "Pune, India",
-        "description": [
-          "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
-          "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ∼50% and enabling containerization.",
-          "Developed full-stack features using Angular, implemented role-based access control, and integrated telemetry to track user behavior.",
-          "Authored integration and unit test frameworks, improving code coverage to ∼89%+ and ensuring system stability during major releases."
-        ],
-        "tags": [
-          ".NET Core",
-          "Entity Framework",
-          "Node.js",
-          "Angular",
-          "SaaS"
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Senior Systems Engineer",
-        "period": "Aug 2019 - Dec 2021",
-        "company": "Infosys Limited",
-        "location": "Pune, India",
-        "description": [
-          "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
-          "Integrated RPA with back-end systems and APIs to reduce manual effort by ∼92% and enhanced operational accuracy across client business processes"
-        ],
-        "tags": [
-          "RPA",
-          "Process Automation",
-          "Python",
-          "API Integration"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Intern",
-        "period": "Dec 2018 - May 2019",
-        "company": "Infosys Limited",
-        "location": "Mysore, India",
-        "description": [
-          "Worked on Python3 Programming Grinding, RPA Skills and created set of activities to implement AssistEdge Automation RPA Studio Product."
-        ],
-        "tags": [
-          "Python",
-          "RPA",
-          "Automation"
-        ]
-      }
-    ]
-  },
-  "education": {
-    "enabled": false,
-    "title": "",
-    "highlight": "Education",
-    "items": [
-      {
-        "degree": "B.Tech",
-        "stream": "Computer Engineering",
-        "institute": "Dharmsinh Desai University",
-        "result": "CGPA 8.29 / 10",
-        "duration": "2015-2019",
-        "location": "Nadiad, Gujarat, India"
-      },
-      {
-        "degree": "HSC",
-        "stream": "Science",
-        "institute": "Gyanmanjari Vidhyapith",
-        "result": "99.91 %tile",
-        "duration": "2013-2015",
-        "location": "Bhavnagar, Gujarat, India"
-      }
-    ]
-  },
-  "projects": {
-    "enabled": true,
-    "title": "Things I've Built - ",
-    "highlight": "Projects",
-    "items": [
-      {
-        "index": 0,
-        "title": "Roadmap.IO - AI-Powered Roadmap Generation",
-        "description": "Developed a full-stack web application for AI-powered interview roadmap generation using Next.js and PostgreSQL. Integrated advanced LLM models including LLaMA 3.3, Qwen-QWQ, and Whisper Large v3 for contextual generation. Implemented user authentication, credit-based payments, and a dynamic UI with role-specific roadmap generation features.",
-        "githubLink": "https://github.com/bhargav-rathod/roadmap-io",
-        "technologies": [
-          "Next.js",
-          "Tailwind CSS",
-          "LLM: LLaMA, Qwen-QWQ, Whisper",
-          "OpenAI GPT",
-          "Hugging Face",
-          "PostgreSQL"
-        ],
-        "type": "Artificial Intelligence, Machine Learning, LLM Integration, Data Analytics, Full-Stack Implementation"
-      },
-      {
-        "index": 1,
-        "title": "Invoice Generation System",
-        "description": "Designed and built an offline utility tool for invoice generation and inventory management. Key features include streamlined invoice creation, printing functionality, record keeping, and a basic analytics dashboard.",
-        "githubLink": "https://github.com/bhargav-rathod/invoice-generation",
-        "technologies": [
-          "Python",
-          "Pandas",
-          "Matplotlib",
-          "SQLite"
-        ],
-        "type": "Python, Backend Implementation, Low-weight UI/UX"
-      },
-      {
-        "index": 2,
-        "title": "JsonFolio - Cool Portfolio in Minutes",
-        "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments.",
-        "githubLink": "https://github.com/bhargav-rathod/json-folio",
-        "technologies": [
-          "Next.js",
-          "Tailwind CSS"
-        ],
-        "type": "Frontend Implementation, JSON Based Configuration, Dynamic Data Loading, No Frequent Redeployments"
-      },
-      {
-        "index": 3,
-        "title": "Training & Placement System",
-        "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
-        "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
-        "technologies": [
-          ".NET",
-          "C#",
-          "HTML",
-          "JavaScript",
-          "MSSQL"
-        ],
-        "type": "MVC, Full-Stack Implementation, Database Management, Role Based Features"
-      }
-    ]
-  },
-  "achievements": {
-    "enabled": true,
-    "title": "Certifications & Achievements",
-    "highlight": "Certifications",
-    "description": [
-      "Led major product releases, including AssistEdge RPA by EdgeVerve and Erequisition by Q2 Labs Solutions for IQVIA, serving over 1M+ active users and key industry stakeholders. Played a pivotal role as Development Lead, ensuring successful product delivery within defined timelines.",
-      "Recognized as Top Performer at EdgeVerve Systems for exceptional contributions to product development and innovation.",
-      "Active participation in #T20DSAChallenge competition organized by AlgoUniversity on Data Structures & Algorithms."
+    "codeElements": [
+        {
+            "text": "<Code />",
+            "x": 10,
+            "y": 20,
+            "delay": 0
+        },
+        {
+            "text": "function()",
+            "x": 80,
+            "y": 40,
+            "delay": 0.2
+        },
+        {
+            "text": "const dev = true",
+            "x": 30,
+            "y": 70,
+            "delay": 0.4
+        },
+        {
+            "text": "return <Awesome />",
+            "x": 70,
+            "y": 90,
+            "delay": 0.6
+        },
+        {
+            "text": "404: Boredom not found",
+            "x": 20,
+            "y": 50,
+            "delay": 0.8
+        },
+        {
+            "text": "while(alive) { code() }",
+            "x": 60,
+            "y": 30,
+            "delay": 1
+        }
     ],
-    "certifications": [
-      {
-        "name": "AWS Certified Cloud Practitioner (CLF-C01)",
-        "issuer": "Amazon Web Services",
-        "icon": "/aws.jpg"
-      },
-      {
-        "name": "Google Cloud Certified - Associate Cloud Engineer",
-        "issuer": "Google Cloud",
-        "icon": "/gcp.jpg"
-      }
+    "intro": {
+        "enabled": true,
+        "tagline": "< Hi, I'm Bhargav Rathod />",
+        "professional": "{Software Engineer}",
+        "description": "Senior Software Engineer who lives and breathes DSA, because let's be real—tech stacks change, but solid logic never goes out of style. Currently vibing with Python, .NET, Angular, and Next.js. System design - Been there, built that.",
+        "avatar": {
+            "enabled": true,
+            "image": "/bhargav-rathod-avatar-trp-2.gif",
+            "alt": "Bhargav Rathod 3D Avatar"
+        },
+        "cta": {
+            "resumeUrl": "https://github.com/bhargav-rathod/storage/raw/main/Bhargav_Rathod_Resume.pdf",
+            "buttonText": "Download CV",
+            "resumeFileName": "Bhargav_Rathod_Resume.pdf"
+        }
+    },
+    "stats": {
+        "enabled": true,
+        "items": [
+            {
+                "value": "5+",
+                "label": "Years of Experience"
+            },
+            {
+                "value": "12+",
+                "label": "Projects Completed"
+            },
+            {
+                "value": "5+",
+                "label": "Competitions/ Hackathon Winner"
+            },
+            {
+                "value": "2",
+                "label": "DevOps Cloud Certified"
+            }
+        ]
+    },
+    "skills": {
+        "enabled": true,
+        "title": "Professional Skills",
+        "highlight": "Skills",
+        "categories": [
+            {
+                "name": "Core",
+                "highlight": "Core",
+                "items": [
+                    "Data Structures",
+                    "Algorithms",
+                    "System Design",
+                    "Design Principles",
+                    "Database Management",
+                    "Performance Optimization",
+                    "Code Review"
+                ]
+            },
+            {
+                "name": "Technical",
+                "highlight": "Technical",
+                "items": [
+                    "Python",
+                    ".NET",
+                    "C#",
+                    "Angular",
+                    "Microservices",
+                    "OOPs",
+                    "SDLC",
+                    "DevOps"
+                ]
+            },
+            {
+                "name": "Leadership",
+                "highlight": "Leadership",
+                "items": [
+                    "Agile/ Scrum",
+                    "Team Management",
+                    "Release Management",
+                    "Delivery",
+                    "Support"
+                ]
+            },
+            {
+                "name": "Tools",
+                "highlight": "Tools",
+                "items": [
+                    "JIRA",
+                    "Azure DevOps",
+                    "Jenkins",
+                    "GitHub",
+                    "VS IDEs",
+                    "Copilot",
+                    "Gen AI Consoles",
+                    "NPM",
+                    "Postman"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "enabled": true,
+        "title": "Work Experience",
+        "highlight": "Experience",
+        "items": [
+            {
+                "id": 1,
+                "title": "Full-Stack Software Developer",
+                "period": "Apr 2024 - Current",
+                "company": "DataArt (Client - IQVIA Healthcare)",
+                "location": "Bangalore, India",
+                "description": [
+                    "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL Databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
+                    "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
+                    "Conducted performance optimization, code reviews, security audits, and developed end-to-end test suites, improving release quality and reducing regression incidents by ∼60%"
+                ],
+                "tags": [
+                    ".NET",
+                    "Angular",
+                    "Microservices",
+                    "SQL",
+                    "DevOps"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Member of Technical Staff",
+                "period": "Dec 2021 - Mar 2024",
+                "company": "EdgeVerve Systems Limited (An Infosys Company)",
+                "location": "Pune, India",
+                "description": [
+                    "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
+                    "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ∼50% and enabling containerization.",
+                    "Developed full-stack features using Angular, implemented role-based access control, and integrated telemetry to track user behavior.",
+                    "Authored integration and unit test frameworks, improving code coverage to ∼89%+ and ensuring system stability during major releases."
+                ],
+                "tags": [
+                    ".NET Core",
+                    "Entity Framework",
+                    "Node.js",
+                    "Angular",
+                    "SaaS"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Senior Systems Engineer",
+                "period": "Aug 2019 - Dec 2021",
+                "company": "Infosys Limited",
+                "location": "Pune, India",
+                "description": [
+                    "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
+                    "Integrated RPA with back-end systems and APIs to reduce manual effort by ∼92% and enhanced operational accuracy across client business processes"
+                ],
+                "tags": [
+                    "RPA",
+                    "Process Automation",
+                    "Python",
+                    "API Integration"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Intern",
+                "period": "Dec 2018 - May 2019",
+                "company": "Infosys Limited",
+                "location": "Mysore, India",
+                "description": [
+                    "Worked on Python3 Programming Grinding, RPA Skills and created set of activities to implement AssistEdge Automation RPA Studio Product."
+                ],
+                "tags": [
+                    "Python",
+                    "RPA",
+                    "Automation"
+                ]
+            }
+        ]
+    },
+    "education": {
+        "enabled": false,
+        "title": "",
+        "highlight": "Education",
+        "items": [
+            {
+                "degree": "B.Tech",
+                "stream": "Computer Engineering",
+                "institute": "Dharmsinh Desai University",
+                "result": "CGPA 8.29 / 10",
+                "duration": "2015-2019",
+                "location": "Nadiad, Gujarat, India"
+            },
+            {
+                "degree": "HSC",
+                "stream": "Science",
+                "institute": "Gyanmanjari Vidhyapith",
+                "result": "99.91 %tile",
+                "duration": "2013-2015",
+                "location": "Bhavnagar, Gujarat, India"
+            }
+        ]
+    },
+    "projects": {
+        "enabled": true,
+        "title": "Things I've Built - ",
+        "highlight": "Projects",
+        "items": [
+            {
+                "index": 0,
+                "title": "Roadmap.IO - AI-Powered Roadmap Generation",
+                "description": "Developed a full-stack web application for AI-powered interview roadmap generation using Next.js and PostgreSQL. Integrated advanced LLM models including LLaMA 3.3, Qwen-QWQ, and Whisper Large v3 for contextual generation. Implemented user authentication, credit-based payments, and a dynamic UI with role-specific roadmap generation features.",
+                "githubLink": "https://github.com/bhargav-rathod/roadmap-io",
+                "technologies": [
+                    "Next.js",
+                    "Tailwind CSS",
+                    "LLM: LLaMA, Qwen-QWQ, Whisper",
+                    "OpenAI GPT",
+                    "Hugging Face",
+                    "PostgreSQL"
+                ],
+                "type": "Artificial Intelligence, Machine Learning, LLM Integration, Data Analytics, Full-Stack Implementation"
+            },
+            {
+                "index": 1,
+                "title": "Invoice Generation System",
+                "description": "Designed and built an offline utility tool for invoice generation and inventory management. Key features include streamlined invoice creation, printing functionality, record keeping, and a basic analytics dashboard.",
+                "githubLink": "https://github.com/bhargav-rathod/invoice-generation",
+                "technologies": [
+                    "Python",
+                    "Pandas",
+                    "Matplotlib",
+                    "SQLite"
+                ],
+                "type": "Python, Backend Implementation, Low-weight UI/UX"
+            },
+            {
+                "index": 2,
+                "title": "JsonFolio - Cool Portfolio in Minutes",
+                "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments.",
+                "githubLink": "https://github.com/bhargav-rathod/json-folio",
+                "technologies": [
+                    "Next.js",
+                    "Tailwind CSS"
+                ],
+                "type": "Frontend Implementation, JSON Based Configuration, Dynamic Data Loading, No Frequent Redeployments"
+            },
+            {
+                "index": 3,
+                "title": "Training & Placement System",
+                "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
+                "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
+                "technologies": [
+                    ".NET",
+                    "C#",
+                    "HTML",
+                    "JavaScript",
+                    "MSSQL"
+                ],
+                "type": "MVC, Full-Stack Implementation, Database Management, Role Based Features"
+            }
+        ]
+    },
+    "achievements": {
+        "enabled": true,
+        "title": "Certifications & Achievements",
+        "highlight": "Certifications",
+        "description": [
+            "Led major product releases, including AssistEdge RPA by EdgeVerve and Erequisition by Q2 Labs Solutions for IQVIA, serving over 1M+ active users and key industry stakeholders. Played a pivotal role as Development Lead, ensuring successful product delivery within defined timelines.",
+            "Recognized as Top Performer at EdgeVerve Systems for exceptional contributions to product development and innovation.",
+            "Active participation in #T20DSAChallenge competition organized by AlgoUniversity on Data Structures & Algorithms."
+        ],
+        "certifications": [
+            {
+                "name": "AWS Certified Cloud Practitioner (CLF-C01)",
+                "issuer": "Amazon Web Services",
+                "icon": "/aws.jpg"
+            },
+            {
+                "name": "Google Cloud Certified - Associate Cloud Engineer",
+                "issuer": "Google Cloud",
+                "icon": "/gcp.jpg"
+            }
+        ]
+    },
+    "articlesAndBlogs": {
+        "enabled": false,
+        "title": "Articles & Blogs",
+        "highlight": "Articles",
+        "description": [
+            "A curated list of my technical articles and blogs published on various platforms."
+        ],
+        "articles": [
+            {
+                "title": "Optimizing Microservices for Scalability",
+                "url": "https://medium.com/@bhargav-rathod/optimizing-microservices-for-scalability-123456",
+                "platform": "Medium",
+                "date": "2024-05-10"
+            },
+            {
+                "title": "Getting Started with .NET and Angular Integration",
+                "url": "https://dev.to/bhargav-rathod/getting-started-with-dotnet-angular-78910",
+                "platform": "Dev.to",
+                "date": "2024-04-22"
+            }
+        ]
+    },
+    "testimonials": {
+        "enabled": true,
+        "title": "What People Say",
+        "highlight": "About Me",
+        "items": [
+            {
+                "testemonyReceivedFrom": "Dr. Brijesh Bhatt",
+                "testemonyReceivedFromDesignation": "NLP Researcher & Professor at Dharmsinh Desai University",
+                "linkedinUserName": "drbrijeshbhatt",
+                "testemonyMessage": "I have taught Bhargav Design and analysis of algorithm and Software Engineering during his Bachelor of technology. I have also mentored him in laboratory work and I also mentored him during his Project on 'Training and Placement Systems'. He is true team leader, he has very high coding skills and he gives his high level of dedication and commitment towards work. He has ablities on learning new things and had an excellent grasping power. I can say that he will contribute wherever he goes since he possesses genuine interest in the subject, works tirelessly in knowing the subject well, is a quick learner and also good at time management."
+            },
+            {
+                "testemonyReceivedFrom": "Amit Karir",
+                "testemonyReceivedFromDesignation": "Senior Manager at Amgen",
+                "linkedinUserName": "amit-karir-63096a39",
+                "testemonyMessage": "Bhargav was part of my team supporting a major US telecom customer for their business process optimization program by leveraging RPA and custom-code automation. He has performed the role of automation developer and supported various process functions while part of this automation account. He is a hard working developer and I would highly recommend him for any technical and engineering profile or work."
+            },
+            {
+                "testemonyReceivedFrom": "G V Roshan Kumar",
+                "testemonyReceivedFromDesignation": "Product Manager at Neilsen",
+                "linkedinUserName": "g-v-roshan-kumar",
+                "testemonyMessage": "I had the pleasure of collaborating with Bhargav at Edgeverve on the CoE Cockpit project. As a product manager, I was consistently impressed by his technical acumen, problem-solving skills, and unwavering dedication. Bhargav's ability to bridge the gap between engineering and product, coupled with his collaborative spirit, made him a valuable asset to our team. I wholeheartedly recommend Bhargav for any role that requires a talented and versatile individual."
+            },
+            {
+                "testemonyReceivedFrom": "Neeraj B",
+                "testemonyReceivedFromDesignation": "Technology Lead at Infosys",
+                "linkedinUserName": "neeraj-b-46967540",
+                "testemonyMessage": "Bhargav is a real gem to work with. He is very hard working and posses good technical understanding. He has good problem solving skills and is a quick learner. He has worked extensively on c# . Net and RPA."
+            },
+            {
+                "testemonyReceivedFrom": "Hariom Pandya",
+                "testemonyReceivedFromDesignation": "Researcher at Dharmsinh Desai University",
+                "linkedinUserName": "pandya-hariom",
+                "testemonyMessage": "I remember Bhargav as one of my enthusiastic and hard-working students. He has learned C programming, Linux OS concepts, DSA, and core computer engineering principles under me during his B.Tech program. His problem-solving capacity and eagerness towards learning the concepts in depth make him the best fit for the industry. I wish Bhargav all the very best in his future endeavors!"
+            },
+            {
+                "testemonyReceivedFrom": "Swasti Ray",
+                "testemonyReceivedFromDesignation": "Senior Consultant at Infosys",
+                "linkedinUserName": "swasti-ray-4a77b296",
+                "testemonyMessage": "Bhargav was an intern in Infosys Limited. He worked enthusiastically on application development using .Net Technologies - C#, SQL Server, EF Core and various front end tools."
+            },
+            {
+                "testemonyReceivedFrom": "Shraddha Kulkarni",
+                "testemonyReceivedFromDesignation": "Team Lead at Infosys",
+                "linkedinUserName": "shraddha-wagh-kulkarni-05921a41",
+                "testemonyMessage": "I had pleasure of working with Bhargav on several RPA and .Net projects. Bhargav consistently demonstrated exceptional technical skills and deep understanding of RPA tools and methologies. Beyond technical expertise, he is a proactive and collaborative team member. His positive attitude and dedication to continuous learning is commendable."
+            }
+        ]
+    },
+    "contactForm": {
+        "emailJsConfig": {
+            "serviceId": "service_wtvd89b",
+            "templateId": "template_i61yh8q",
+            "publicKey": "fNx1j7-rMJ08ylQDD"
+        },
+        "formFields": {
+            "name": {
+                "label": "Name",
+                "placeholder": "First Name and Last Name"
+            },
+            "email": {
+                "label": "Email Address",
+                "placeholder": "your.email@example.com"
+            },
+            "phone": {
+                "label": "Phone (Optional)",
+                "placeholder": "+1 234 567 8900"
+            },
+            "subject": {
+                "label": "Subject",
+                "placeholder": "What's this about?"
+            },
+            "message": {
+                "label": "Your Message",
+                "placeholder": "Hello Bhargav, I'd like to talk about..."
+            }
+        },
+        "submitButton": {
+            "text": "Send Message",
+            "sendingText": "Sending..."
+        },
+        "successMessage": "Message sent successfully! I'll get back to you soon.",
+        "errorMessage": "Failed to send message. Please try again or contact me directly at bhargavrathod98@gmail.com",
+        "validationMessages": {
+            "name": "Name must be at least 2 characters",
+            "email": "Please enter a valid email address",
+            "messageMin": "Message is too short",
+            "messageMax": "Message exceeds 1000 characters",
+            "subject": "Subject is required"
+        }
+    },
+    "contact": {
+        "enabled": true,
+        "title": "Let's Connect",
+        "highlight": "Connect",
+        "email": "bhargavrathod98@gmail.com",
+        "location": "Bengaluru, Karnataka, India",
+        "socialLinks": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/bhargav-rathod",
+                "icon": "FiGithub"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://linkedin.com/in/bhargav-rathod",
+                "icon": "FiLinkedin"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://x.com/bhargav__rathod",
+                "icon": "FiTwitter"
+            },
+            {
+                "name": "LeetCode",
+                "url": "https://leetcode.com/u/bhargav-rathod/",
+                "icon": "SiLeetcode"
+            },
+            {
+                "name": "Email",
+                "url": "mailto:bhargavrathod98@gmail.com",
+                "icon": "FiMail"
+            }
+        ]
+    },
+    "quote": {
+        "enabled": true,
+        "text": "Brute force isn't stupidity - it's the spark that starts the real solution."
+    },
+    "footer": {
+        "enabled": true,
+        "text": "© {year} Bhargav Rathod | All rights reserved."
+    },
+    "tracking": {
+        "enabled": true,
+        "googleForm": {
+            "actionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfcRXBAPshSP8tDMY_inAYtvs6HqjbdwaIsKt_7Q6FtMXGw9Q/formResponse",
+            "fields": {
+                "timestamp": "entry.1140258330",
+                "eventType": "entry.195524830",
+                "ipAddress": "entry.647965690",
+                "userAgent": "entry.1538100985",
+                "country": "entry.281744220",
+                "additionalData": "entry.1386921354"
+            }
+        },
+        "ipServices": {
+            "ipLookup": "https://api.ipify.org?format=json",
+            "geoLookup": "https://ipapi.co/{ip}/json/"
+        },
+        "sourceDetection": {
+            "ignoreParam": "s",
+            "ignoreValue": "n",
+            "referrers": {
+                "instagram": "instagram",
+                "facebook": "facebook",
+                "twitter": "twitter",
+                "linkedin": "linkedin",
+                "leetcode": "leetcode",
+                "github": "github"
+            },
+            "defaultSource": "direct/unknown"
+        }
+    },
+    "customSections": [
+        {
+            "enabled": false,
+            "id": "learning",
+            "title": "What I am Learning",
+            "type": "info",
+            "content": [
+                "TypeScript Advanced Patterns",
+                "Next.js 14 App Router",
+                "AI Prompt Engineering"
+            ]
+        },
+        {
+            "enabled": false,
+            "id": "github-repos",
+            "title": "GitHub Repo List",
+            "type": "links",
+            "content": [
+                {
+                    "label": "My Portfolio",
+                    "url": "https://github.com/username/portfolio"
+                },
+                {
+                    "label": "Cool Project",
+                    "url": "https://github.com/username/cool-project"
+                }
+            ]
+        },
+        {
+            "enabled": false,
+            "id": "favourite-speakers",
+            "title": "Favourite Speakers",
+            "type": "info",
+            "content": [
+                "Simon Sinek",
+                "Brene Brown",
+                "Gary Vaynerchuk"
+            ]
+        },
+        {
+            "enabled": false,
+            "id": "cta",
+            "title": "Join My Newsletter",
+            "type": "button",
+            "content": {
+                "label": "Subscribe",
+                "url": "https://newsletter.example.com"
+            }
+        }
     ]
-  },
-  "articlesAndBlogs": {
-    "enabled": false,
-    "title": "Articles & Blogs",
-    "highlight": "Articles",
-    "description": [
-      "A curated list of my technical articles and blogs published on various platforms."
-    ],
-    "articles": [
-      {
-        "title": "Optimizing Microservices for Scalability",
-        "url": "https://medium.com/@bhargav-rathod/optimizing-microservices-for-scalability-123456",
-        "platform": "Medium",
-        "date": "2024-05-10"
-      },
-      {
-        "title": "Getting Started with .NET and Angular Integration",
-        "url": "https://dev.to/bhargav-rathod/getting-started-with-dotnet-angular-78910",
-        "platform": "Dev.to",
-        "date": "2024-04-22"
-      }
-    ]
-  },
-  "testimonials": {
-    "enabled": true,
-    "title": "What People Say",
-    "highlight": "About Me",
-    "items": [
-      {
-        "testemonyReceivedFrom": "Dr. Brijesh Bhatt",
-        "testemonyReceivedFromDesignation": "NLP Researcher & Professor at Dharmsinh Desai University",
-        "linkedinUserName": "drbrijeshbhatt",
-        "testemonyMessage": "I have taught Bhargav Design and analysis of algorithm and Software Engineering during his Bachelor of technology. I have also mentored him in laboratory work and I also mentored him during his Project on 'Training and Placement Systems'. He is true team leader, he has very high coding skills and he gives his high level of dedication and commitment towards work. He has ablities on learning new things and had an excellent grasping power. I can say that he will contribute wherever he goes since he possesses genuine interest in the subject, works tirelessly in knowing the subject well, is a quick learner and also good at time management."
-      },
-      {
-        "testemonyReceivedFrom": "Amit Karir",
-        "testemonyReceivedFromDesignation": "Senior Manager at Amgen",
-        "linkedinUserName": "amit-karir-63096a39",
-        "testemonyMessage": "Bhargav was part of my team supporting a major US telecom customer for their business process optimization program by leveraging RPA and custom-code automation. He has performed the role of automation developer and supported various process functions while part of this automation account. He is a hard working developer and I would highly recommend him for any technical and engineering profile or work."
-      },
-      {
-        "testemonyReceivedFrom": "G V Roshan Kumar",
-        "testemonyReceivedFromDesignation": "Product Manager at Neilsen",
-        "linkedinUserName": "g-v-roshan-kumar",
-        "testemonyMessage": "I had the pleasure of collaborating with Bhargav at Edgeverve on the CoE Cockpit project. As a product manager, I was consistently impressed by his technical acumen, problem-solving skills, and unwavering dedication. Bhargav's ability to bridge the gap between engineering and product, coupled with his collaborative spirit, made him a valuable asset to our team. I wholeheartedly recommend Bhargav for any role that requires a talented and versatile individual."
-      },
-      {
-        "testemonyReceivedFrom": "Neeraj B",
-        "testemonyReceivedFromDesignation": "Technology Lead at Infosys",
-        "linkedinUserName": "neeraj-b-46967540",
-        "testemonyMessage": "Bhargav is a real gem to work with. He is very hard working and posses good technical understanding. He has good problem solving skills and is a quick learner. He has worked extensively on c# . Net and RPA."
-      },
-      {
-        "testemonyReceivedFrom": "Hariom Pandya",
-        "testemonyReceivedFromDesignation": "Researcher at Dharmsinh Desai University",
-        "linkedinUserName": "pandya-hariom",
-        "testemonyMessage": "I remember Bhargav as one of my enthusiastic and hard-working students. He has learned C programming, Linux OS concepts, DSA, and core computer engineering principles under me during his B.Tech program. His problem-solving capacity and eagerness towards learning the concepts in depth make him the best fit for the industry. I wish Bhargav all the very best in his future endeavors!"
-      },
-      {
-        "testemonyReceivedFrom": "Swasti Ray",
-        "testemonyReceivedFromDesignation": "Senior Consultant at Infosys",
-        "linkedinUserName": "swasti-ray-4a77b296",
-        "testemonyMessage": "Bhargav was an intern in Infosys Limited. He worked enthusiastically on application development using .Net Technologies - C#, SQL Server, EF Core and various front end tools."
-      },
-      {
-        "testemonyReceivedFrom": "Shraddha Kulkarni",
-        "testemonyReceivedFromDesignation": "Team Lead at Infosys",
-        "linkedinUserName": "shraddha-wagh-kulkarni-05921a41",
-        "testemonyMessage": "I had pleasure of working with Bhargav on several RPA and .Net projects. Bhargav consistently demonstrated exceptional technical skills and deep understanding of RPA tools and methologies. Beyond technical expertise, he is a proactive and collaborative team member. His positive attitude and dedication to continuous learning is commendable."
-      }
-    ]
-  },
-  "contactForm": {
-    "emailJsConfig": {
-      "serviceId": "service_wtvd89b",
-      "templateId": "template_i61yh8q",
-      "publicKey": "fNx1j7-rMJ08ylQDD"
-    },
-    "formFields": {
-      "name": {
-        "label": "Name",
-        "placeholder": "First Name and Last Name"
-      },
-      "email": {
-        "label": "Email Address",
-        "placeholder": "your.email@example.com"
-      },
-      "phone": {
-        "label": "Phone (Optional)",
-        "placeholder": "+1 234 567 8900"
-      },
-      "subject": {
-        "label": "Subject",
-        "placeholder": "What's this about?"
-      },
-      "message": {
-        "label": "Your Message",
-        "placeholder": "Hello Bhargav, I'd like to talk about..."
-      }
-    },
-    "submitButton": {
-      "text": "Send Message",
-      "sendingText": "Sending..."
-    },
-    "successMessage": "Message sent successfully! I'll get back to you soon.",
-    "errorMessage": "Failed to send message. Please try again or contact me directly at bhargavrathod98@gmail.com",
-    "validationMessages": {
-      "name": "Name must be at least 2 characters",
-      "email": "Please enter a valid email address",
-      "messageMin": "Message is too short",
-      "messageMax": "Message exceeds 1000 characters",
-      "subject": "Subject is required"
-    }
-  },
-  "contact": {
-    "enabled": true,
-    "title": "Let's Connect",
-    "highlight": "Connect",
-    "email": "bhargavrathod98@gmail.com",
-    "location": "Bengaluru, Karnataka, India",
-    "socialLinks": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/bhargav-rathod",
-        "icon": "FiGithub"
-      },
-      {
-        "name": "LinkedIn",
-        "url": "https://linkedin.com/in/bhargav-rathod",
-        "icon": "FiLinkedin"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://x.com/bhargav__rathod",
-        "icon": "FiTwitter"
-      },
-      {
-        "name": "LeetCode",
-        "url": "https://leetcode.com/u/bhargav-rathod/",
-        "icon": "SiLeetcode"
-      },
-      {
-        "name": "Email",
-        "url": "mailto:bhargavrathod98@gmail.com",
-        "icon": "FiMail"
-      }
-    ]
-  },
-  "quote": {
-    "enabled": true,
-    "text": "Brute force isn't stupidity - it's the spark that starts the real solution."
-  },
-  "footer": {
-    "enabled": true,
-    "text": "© {year} Bhargav Rathod | All rights reserved."
-  },
-  "tracking": {
-    "enabled": true,
-    "googleForm": {
-      "actionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfcRXBAPshSP8tDMY_inAYtvs6HqjbdwaIsKt_7Q6FtMXGw9Q/formResponse",
-      "fields": {
-        "timestamp": "entry.1140258330",
-        "eventType": "entry.195524830",
-        "ipAddress": "entry.647965690",
-        "userAgent": "entry.1538100985",
-        "country": "entry.281744220",
-        "additionalData": "entry.1386921354"
-      }
-    },
-    "ipServices": {
-      "ipLookup": "https://api.ipify.org?format=json",
-      "geoLookup": "https://ipapi.co/{ip}/json/"
-    },
-    "sourceDetection": {
-      "ignoreParam": "s",
-      "ignoreValue": "n",
-      "referrers": {
-        "instagram": "instagram",
-        "facebook": "facebook",
-        "twitter": "twitter",
-        "linkedin": "linkedin",
-        "leetcode": "leetcode",
-        "github": "github"
-      },
-      "defaultSource": "direct/unknown"
-    }
-  }
 }
