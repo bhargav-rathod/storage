@@ -251,7 +251,7 @@
     },
     "education": {
         "enabled": false,
-        "title": "",
+        "title": "Education",
         "highlight": "Education",
         "items": [
             {
@@ -361,7 +361,7 @@
         "description": [
             "A curated list of my technical articles and blogs published on various platforms."
         ],
-        "articles": [
+        "items": [
             {
                 "title": "Optimizing Microservices for Scalability",
                 "url": "https://medium.com/@bhargav-rathod/optimizing-microservices-for-scalability-123456",
@@ -382,46 +382,80 @@
         "highlight": "About Me",
         "items": [
             {
-                "testemonyReceivedFrom": "Dr. Brijesh Bhatt",
-                "testemonyReceivedFromDesignation": "NLP Researcher & Professor at Dharmsinh Desai University",
+                "receivedFrom": "Dr. Brijesh Bhatt",
+                "designation": "NLP Researcher & Professor at Dharmsinh Desai University",
                 "linkedinUserName": "drbrijeshbhatt",
-                "testemonyMessage": "I have taught Bhargav Design and analysis of algorithm and Software Engineering during his Bachelor of technology. I have also mentored him in laboratory work and I also mentored him during his Project on 'Training and Placement Systems'. He is true team leader, he has very high coding skills and he gives his high level of dedication and commitment towards work. He has ablities on learning new things and had an excellent grasping power. I can say that he will contribute wherever he goes since he possesses genuine interest in the subject, works tirelessly in knowing the subject well, is a quick learner and also good at time management."
+                "message": "I have taught Bhargav Design and analysis of algorithm and Software Engineering during his Bachelor of technology. I have also mentored him in laboratory work and I also mentored him during his Project on 'Training and Placement Systems'. He is true team leader, he has very high coding skills and he gives his high level of dedication and commitment towards work. He has ablities on learning new things and had an excellent grasping power. I can say that he will contribute wherever he goes since he possesses genuine interest in the subject, works tirelessly in knowing the subject well, is a quick learner and also good at time management."
             },
             {
-                "testemonyReceivedFrom": "Amit Karir",
-                "testemonyReceivedFromDesignation": "Senior Manager at Amgen",
+                "receivedFrom": "Amit Karir",
+                "designation": "Senior Manager at Amgen",
                 "linkedinUserName": "amit-karir-63096a39",
-                "testemonyMessage": "Bhargav was part of my team supporting a major US telecom customer for their business process optimization program by leveraging RPA and custom-code automation. He has performed the role of automation developer and supported various process functions while part of this automation account. He is a hard working developer and I would highly recommend him for any technical and engineering profile or work."
+                "message": "Bhargav was part of my team supporting a major US telecom customer for their business process optimization program by leveraging RPA and custom-code automation. He has performed the role of automation developer and supported various process functions while part of this automation account. He is a hard working developer and I would highly recommend him for any technical and engineering profile or work."
             },
             {
-                "testemonyReceivedFrom": "G V Roshan Kumar",
-                "testemonyReceivedFromDesignation": "Product Manager at Neilsen",
+                "receivedFrom": "G V Roshan Kumar",
+                "designation": "Product Manager at Neilsen",
                 "linkedinUserName": "g-v-roshan-kumar",
-                "testemonyMessage": "I had the pleasure of collaborating with Bhargav at Edgeverve on the CoE Cockpit project. As a product manager, I was consistently impressed by his technical acumen, problem-solving skills, and unwavering dedication. Bhargav's ability to bridge the gap between engineering and product, coupled with his collaborative spirit, made him a valuable asset to our team. I wholeheartedly recommend Bhargav for any role that requires a talented and versatile individual."
+                "message": "I had the pleasure of collaborating with Bhargav at Edgeverve on the CoE Cockpit project. As a product manager, I was consistently impressed by his technical acumen, problem-solving skills, and unwavering dedication. Bhargav's ability to bridge the gap between engineering and product, coupled with his collaborative spirit, made him a valuable asset to our team. I wholeheartedly recommend Bhargav for any role that requires a talented and versatile individual."
             },
             {
-                "testemonyReceivedFrom": "Neeraj B",
-                "testemonyReceivedFromDesignation": "Technology Lead at Infosys",
+                "receivedFrom": "Neeraj B",
+                "designation": "Technology Lead at Infosys",
                 "linkedinUserName": "neeraj-b-46967540",
-                "testemonyMessage": "Bhargav is a real gem to work with. He is very hard working and posses good technical understanding. He has good problem solving skills and is a quick learner. He has worked extensively on c# . Net and RPA."
+                "message": "Bhargav is a real gem to work with. He is very hard working and posses good technical understanding. He has good problem solving skills and is a quick learner. He has worked extensively on c# . Net and RPA."
             },
             {
-                "testemonyReceivedFrom": "Hariom Pandya",
-                "testemonyReceivedFromDesignation": "Researcher at Dharmsinh Desai University",
+                "receivedFrom": "Hariom Pandya",
+                "designation": "Researcher at Dharmsinh Desai University",
                 "linkedinUserName": "pandya-hariom",
-                "testemonyMessage": "I remember Bhargav as one of my enthusiastic and hard-working students. He has learned C programming, Linux OS concepts, DSA, and core computer engineering principles under me during his B.Tech program. His problem-solving capacity and eagerness towards learning the concepts in depth make him the best fit for the industry. I wish Bhargav all the very best in his future endeavors!"
+                "message": "I remember Bhargav as one of my enthusiastic and hard-working students. He has learned C programming, Linux OS concepts, DSA, and core computer engineering principles under me during his B.Tech program. His problem-solving capacity and eagerness towards learning the concepts in depth make him the best fit for the industry. I wish Bhargav all the very best in his future endeavors!"
             },
             {
-                "testemonyReceivedFrom": "Swasti Ray",
-                "testemonyReceivedFromDesignation": "Senior Consultant at Infosys",
+                "receivedFrom": "Swasti Ray",
+                "designation": "Senior Consultant at Infosys",
                 "linkedinUserName": "swasti-ray-4a77b296",
-                "testemonyMessage": "Bhargav was an intern in Infosys Limited. He worked enthusiastically on application development using .Net Technologies - C#, SQL Server, EF Core and various front end tools."
+                "message": "Bhargav was an intern in Infosys Limited. He worked enthusiastically on application development using .Net Technologies - C#, SQL Server, EF Core and various front end tools."
             },
             {
-                "testemonyReceivedFrom": "Shraddha Kulkarni",
-                "testemonyReceivedFromDesignation": "Team Lead at Infosys",
+                "receivedFrom": "Shraddha Kulkarni",
+                "designation": "Team Lead at Infosys",
                 "linkedinUserName": "shraddha-wagh-kulkarni-05921a41",
-                "testemonyMessage": "I had pleasure of working with Bhargav on several RPA and .Net projects. Bhargav consistently demonstrated exceptional technical skills and deep understanding of RPA tools and methologies. Beyond technical expertise, he is a proactive and collaborative team member. His positive attitude and dedication to continuous learning is commendable."
+                "message": "I had pleasure of working with Bhargav on several RPA and .Net projects. Bhargav consistently demonstrated exceptional technical skills and deep understanding of RPA tools and methologies. Beyond technical expertise, he is a proactive and collaborative team member. His positive attitude and dedication to continuous learning is commendable."
+            }
+        ]
+    },
+    "contact": {
+        "enabled": true,
+        "title": "Let's Connect",
+        "highlight": "Connect",
+        "email": "bhargavrathod98@gmail.com",
+        "location": "Bengaluru, Karnataka, India",
+        "socialLinks": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/bhargav-rathod",
+                "icon": "FiGithub"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://linkedin.com/in/bhargav-rathod",
+                "icon": "FiLinkedin"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://x.com/bhargav__rathod",
+                "icon": "FiTwitter"
+            },
+            {
+                "name": "LeetCode",
+                "url": "https://leetcode.com/u/bhargav-rathod/",
+                "icon": "SiLeetcode"
+            },
+            {
+                "name": "Email",
+                "url": "mailto:bhargavrathod98@gmail.com",
+                "icon": "FiMail"
             }
         ]
     },
@@ -466,40 +500,6 @@
             "messageMax": "Message exceeds 1000 characters",
             "subject": "Subject is required"
         }
-    },
-    "contact": {
-        "enabled": true,
-        "title": "Let's Connect",
-        "highlight": "Connect",
-        "email": "bhargavrathod98@gmail.com",
-        "location": "Bengaluru, Karnataka, India",
-        "socialLinks": [
-            {
-                "name": "GitHub",
-                "url": "https://github.com/bhargav-rathod",
-                "icon": "FiGithub"
-            },
-            {
-                "name": "LinkedIn",
-                "url": "https://linkedin.com/in/bhargav-rathod",
-                "icon": "FiLinkedin"
-            },
-            {
-                "name": "Twitter",
-                "url": "https://x.com/bhargav__rathod",
-                "icon": "FiTwitter"
-            },
-            {
-                "name": "LeetCode",
-                "url": "https://leetcode.com/u/bhargav-rathod/",
-                "icon": "SiLeetcode"
-            },
-            {
-                "name": "Email",
-                "url": "mailto:bhargavrathod98@gmail.com",
-                "icon": "FiMail"
-            }
-        ]
     },
     "quote": {
         "enabled": true,
