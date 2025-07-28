@@ -64,7 +64,7 @@
         {
             "text": "404: Boredom not found",
             "x": 20,
-            "y": 50,
+            "y": 0,
             "delay": 0.8
         },
         {
@@ -94,7 +94,7 @@
         "enabled": true,
         "items": [
             {
-                "value": "5+",
+                "value": "6+",
                 "label": "Years of Experience"
             },
             {
