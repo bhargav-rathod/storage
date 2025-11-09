@@ -412,11 +412,11 @@
         ]
     },
     "articlesAndBlogs": {
-        "enabled": true,
-        "title": "Publications & Articles",
-        "highlight": "Publications",
+        "enabled": false,
+        "title": "Articles & Blogs",
+        "highlight": "Articles",
         "description": [
-            "A curated list of my technical publications and articles published on various platforms."
+            "A curated list of my technical articles and blogs published on various platforms."
         ],
         "items": [
             {
