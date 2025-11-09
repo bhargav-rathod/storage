@@ -185,7 +185,7 @@
               "platform": "Bear Blog",
               "date": "2025-11-09",
               "type": "Blog",
-              "image": "/publications/na.jpg",
+              "image": "https://www.mdpi.com/applsci/applsci-09-00909/article_deploy/html/images/applsci-09-00909-g001-550.jpg",
               "tags": [
                   "Machine Learning",
                   "Deep Learning"
