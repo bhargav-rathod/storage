@@ -179,53 +179,46 @@
       "highlight": "Publications",
       "items": [
           {
-              "title": "Optimizing Microservices for Scalability",
-              "description": "A comprehensive guide on designing and implementing scalable microservices architecture using .NET Core and Angular. This article covers best practices for service communication, data consistency, and performance optimization in distributed systems.",
-              "url": "https://medium.com/@bhargav-rathod/optimizing-microservices-for-scalability-123456",
-              "platform": "Medium",
-              "date": "2024-05-10",
-              "type": "Technical Article",
-              "image": "/publications/microservices-article.jpg",
+              "title": "Adversarial Attacks and Generative Models in Deep Learning",
+              "description": "Deep learning models are now everywhere—helping us recognize images, chat online, and even drive cars. But did you know these AI systems can be tricked by clever attackers, and also generate stunning new content? Let’s dive into these two key ideas: Adversarial Robustness and Generative Models.",
+              "url": "https://bhargav-rathod.bearblog.dev/adversarial-attacks-and-generative-models-in-deep-learning/",
+              "platform": "Bear Blog",
+              "date": "2025-11-09",
+              "type": "Technical",
+              "image": "/publications/na.jpg",
               "tags": [
-                  "Microservices",
-                  ".NET Core",
-                  "Scalability",
-                  "Architecture"
+                  "Machine Learning",
+                  "Deep Learning"
               ],
               "authors": "Bhargav Rathod"
           },
           {
-              "title": "Getting Started with .NET and Angular Integration",
-              "description": "Step-by-step tutorial on building full-stack applications with .NET Core backend and Angular frontend. Includes authentication, API integration, and deployment strategies for modern web applications.",
-              "url": "https://dev.to/bhargav-rathod/getting-started-with-dotnet-angular-78910",
-              "platform": "Dev.to",
-              "date": "2024-04-22",
-              "type": "Tutorial",
-              "image": "/publications/dotnet-angular-tutorial.jpg",
+              "title": "DIKW with Machine Learning",
+              "description": "The journey from **Data → Information → Knowledge → Wisdom** defines not just the evolution of intelligent systems, but also how we, as humans, interpret and interact with the world around us!",
+              "url": "https://bhargav-rathod.bearblog.dev/dikw-with-machine-learning/",
+              "platform": "Bear Blog",
+              "date": "2025-10-19",
+              "type": "Technical",
+              "image": "/publications/na.jpg",
               "tags": [
-                  ".NET Core",
-                  "Angular",
-                  "Full-Stack",
-                  "Tutorial"
+                  "Machine Learning"
               ],
               "authors": "Bhargav Rathod"
           },
           {
-              "title": "RPA Implementation Best Practices",
-              "description": "Insights from real-world RPA implementations across healthcare and telecom industries. This blog post shares lessons learned, common pitfalls, and strategies for successful automation projects.",
-              "url": "https://bhargavrathod.dev/blog/rpa-best-practices",
-              "platform": "Personal Blog",
-              "date": "2024-03-15",
-              "type": "Industry Insights",
-              "image": "/publications/rpa-best-practices.jpg",
+              "title": "Types of Machine Learning (Part II)",
+              "description": "Deep dive into the basic types of the ML",
+              "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-part-ii/",
+              "platform": "Bear Blog",
+              "date": "2025-10-19",
+              "type": "Technical",
+              "image": "/publications/na.jpg",
               "tags": [
-                  "RPA",
-                  "Automation",
-                  "Healthcare",
-                  "Process Optimization"
+                  "Machine Learning",
+                  "Deep Learning"
               ],
               "authors": "Bhargav Rathod"
-          }
+          },
       ]
   },
     "experience": {
