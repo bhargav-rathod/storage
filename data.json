@@ -412,24 +412,24 @@
         ]
     },
     "articlesAndBlogs": {
-        "enabled": false,
-        "title": "Articles & Blogs",
-        "highlight": "Articles",
+        "enabled": true,
+        "title": "Publications & Articles",
+        "highlight": "Publications",
         "description": [
-            "A curated list of my technical articles and blogs published on various platforms."
+            "A curated list of my technical publications and articles published on various platforms."
         ],
         "items": [
             {
-                "title": "Optimizing Microservices for Scalability",
-                "url": "https://medium.com/@bhargav-rathod/optimizing-microservices-for-scalability-123456",
-                "platform": "Medium",
-                "date": "2024-05-10"
+                "title": "Adversarial Attacks and Generative Models in Deep Learning",
+                "url": "https://bhargav-rathod.bearblog.dev/adversarial-attacks-and-generative-models-in-deep-learning/",
+                "platform": "Bear Blog",
+                "date": "2025-11-09"
             },
             {
-                "title": "Getting Started with .NET and Angular Integration",
-                "url": "https://dev.to/bhargav-rathod/getting-started-with-dotnet-angular-78910",
-                "platform": "Dev.to",
-                "date": "2024-04-22"
+                "title": "DIKW with Machine Learning",
+                "url": "https://bhargav-rathod.bearblog.dev/dikw-with-machine-learning/",
+                "platform": "Bear Blog",
+                "date": "2025-10-19"
             }
         ]
     },
