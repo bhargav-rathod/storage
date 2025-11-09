@@ -214,11 +214,10 @@
               "type": "Technical",
               "image": "/publications/na.jpg",
               "tags": [
-                  "Machine Learning",
-                  "Deep Learning"
+                  "Machine Learning"
               ],
               "authors": "Bhargav Rathod"
-          },
+          }
       ]
   },
     "experience": {
