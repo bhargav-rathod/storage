@@ -200,7 +200,7 @@
               "platform": "Bear Blog",
               "date": "2025-10-19",
               "type": "Blog",
-              "image": "/publications/na.jpg",
+              "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*e3aLMyFRDFz6_MIYw9Upsg.jpeg",
               "tags": [
                   "Machine Learning"
               ],
@@ -212,6 +212,19 @@
               "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-part-ii/",
               "platform": "Bear Blog",
               "date": "2025-10-19",
+              "type": "Blog",
+              "image": "/publications/na.jpg",
+              "tags": [
+                  "Machine Learning"
+              ],
+              "authors": "Bhargav Rathod"
+          },
+          {
+              "title": "Types of Machine Learning (Part I)",
+              "description": "Types of the Machine Learning",
+              "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-i/",
+              "platform": "Bear Blog",
+              "date": "2025-09-02",
               "type": "Blog",
               "image": "/publications/na.jpg",
               "tags": [
