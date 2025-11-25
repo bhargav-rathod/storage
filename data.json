@@ -177,6 +177,7 @@
       "enabled": true,
       "title": "Publications & Blogs",
       "highlight": "Publications",
+      "displayLimit": 3,
       "items": [
           {
               "title": "Adversarial Attacks and Generative Models in Deep Learning",
