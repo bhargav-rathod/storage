@@ -561,7 +561,7 @@
             "email": "Please enter a valid email address",
             "messageMin": "Message is too short",
             "messageMax": "Message exceeds 1000 characters",
-            "subject": "Subject is required"
+            "subject": "Subject is too short"
         }
     },
     "quote": {
