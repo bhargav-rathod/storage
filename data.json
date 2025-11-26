@@ -180,6 +180,20 @@
       "displayLimit": 3,
       "items": [
           {
+              "title": "KD-Trees",
+              "description": "A k-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional spacem",
+              "url": "https://bhargav-rathod.bearblog.dev/kd-trees/",
+              "platform": "Bear Blog",
+              "date": "2025-11-26",
+              "type": "Blog",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/3dtree.png/500px-3dtree.png",
+              "tags": [
+                  "Machine Learning",
+                  "Algorithm"
+              ],
+              "authors": "Bhargav Rathod"
+          },
+          {
               "title": "Adversarial Attacks and Generative Models in Deep Learning",
               "description": "Deep learning models are now everywhere—helping us recognize images, chat online, and even drive cars. But did you know these AI systems can be tricked by clever attackers, and also generate stunning new content? Let’s dive into these two key ideas: Adversarial Robustness and Generative Models.",
               "url": "https://bhargav-rathod.bearblog.dev/adversarial-attacks-and-generative-models-in-deep-learning/",
