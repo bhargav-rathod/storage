@@ -78,7 +78,7 @@
         "enabled": true,
         "tagline": "< Hi, I'm Bhargav Rathod />",
         "professional": "{Software Engineer}",
-        "description": "Senior Software Engineer who lives and breathes DSA, Machine Learning, because let's be real—tech stacks change, but solid logic never goes out of style. Currently vibing with Python, .NET, Angular, and Next.js. System design - Been there, built that.",
+        "description": "Senior Software Engineer who lives and breathes DSA and Machine Learning—because let's be real, tech stacks change, but solid logic never goes out of style. Currently vibing with Python, .NET, Angular, and Next.js. System design? Been there, built that.",
         "avatar": {
             "enabled": true,
             "image": "/bhargav-rathod-avatar-trp-2.gif",
@@ -103,7 +103,7 @@
             },
             {
                 "value": "5+",
-                "label": "Competitions/ Hackathon Winner"
+                "label": "Competition/Hackathon Wins"
             },
             {
                 "value": "2",
@@ -149,7 +149,7 @@
                 "name": "Leadership",
                 "highlight": "Leadership",
                 "items": [
-                    "Agile/ Scrum",
+                    "Agile/Scrum",
                     "Team Management",
                     "Release Management",
                     "Delivery",
@@ -181,7 +181,7 @@
       "items": [
           {
               "title": "KD-Trees",
-              "description": "A k-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional spacem",
+              "description": "A k-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional space.",
               "url": "https://bhargav-rathod.bearblog.dev/kd-trees/",
               "platform": "Bear Blog",
               "date": "2025-11-26",
@@ -195,7 +195,7 @@
           },
           {
               "title": "Adversarial Attacks and Generative Models in Deep Learning",
-              "description": "Deep learning models are now everywhere—helping us recognize images, chat online, and even drive cars. But did you know these AI systems can be tricked by clever attackers, and also generate stunning new content? Let’s dive into these two key ideas: Adversarial Robustness and Generative Models.",
+              "description": "Deep learning models are now everywhere—helping us recognize images, chat online, and even drive cars. But did you know these AI systems can be tricked by clever attackers, and also generate stunning new content? Let's dive into these two key ideas: Adversarial Robustness and Generative Models.",
               "url": "https://bhargav-rathod.bearblog.dev/adversarial-attacks-and-generative-models-in-deep-learning/",
               "platform": "Bear Blog",
               "date": "2025-11-09",
@@ -222,7 +222,7 @@
           },
           {
               "title": "Types of Machine Learning (Part II)",
-              "description": "Deep dive into the basic types of the ML",
+              "description": "Deep dive into the basic types of ML.",
               "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-part-ii/",
               "platform": "Bear Blog",
               "date": "2025-10-19",
@@ -235,7 +235,7 @@
           },
           {
               "title": "Types of Machine Learning (Part I)",
-              "description": "Types of the Machine Learning",
+              "description": "Types of Machine Learning.",
               "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-i/",
               "platform": "Bear Blog",
               "date": "2025-09-02",
@@ -260,9 +260,9 @@
                 "company": "DataArt (Client - IQVIA Healthcare)",
                 "location": "Bangalore, India",
                 "description": [
-                    "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL Databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
+                    "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
                     "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
-                    "Conducted performance optimization, code reviews, security audits, and developed end-to-end test suites, improving release quality and reducing regression incidents by ∼60%"
+                    "Conducted performance optimization, code reviews, and security audits. Developed end-to-end test suites, improving release quality and reducing regression incidents by ~60%."
                 ],
                 "tags": [
                     ".NET",
@@ -280,9 +280,9 @@
                 "location": "Pune, India",
                 "description": [
                     "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
-                    "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ∼50% and enabling containerization.",
+                    "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ~50% and enabling containerization.",
                     "Developed full-stack features using Angular, implemented role-based access control, and integrated telemetry to track user behavior.",
-                    "Authored integration and unit test frameworks, improving code coverage to ∼89%+ and ensuring system stability during major releases."
+                    "Authored integration and unit test frameworks, improving code coverage to 89%+ and ensuring system stability during major releases."
                 ],
                 "tags": [
                     ".NET Core",
@@ -300,7 +300,7 @@
                 "location": "Pune, India",
                 "description": [
                     "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
-                    "Integrated RPA with back-end systems and APIs to reduce manual effort by ∼92% and enhanced operational accuracy across client business processes"
+                    "Integrated RPA with back-end systems and APIs, reducing manual effort by ~92% and enhancing operational accuracy across client business processes."
                 ],
                 "tags": [
                     "RPA",
@@ -316,7 +316,7 @@
                 "company": "Infosys Limited",
                 "location": "Mysore, India",
                 "description": [
-                    "Worked on Python3 Programming Grinding, RPA Skills and created set of activities to implement AssistEdge Automation RPA Studio Product."
+                    "Worked on Python3 programming training, RPA skills development, and created a set of activities to implement AssistEdge Automation RPA Studio Product."
                 ],
                 "tags": [
                     "Python",
@@ -380,18 +380,18 @@
                     "Matplotlib",
                     "SQLite"
                 ],
-                "type": "Python, Backend Implementation, Low-weight UI/UX"
+                "type": "Python, Backend Implementation, Lightweight UI/UX"
             },
             {
                 "index": 2,
                 "title": "JsonFolio - Cool Portfolio in Minutes",
-                "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments.",
+                "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments needed.",
                 "githubLink": "https://github.com/bhargav-rathod/json-folio",
                 "technologies": [
                     "Next.js",
                     "Tailwind CSS"
                 ],
-                "type": "Frontend Implementation, JSON Based Configuration, Dynamic Data Loading, No Frequent Redeployments"
+                "type": "Frontend Implementation, JSON-Based Configuration, Dynamic Data Loading, No Frequent Redeployments"
             },
             {
                 "index": 3,
@@ -405,7 +405,7 @@
                     "JavaScript",
                     "MSSQL"
                 ],
-                "type": "MVC, Full-Stack Implementation, Database Management, Role Based Features"
+                "type": "MVC, Full-Stack Implementation, Database Management, Role-Based Features"
             }
         ]
     },
@@ -472,7 +472,7 @@
             },
             {
                 "receivedFrom": "G V Roshan Kumar",
-                "designation": "Product Manager at Neilsen",
+                "designation": "Product Manager at Nielsen",
                 "linkedinUserName": "g-v-roshan-kumar",
                 "message": "I had the pleasure of collaborating with Bhargav at Edgeverve on the CoE Cockpit project. As a product manager, I was consistently impressed by his technical acumen, problem-solving skills, and unwavering dedication. Bhargav's ability to bridge the gap between engineering and product, coupled with his collaborative spirit, made him a valuable asset to our team. I wholeheartedly recommend Bhargav for any role that requires a talented and versatile individual."
             },
