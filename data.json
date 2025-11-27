@@ -12,27 +12,45 @@
         "navLinks": [
             {
                 "label": "About",
-                "section": "about"
+                "section": "about",
+                "navEligibleForDesktop": true,
+                "navEligibleForMobile": true
             },
             {
                 "label": "Skills",
-                "section": "skills"
+                "section": "skills",
+                "navEligibleForDesktop": true,
+                "navEligibleForMobile": true
+            },
+            {
+                "label": "Publications",
+                "section": "publications",
+                "navEligibleForDesktop": true,
+                "navEligibleForMobile": true
             },
             {
                 "label": "Experience",
-                "section": "experience"
+                "section": "experience",
+                "navEligibleForDesktop": true,
+                "navEligibleForMobile": true
             },
             {
                 "label": "Projects",
-                "section": "portfolio"
+                "section": "portfolio",
+                "navEligibleForDesktop": true,
+                "navEligibleForMobile": true
             },
             {
                 "label": "Achievements",
-                "section": "achievements"
+                "section": "achievements",
+                "navEligibleForDesktop": true,
+                "navEligibleForMobile": true
             },
             {
                 "label": "Contact",
-                "section": "contact"
+                "section": "contact",
+                "navEligibleForDesktop": true,
+                "navEligibleForMobile": true
             }
         ]
     },
@@ -75,6 +93,7 @@
         }
     ],
     "intro": {
+        "index": 1,
         "enabled": true,
         "tagline": "< Hi, I'm Bhargav Rathod />",
         "professional": "{Software Engineer}",
@@ -112,6 +131,7 @@
         ]
     },
     "skills": {
+        "index": 2,
         "enabled": true,
         "title": "Professional Skills",
         "highlight": "Skills",
@@ -174,96 +194,93 @@
         ]
     },
     "publications": {
-      "enabled": true,
-      "title": "Publications & Blogs",
-      "highlight": "Publications",
-      "displayLimit": 3,
-      "showMoreText": "See More",
-      "items": [
-          {
-              "title": "Ball-Trees",
-              "description": "Data Structure for High-Dimensional Nearest Neighbor Search",
-              "url": "https://bhargav-rathod.bearblog.dev/ball-trees/",
-              "platform": "Bear Blog",
-              "date": "2025-11-27",
-              "type": "Blog",
-              "image": "https://www.lix.polytechnique.fr/~nielsen/BregmanProximity/bbtree-illustration.png",
-              "tags": [
-                  "Machine Learning",
-                  "Algorithm"
+        "index": 3,
+        "enabled": true,
+        "title": "Publications & Blogs",
+        "highlight": "Publications",
+        "displayLimit": 3,
+        "showMoreText": "See More",
+        "items": [
+            {
+                "title": "Ball-Trees",
+                "description": "Data Structure for High-Dimensional Nearest Neighbor Search",
+                "url": "https://bhargav-rathod.bearblog.dev/ball-trees/",
+                "platform": "Bear Blog",
+                "date": "2025-11-27",
+                "type": "Blog",
+                "image": "https://www.lix.polytechnique.fr/~nielsen/BregmanProximity/bbtree-illustration.png",
+                "tags": [
+                    "Machine Learning",
+                    "Algorithm"
+                ]
+            },
+            {
+                "title": "KD-Trees",
+                "description": "A k-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional space.",
+                "url": "https://bhargav-rathod.bearblog.dev/kd-trees/",
+                "platform": "Bear Blog",
+                "date": "2025-11-26",
+                "type": "Blog",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/3dtree.png/500px-3dtree.png",
+                "tags": [
+                    "Machine Learning",
+                    "Algorithm"
+                ]
+            },
+            {
+                "title": "Adversarial Attacks and Generative Models in Deep Learning",
+                "description": "Deep learning models are now everywhere—helping us recognize images, chat online, and even drive cars. But did you know these AI systems can be tricked by clever attackers, and also generate stunning new content? Let's dive into these two key ideas: Adversarial Robustness and Generative Models.",
+                "url": "https://bhargav-rathod.bearblog.dev/adversarial-attacks-and-generative-models-in-deep-learning/",
+                "platform": "Bear Blog",
+                "date": "2025-11-09",
+                "type": "Blog",
+                "image": "https://www.mdpi.com/applsci/applsci-09-00909/article_deploy/html/images/applsci-09-00909-g001-550.jpg",
+                "tags": [
+                    "Machine Learning",
+                    "Deep Learning"
+                ]
+            },
+            {
+                "title": "DIKW with Machine Learning",
+                "description": "The journey from **Data → Information → Knowledge → Wisdom** defines not just the evolution of intelligent systems, but also how we, as humans, interpret and interact with the world around us!",
+                "url": "https://bhargav-rathod.bearblog.dev/dikw-with-machine-learning/",
+                "platform": "Bear Blog",
+                "date": "2025-10-19",
+                "type": "Blog",
+                "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*e3aLMyFRDFz6_MIYw9Upsg.jpeg",
+                "tags": [
+                    "Machine Learning"
+                ]
+            },
+            {
+                "title": "Types of Machine Learning (Part II)",
+                "description": "Deep dive into the basic types of ML.",
+                "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-part-ii/",
+                "platform": "Bear Blog",
+                "date": "2025-10-19",
+                "type": "Blog",
+                "image": "/publications/na.jpg",
+                "tags": [
+                    "Machine Learning"
+                ]
+            },
+            {
+                "title": "Types of Machine Learning (Part I)",
+                "description": "Types of Machine Learning.",
+                "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-i/",
+                "platform": "Bear Blog",
+                "date": "2025-09-02",
+                "type": "Blog",
+                "image": "/publications/na.jpg",
+                "tags": [
+                    "Machine Learning"
               ],
               "authors": "Bhargav Rathod"
-          },
-          {
-              "title": "KD-Trees",
-              "description": "A k-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional space.",
-              "url": "https://bhargav-rathod.bearblog.dev/kd-trees/",
-              "platform": "Bear Blog",
-              "date": "2025-11-26",
-              "type": "Blog",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/3dtree.png/500px-3dtree.png",
-              "tags": [
-                  "Machine Learning",
-                  "Algorithm"
-              ],
-              "authors": "Bhargav Rathod"
-          },
-          {
-              "title": "Adversarial Attacks and Generative Models in Deep Learning",
-              "description": "Deep learning models are now everywhere—helping us recognize images, chat online, and even drive cars. But did you know these AI systems can be tricked by clever attackers, and also generate stunning new content? Let's dive into these two key ideas: Adversarial Robustness and Generative Models.",
-              "url": "https://bhargav-rathod.bearblog.dev/adversarial-attacks-and-generative-models-in-deep-learning/",
-              "platform": "Bear Blog",
-              "date": "2025-11-09",
-              "type": "Blog",
-              "image": "https://www.mdpi.com/applsci/applsci-09-00909/article_deploy/html/images/applsci-09-00909-g001-550.jpg",
-              "tags": [
-                  "Machine Learning",
-                  "Deep Learning"
-              ],
-              "authors": "Bhargav Rathod"
-          },
-          {
-              "title": "DIKW with Machine Learning",
-              "description": "The journey from **Data → Information → Knowledge → Wisdom** defines not just the evolution of intelligent systems, but also how we, as humans, interpret and interact with the world around us!",
-              "url": "https://bhargav-rathod.bearblog.dev/dikw-with-machine-learning/",
-              "platform": "Bear Blog",
-              "date": "2025-10-19",
-              "type": "Blog",
-              "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*e3aLMyFRDFz6_MIYw9Upsg.jpeg",
-              "tags": [
-                  "Machine Learning"
-              ],
-              "authors": "Bhargav Rathod"
-          },
-          {
-              "title": "Types of Machine Learning (Part II)",
-              "description": "Deep dive into the basic types of ML.",
-              "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-part-ii/",
-              "platform": "Bear Blog",
-              "date": "2025-10-19",
-              "type": "Blog",
-              "image": "/publications/na.jpg",
-              "tags": [
-                  "Machine Learning"
-              ],
-              "authors": "Bhargav Rathod"
-          },
-          {
-              "title": "Types of Machine Learning (Part I)",
-              "description": "Types of Machine Learning.",
-              "url": "https://bhargav-rathod.bearblog.dev/types-of-ml-i/",
-              "platform": "Bear Blog",
-              "date": "2025-09-02",
-              "type": "Blog",
-              "image": "/publications/na.jpg",
-              "tags": [
-                  "Machine Learning"
-              ],
-              "authors": "Bhargav Rathod"
-          }
-      ]
-  },
+            }
+        ]
+    },
     "experience": {
+        "index": 4,
         "enabled": true,
         "title": "Work Experience",
         "highlight": "Experience",
@@ -280,11 +297,7 @@
                     "Conducted performance optimization, code reviews, and security audits. Developed end-to-end test suites, improving release quality and reducing regression incidents by ~60%."
                 ],
                 "tags": [
-                    ".NET",
-                    "Angular",
-                    "Microservices",
-                    "SQL",
-                    "DevOps"
+                    
                 ]
             },
             {
@@ -300,11 +313,7 @@
                     "Authored integration and unit test frameworks, improving code coverage to 89%+ and ensuring system stability during major releases."
                 ],
                 "tags": [
-                    ".NET Core",
-                    "Entity Framework",
-                    "Node.js",
-                    "Angular",
-                    "SaaS"
+                    
                 ]
             },
             {
@@ -318,10 +327,7 @@
                     "Integrated RPA with back-end systems and APIs, reducing manual effort by ~92% and enhancing operational accuracy across client business processes."
                 ],
                 "tags": [
-                    "RPA",
-                    "Process Automation",
-                    "Python",
-                    "API Integration"
+                    
                 ]
             },
             {
@@ -334,14 +340,13 @@
                     "Worked on Python3 programming training, RPA skills development, and created a set of activities to implement AssistEdge Automation RPA Studio Product."
                 ],
                 "tags": [
-                    "Python",
-                    "RPA",
-                    "Automation"
+                    
                 ]
             }
         ]
     },
     "education": {
+        "index": 5,
         "enabled": false,
         "title": "Education",
         "highlight": "Education",
@@ -365,12 +370,12 @@
         ]
     },
     "projects": {
+        "index": 6,
         "enabled": true,
         "title": "Things I've Built - ",
         "highlight": "Projects",
         "items": [
             {
-                "index": 0,
                 "title": "Roadmap.IO - AI-Powered Roadmap Generation",
                 "description": "Developed a full-stack web application for AI-powered interview roadmap generation using Next.js and PostgreSQL. Integrated advanced LLM models including LLaMA 3.3, Qwen-QWQ, and Whisper Large v3 for contextual generation. Implemented user authentication, credit-based payments, and a dynamic UI with role-specific roadmap generation features.",
                 "githubLink": "https://github.com/bhargav-rathod/roadmap-io",
@@ -385,7 +390,6 @@
                 "type": "Artificial Intelligence, Machine Learning, LLM Integration, Data Analytics, Full-Stack Implementation"
             },
             {
-                "index": 1,
                 "title": "Invoice Generation System",
                 "description": "Designed and built an offline utility tool for invoice generation and inventory management. Key features include streamlined invoice creation, printing functionality, record keeping, and a basic analytics dashboard.",
                 "githubLink": "https://github.com/bhargav-rathod/invoice-generation",
@@ -398,7 +402,6 @@
                 "type": "Python, Backend Implementation, Lightweight UI/UX"
             },
             {
-                "index": 2,
                 "title": "JsonFolio - Cool Portfolio in Minutes",
                 "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments needed.",
                 "githubLink": "https://github.com/bhargav-rathod/json-folio",
@@ -409,7 +412,6 @@
                 "type": "Frontend Implementation, JSON-Based Configuration, Dynamic Data Loading, No Frequent Redeployments"
             },
             {
-                "index": 3,
                 "title": "Training & Placement System",
                 "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
                 "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
@@ -425,6 +427,7 @@
         ]
     },
     "achievements": {
+        "index": 7,
         "enabled": true,
         "title": "Certifications & Achievements",
         "highlight": "Certifications",
@@ -447,6 +450,7 @@
         ]
     },
     "articlesAndBlogs": {
+        "index": 8,
         "enabled": false,
         "title": "Articles & Blogs",
         "highlight": "Articles",
@@ -469,6 +473,7 @@
         ]
     },
     "testimonials": {
+        "index": 9,
         "enabled": true,
         "title": "What People Say",
         "highlight": "About Me",
@@ -518,6 +523,7 @@
         ]
     },
     "contact": {
+        "index": 10,
         "enabled": true,
         "title": "Let's Connect",
         "highlight": "Connect",
@@ -594,6 +600,7 @@
         }
     },
     "quote": {
+        "index": 11,
         "enabled": true,
         "text": "Brute force isn't stupidity - it's the spark that starts the real solution."
     },
@@ -634,51 +641,87 @@
     },
     "customSections": [
         {
+            "index": 12,
             "enabled": false,
             "id": "learning",
             "title": "What I am Learning",
+            "description": "A rotating set of topics I'm deep-diving into each quarter.",
             "type": "info",
-            "content": [
-                "TypeScript Advanced Patterns",
-                "Next.js 14 App Router",
-                "AI Prompt Engineering"
-            ]
+            "content": {
+                "list": [
+                    "TypeScript Advanced Patterns",
+                    "Next.js 14 App Router",
+                    "AI Prompt Engineering"
+                ]
+            }
         },
         {
+            "index": 13,
             "enabled": false,
             "id": "github-repos",
             "title": "GitHub Repo List",
+            "description": "A couple of weekend experiments that are fun to browse.",
             "type": "links",
-            "content": [
-                {
-                    "label": "My Portfolio",
-                    "url": "https://github.com/username/portfolio"
-                },
-                {
-                    "label": "Cool Project",
-                    "url": "https://github.com/username/cool-project"
-                }
-            ]
+            "content": {
+                "links": [
+                    {
+                        "label": "My Portfolio",
+                        "url": "https://github.com/username/portfolio",
+                        "description": "The code powering this JSON-driven site."
+                    },
+                    {
+                        "label": "Cool Project",
+                        "url": "https://github.com/username/cool-project",
+                        "description": "A hackathon prototype that still ships features."
+                    }
+                ]
+            }
         },
         {
+            "index": 14,
             "enabled": false,
             "id": "favourite-speakers",
             "title": "Favourite Speakers",
+            "description": "Voices that keep me inspired when I'm shipping late-night features.",
             "type": "info",
-            "content": [
-                "Simon Sinek",
-                "Brene Brown",
-                "Gary Vaynerchuk"
-            ]
+            "content": {
+                "list": [
+                    "Simon Sinek",
+                    "Brene Brown",
+                    "Gary Vaynerchuk"
+                ]
+            }
         },
         {
+            "index": 15,
             "enabled": false,
-            "id": "cta",
+            "id": "newsletter",
             "title": "Join My Newsletter",
-            "type": "button",
+            "eyebrow": "Weekly dispatch",
+            "description": "One thoughtful email every Sunday covering system design, ML experiments, and the playbooks I use with enterprise teams.",
+            "type": "newsletter",
             "content": {
-                "label": "Subscribe",
-                "url": "https://newsletter.example.com"
+                "newsletter": {
+                    "placeholder": "your.email@example.com",
+                    "ctaLabel": "Subscribe for free",
+                    "ctaUrl": "https://newsletter.example.com",
+                    "note": "No spam, unsubscribe anytime.",
+                    "pitch": "Actionable notes on engineering leadership, AI, and productivity—designed to be read in under five minutes.",
+                    "stats": [
+                        {
+                            "label": "Builders reading",
+                            "value": "2.1K+"
+                        },
+                        {
+                            "label": "Avg. open rate",
+                            "value": "61%"
+                        },
+                        {
+                            "label": "Years running",
+                            "value": "3+"
+                        }
+                    ]
+                }
             }
         }
     ]
