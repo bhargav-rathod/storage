@@ -672,7 +672,7 @@
             ]
         },
         {
-            "enabled": false,
+            "enabled": true,
             "id": "cta",
             "title": "Join My Newsletter",
             "type": "button",
