@@ -178,6 +178,7 @@
       "title": "Publications & Blogs",
       "highlight": "Publications",
       "displayLimit": 3,
+      "showMoreText": "See More",
       "items": [
           {
               "title": "KD-Trees",
