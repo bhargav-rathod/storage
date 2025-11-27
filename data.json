@@ -181,6 +181,20 @@
       "showMoreText": "See More",
       "items": [
           {
+              "title": "Ball-Trees",
+              "description": "Data Structure for High-Dimensional Nearest Neighbor Search",
+              "url": "https://bhargav-rathod.bearblog.dev/ball-trees/",
+              "platform": "Bear Blog",
+              "date": "2025-11-27",
+              "type": "Blog",
+              "image": "https://www.lix.polytechnique.fr/~nielsen/BregmanProximity/bbtree-illustration.png",
+              "tags": [
+                  "Machine Learning",
+                  "Algorithm"
+              ],
+              "authors": "Bhargav Rathod"
+          },
+          {
               "title": "KD-Trees",
               "description": "A k-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional space.",
               "url": "https://bhargav-rathod.bearblog.dev/kd-trees/",
