@@ -194,7 +194,7 @@
         ]
     },
     "publications": {
-        "index": 3,
+        "index": 4,
         "enabled": true,
         "title": "Publications & Blogs",
         "highlight": "Publications",
@@ -280,7 +280,7 @@
         ]
     },
     "experience": {
-        "index": 4,
+        "index": 3,
         "enabled": true,
         "title": "Work Experience",
         "highlight": "Experience",
@@ -346,7 +346,7 @@
         ]
     },
     "education": {
-        "index": 5,
+        "index": 7,
         "enabled": false,
         "title": "Education",
         "highlight": "Education",
@@ -370,7 +370,7 @@
         ]
     },
     "projects": {
-        "index": 6,
+        "index": 5,
         "enabled": true,
         "title": "Things I've Built - ",
         "highlight": "Projects",
@@ -427,7 +427,7 @@
         ]
     },
     "achievements": {
-        "index": 7,
+        "index": 6,
         "enabled": true,
         "title": "Certifications & Achievements",
         "highlight": "Certifications",
@@ -450,7 +450,7 @@
         ]
     },
     "articlesAndBlogs": {
-        "index": 8,
+        "index": 9,
         "enabled": false,
         "title": "Articles & Blogs",
         "highlight": "Articles",
@@ -473,7 +473,7 @@
         ]
     },
     "testimonials": {
-        "index": 9,
+        "index": 8,
         "enabled": true,
         "title": "What People Say",
         "highlight": "About Me",
