@@ -448,6 +448,12 @@
                 "issuer": "Google Cloud",
                 "icon": "/gcp.jpg",
                 "url": "https://www.credly.com/badges/91852746-2355-4c3b-8cc7-26bbf10cb023/public_url"
+            },
+            {
+                "name": "May Season of #T20DSAChallenge ft. \"Recursion & Backtracking\"",
+                "issuer": "Algo University",
+                "icon": "",
+                "url": "https://d1lrk9cp1c3gxw.cloudfront.net/static/certificates/audevday5/bhargav-rathod.png"
             }
         ]
     },
