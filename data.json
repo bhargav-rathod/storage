@@ -440,12 +440,14 @@
             {
                 "name": "AWS Certified Cloud Practitioner (CLF-C01)",
                 "issuer": "Amazon Web Services",
-                "icon": "/aws.jpg"
+                "icon": "/aws.jpg",
+                "url": "https://www.credly.com/badges/881abd49-669d-4223-8273-4be723722c2a/public_url"
             },
             {
                 "name": "Google Cloud Certified - Associate Cloud Engineer",
                 "issuer": "Google Cloud",
-                "icon": "/gcp.jpg"
+                "icon": "/gcp.jpg",
+                "url": "https://www.credly.com/badges/91852746-2355-4c3b-8cc7-26bbf10cb023/public_url"
             }
         ]
     },
