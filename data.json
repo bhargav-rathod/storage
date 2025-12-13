@@ -132,7 +132,7 @@
     },
     "skills": {
         "index": 2,
-        "enabled": true,
+        "enabled": false,
         "title": "Professional Skills",
         "highlight": "Skills",
         "categories": [
