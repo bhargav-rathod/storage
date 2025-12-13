@@ -202,6 +202,19 @@
         "showMoreText": "See More",
         "items": [
             {
+                "title": "K-NN (K-Nearest Neighbors)",
+                "description": "Classic K-Nearest Neighbors with Curse of Dimensionality",
+                "url": "https://bhargav-rathod.bearblog.dev/k-nn/",
+                "platform": "Bear Blog",
+                "date": "2025-12-12",
+                "type": "Blog",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8UVreLxo63Qw-qxhm2sQu9F42SWGacUlj1LlnPlhoQ&s=10",
+                "tags": [
+                    "Machine Learning",
+                    "Algorithm"
+                ]
+            },
+            {
                 "title": "Ball-Trees",
                 "description": "Data Structure for High-Dimensional Nearest Neighbor Search",
                 "url": "https://bhargav-rathod.bearblog.dev/ball-trees/",
