@@ -97,7 +97,7 @@
         "enabled": true,
         "tagline": "< Hi, I'm Bhargav Rathod />",
         "professional": "{Software Engineer}",
-        "description": "Senior Software Engineer who lives and breathes DSA and Machine Learning—because let's be real, tech stacks change, but solid logic never goes out of style. Currently vibing with Python, .NET, Angular, and Next.js. System design? Been there, built that.",
+        "description": "I’m a <b>Senior Software Engineer</b> who lives and breathes <b>Data Structures, Algorithms, and Machine Learning</b>—because let’s be real, <b>tech stacks evolve, but solid logic never goes out of style</b>.\n\nMy work spans <b>Machine Learning research, Python, .NET, and Angular</b>, where I design and ship <b>end-to-end, production-ready systems</b>. From building <b>efficient APIs</b> and optimizing <b>performance-critical code</b> to crafting <b>clean, intuitive user interfaces</b>, I focus on creating software that is <b>scalable, maintainable, and built to last</b>.\n\n<b>System design?</b> Been there, built that—and iterated on it. I enjoy breaking down <b>large, ambiguous problems</b> into <b>well-structured components</b> and making thoughtful trade-offs across <b>scalability, reliability, and simplicity</b>.\n\nBeyond writing code, I actively share my learnings through (Bear Blog)[https://bhargav-rathod.bearblog.dev/], where I publish articles on <b>engineering fundamentals</b>, <b>machine learning concepts</b>, <b>real-world problem solving</b>, and <b>lessons from building systems at scale</b>.",
         "avatar": {
             "enabled": true,
             "image": "/bhargav-rathod-avatar-trp-2.gif",
@@ -272,7 +272,6 @@
                 "platform": "Bear Blog",
                 "date": "2025-10-19",
                 "type": "Blog",
-                "image": "/publications/na.jpg",
                 "tags": [
                     "Machine Learning"
                 ]
@@ -284,7 +283,6 @@
                 "platform": "Bear Blog",
                 "date": "2025-09-02",
                 "type": "Blog",
-                "image": "/publications/na.jpg",
                 "tags": [
                     "Machine Learning"
               ],
@@ -631,7 +629,12 @@
     },
     "tracking": {
         "enabled": true,
+        "googleAnalytics": {
+            "enabled": true,
+            "googleTag": "G-J5MQ4N0K25"
+        },
         "googleForm": {
+            "enabled": true,
             "actionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfcRXBAPshSP8tDMY_inAYtvs6HqjbdwaIsKt_7Q6FtMXGw9Q/formResponse",
             "fields": {
                 "timestamp": "entry.1140258330",
