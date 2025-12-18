@@ -202,6 +202,18 @@
         "showMoreText": "See More",
         "items": [
             {
+                "title": "Transformers",
+                "description": "Transformers understand language by letting every word look at every other word, using attention, while remembering word order — creating rich, context-aware meanings.",
+                "url": "https://bhargav-rathod.bearblog.dev/transformers/",
+                "platform": "Bear Blog",
+                "date": "2025-12-18",
+                "type": "Blog",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStkqwdxpl4bcKAr5LkTOlUkGvFrCKFE5QJtg&s",
+                "tags": [
+                    "Machine Learning"
+                ]
+            },
+            {
                 "title": "K-NN (K-Nearest Neighbors)",
                 "description": "Classic K-Nearest Neighbors with Curse of Dimensionality",
                 "url": "https://bhargav-rathod.bearblog.dev/k-nn/",
