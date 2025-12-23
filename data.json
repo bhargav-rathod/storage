@@ -194,10 +194,33 @@
         ]
     },
     "publications": {
-        "index": 4,
+        "index": 3,
         "enabled": true,
-        "title": "Publications & Blogs",
+        "title": "Publications & Research Work",
         "highlight": "Publications",
+        "displayLimit": 3,
+        "showMoreText": "See More",
+        "items": [
+            {
+                "title": "A Comprehensive Comparative Analysis of Machine Learning Algorithms for Predictive Diagnosis of Cardiovascular Disease",
+                "description": "International Journal for Multidisciplinary Research (IJFMR), Volume 7, Issue 6 (November–December 2025)",
+                "url": "https://www.ijfmr.com/research-paper.php?id=64396",
+                "platform": "IJFMR",
+                "date": "2025-12-23",
+                "type": "Research Paper",
+                "image": "",
+                "tags": [
+                    "Reasearch Paper",
+                    "Machine Learning"
+                ]
+            }
+        ]
+    },
+    "blogs": {
+        "index": 5,
+        "enabled": true,
+        "title": "Blogs & Tech Drafts",
+        "highlight": "Blogs",
         "displayLimit": 3,
         "showMoreText": "See More",
         "items": [
@@ -316,7 +339,7 @@
         ]
     },
     "experience": {
-        "index": 3,
+        "index": 4,
         "enabled": true,
         "title": "Work Experience",
         "highlight": "Experience",
@@ -406,7 +429,7 @@
         ]
     },
     "projects": {
-        "index": 5,
+        "index": 6,
         "enabled": true,
         "title": "Things I've Built - ",
         "highlight": "Projects",
@@ -463,7 +486,7 @@
         ]
     },
     "achievements": {
-        "index": 6,
+        "index": 8,
         "enabled": true,
         "title": "Certifications & Achievements",
         "highlight": "Certifications",
@@ -493,31 +516,8 @@
             }
         ]
     },
-    "articlesAndBlogs": {
-        "index": 9,
-        "enabled": false,
-        "title": "Articles & Blogs",
-        "highlight": "Articles",
-        "description": [
-            "A curated list of my technical articles and blogs published on various platforms."
-        ],
-        "items": [
-            {
-                "title": "Adversarial Attacks and Generative Models in Deep Learning",
-                "url": "https://bhargav-rathod.bearblog.dev/adversarial-attacks-and-generative-models-in-deep-learning/",
-                "platform": "Bear Blog",
-                "date": "2025-11-09"
-            },
-            {
-                "title": "DIKW with Machine Learning",
-                "url": "https://bhargav-rathod.bearblog.dev/dikw-with-machine-learning/",
-                "platform": "Bear Blog",
-                "date": "2025-10-19"
-            }
-        ]
-    },
     "testimonials": {
-        "index": 8,
+        "index": 9,
         "enabled": true,
         "title": "What People Say",
         "highlight": "About Me",
