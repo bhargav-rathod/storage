@@ -368,7 +368,7 @@
     "projects": {
         "index": 6,
         "enabled": true,
-        "title": "Things I've Built - ",
+        "title": "Things I've Built - Projects",
         "highlight": "Projects",
         "items": [
             {
@@ -455,7 +455,7 @@
     "testimonials": {
         "index": 9,
         "enabled": true,
-        "title": "What People Say",
+        "title": "What People Say About Me",
         "highlight": "About Me",
         "items": [
             {
