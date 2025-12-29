@@ -524,23 +524,28 @@
         "socialLinks": [
             {
                 "name": "GitHub",
-                "url": "https://github.com/bhargav-rathod",
+                "url": "https://github.com/bhargav-rathod/",
                 "icon": "FiGithub"
             },
             {
                 "name": "LinkedIn",
-                "url": "https://linkedin.com/in/bhargav-rathod",
+                "url": "https://linkedin.com/in/bhargav-rathod/",
                 "icon": "FiLinkedin"
             },
             {
                 "name": "Twitter",
-                "url": "https://x.com/bhargav__rathod",
+                "url": "https://x.com/bhargav__rathod/",
                 "icon": "FiTwitter"
             },
             {
                 "name": "LeetCode",
                 "url": "https://leetcode.com/u/bhargav-rathod/",
                 "icon": "SiLeetcode"
+            },
+            {
+                "name": "Kaggle",
+                "url": "https://www.kaggle.com/bhargavrathod98/",
+                "icon": "FaKaggle"
             },
             {
                 "name": "Email",
@@ -633,6 +638,7 @@
                 "twitter": "twitter",
                 "linkedin": "linkedin",
                 "leetcode": "leetcode",
+                "kaggle": "kaggle",
                 "github": "github"
             },
             "defaultSource": "direct/unknown"
