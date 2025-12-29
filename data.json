@@ -19,8 +19,8 @@
             {
                 "label": "Skills",
                 "section": "skills",
-                "enabledDesktop": true,
-                "enabledMobile": true
+                "enabledDesktop": false,
+                "enabledMobile": false
             },
             {
                 "label": "Publications",
