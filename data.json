@@ -9,104 +9,66 @@
         "logo": {
             "text": "</>"
         },
-        "navLinks": [
+        "links": [
             {
                 "label": "About",
                 "section": "about",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
+                "enabledDesktop": true,
+                "enabledMobile": true
             },
             {
                 "label": "Skills",
                 "section": "skills",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
+                "enabledDesktop": true,
+                "enabledMobile": true
             },
             {
                 "label": "Publications",
                 "section": "publications",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
+                "enabledDesktop": true,
+                "enabledMobile": true
             },
             {
                 "label": "Experience",
                 "section": "experience",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
+                "enabledDesktop": true,
+                "enabledMobile": true
             },
             {
                 "label": "Projects",
                 "section": "portfolio",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
+                "enabledDesktop": true,
+                "enabledMobile": true
             },
             {
                 "label": "Achievements",
                 "section": "achievements",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
+                "enabledDesktop": true,
+                "enabledMobile": true
             },
             {
                 "label": "Contact",
                 "section": "contact",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
+                "enabledDesktop": true,
+                "enabledMobile": true
             }
         ]
     },
-    "codeElements": [
-        {
-            "text": "<Code />",
-            "x": 10,
-            "y": 20,
-            "delay": 0
-        },
-        {
-            "text": "function()",
-            "x": 80,
-            "y": 40,
-            "delay": 0.2
-        },
-        {
-            "text": "const dev = true",
-            "x": 30,
-            "y": 70,
-            "delay": 0.4
-        },
-        {
-            "text": "return <Awesome />",
-            "x": 70,
-            "y": 90,
-            "delay": 0.6
-        },
-        {
-            "text": "404: Boredom not found",
-            "x": 20,
-            "y": 0,
-            "delay": 0.8
-        },
-        {
-            "text": "while(alive) { code() }",
-            "x": 60,
-            "y": 30,
-            "delay": 1
-        }
-    ],
-    "intro": {
+    "about": {
         "index": 1,
         "enabled": true,
         "tagline": "< Hi, I'm Bhargav Rathod />",
         "professional": "{Software Engineer}",
-        "description": "I’m a <b>Senior Software Engineer</b> who lives and breathes <b>Data Structures, Algorithms, and Machine Learning</b>—because let’s be real, <b>tech stacks evolve, but solid logic never goes out of style</b>.\n\nMy work spans <b>Machine Learning research, Python, .NET, and Angular</b>, where I design and ship end-to-end, production-ready systems. From building efficient APIs and optimizing performance-critical code</b> to crafting <b>clean, intuitive user interfaces, I focus on creating software that is scalable, maintainable, and built to last.\n\n<b>System design?</b> Been there, built that—and iterated on it. I enjoy breaking down large, ambiguous problems into well-structured components and making thoughtful trade-offs across scalability, reliability, and simplicity.\n\nRecently, my (machine learning research paper)[https://www.ijfmr.com/research-paper.php?id=64396] was published in the International Journal for Multidisciplinary Research (IJFMR).\n\nBeyond writing code, I actively share my learnings through (Bear Blog)[https://bhargav-rathod.bearblog.dev/], where I publish articles on engineering fundamentals, machine learning concepts, real-world problem solving, and lessons from building systems at scale.",
+        "description": "I'm a <b>Senior Software Engineer</b> who lives and breathes <b>Data Structures, Algorithms, and Machine Learning</b>—because let's be real, <b>tech stacks evolve, but solid logic never goes out of style</b>.\n\nMy work spans <b>Machine Learning research, Python, .NET, and Angular</b>, where I design and ship end-to-end, production-ready systems. From building efficient APIs and optimizing performance-critical code</b> to crafting <b>clean, intuitive user interfaces, I focus on creating software that is scalable, maintainable, and built to last.\n\n<b>System design?</b> Been there, built that—and iterated on it. I enjoy breaking down large, ambiguous problems into well-structured components and making thoughtful trade-offs across scalability, reliability, and simplicity.\n\nRecently, my (machine learning research paper)[https://www.ijfmr.com/research-paper.php?id=64396] was published in the International Journal for Multidisciplinary Research (IJFMR).\n\nBeyond writing code, I actively share my learnings through (Bear Blog)[https://bhargav-rathod.bearblog.dev/], where I publish articles on engineering fundamentals, machine learning concepts, real-world problem solving, and lessons from building systems at scale.",
         "avatar": {
             "enabled": true,
             "image": "/bhargav-rathod-avatar-trp-2.gif",
             "alt": "Bhargav Rathod 3D Avatar"
         },
-        "cta": {
-            "resumeUrl": "https://github.com/bhargav-rathod/storage/raw/main/Bhargav_Rathod_Resume.pdf",
-            "buttonText": "Download CV",
-            "resumeFileName": "Bhargav_Rathod_Resume.pdf"
+        "resume": {
+            "url": "https://github.com/bhargav-rathod/storage/raw/main/Bhargav_Rathod_Resume.pdf",
+            "label": "Download CV",
+            "fileName": "Bhargav_Rathod_Resume.pdf"
         }
     },
     "stats": {
@@ -198,8 +160,8 @@
         "enabled": true,
         "title": "Publications & Research Work",
         "highlight": "Publications",
-        "displayLimit": 3,
-        "showMoreText": "See More",
+        "limit": 3,
+        "showMoreLabel": "See More",
         "items": [
             {
                 "title": "A Comprehensive Comparative Analysis of Machine Learning Algorithms for Predictive Diagnosis of Cardiovascular Disease",
@@ -208,7 +170,6 @@
                 "platform": "IJFMR",
                 "date": "2025-12-23",
                 "type": "Research Paper",
-                "image": "",
                 "tags": [
                     "Reasearch Paper",
                     "Machine Learning"
@@ -221,22 +182,10 @@
         "enabled": true,
         "title": "Blogs & Tech Drafts",
         "highlight": "Blogs",
-        "displayLimit": 3,
-        "showMoreText": "See More",
+        "limit": 3,
+        "showMoreLabel": "See More",
         "items": [
-            {
-                "title": "A Comprehensive Comparative Analysis of Machine Learning Algorithms for Predictive Diagnosis of Cardiovascular Disease",
-                "description": "International Journal for Multidisciplinary Research (IJFMR), Volume 7, Issue 6 (November–December 2025)",
-                "url": "https://www.ijfmr.com/research-paper.php?id=64396",
-                "platform": "IJFMR",
-                "date": "2025-12-23",
-                "type": "Research Paper",
-                "image": "",
-                "tags": [
-                    "Reasearch Paper",
-                    "Machine Learning"
-                ]
-            },
+            
             {
                 "title": "Transformers",
                 "description": "Transformers understand language by letting every word look at every other word, using attention, while remembering word order — creating rich, context-aware meanings.",
@@ -333,8 +282,8 @@
                 "type": "Blog",
                 "tags": [
                     "Machine Learning"
-              ],
-              "authors": "Bhargav Rathod"
+                ],
+                "authors": "Bhargav Rathod"
             }
         ]
     },
@@ -354,9 +303,6 @@
                     "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
                     "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
                     "Conducted performance optimization, code reviews, and security audits. Developed end-to-end test suites, improving release quality and reducing regression incidents by ~60%."
-                ],
-                "tags": [
-                    
                 ]
             },
             {
@@ -370,9 +316,6 @@
                     "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ~50% and enabling containerization.",
                     "Developed full-stack features using Angular, implemented role-based access control, and integrated telemetry to track user behavior.",
                     "Authored integration and unit test frameworks, improving code coverage to 89%+ and ensuring system stability during major releases."
-                ],
-                "tags": [
-                    
                 ]
             },
             {
@@ -384,9 +327,6 @@
                 "description": [
                     "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
                     "Integrated RPA with back-end systems and APIs, reducing manual effort by ~92% and enhancing operational accuracy across client business processes."
-                ],
-                "tags": [
-                    
                 ]
             },
             {
@@ -397,9 +337,6 @@
                 "location": "Mysore, India",
                 "description": [
                     "Worked on Python3 programming training, RPA skills development, and created a set of activities to implement AssistEdge Automation RPA Studio Product."
-                ],
-                "tags": [
-                    
                 ]
             }
         ]
@@ -437,7 +374,7 @@
             {
                 "title": "Roadmap.IO - AI-Powered Roadmap Generation",
                 "description": "Developed a full-stack web application for AI-powered interview roadmap generation using Next.js and PostgreSQL. Integrated advanced LLM models including LLaMA 3.3, Qwen-QWQ, and Whisper Large v3 for contextual generation. Implemented user authentication, credit-based payments, and a dynamic UI with role-specific roadmap generation features.",
-                "githubLink": "https://github.com/bhargav-rathod/roadmap-io",
+                "githubUrl": "https://github.com/bhargav-rathod/roadmap-io",
                 "technologies": [
                     "Next.js",
                     "Tailwind CSS",
@@ -451,7 +388,7 @@
             {
                 "title": "Invoice Generation System",
                 "description": "Designed and built an offline utility tool for invoice generation and inventory management. Key features include streamlined invoice creation, printing functionality, record keeping, and a basic analytics dashboard.",
-                "githubLink": "https://github.com/bhargav-rathod/invoice-generation",
+                "githubUrl": "https://github.com/bhargav-rathod/invoice-generation",
                 "technologies": [
                     "Python",
                     "Pandas",
@@ -463,7 +400,7 @@
             {
                 "title": "JsonFolio - Cool Portfolio in Minutes",
                 "description": "A lightweight, customizable portfolio template that lets you create a stunning personal website by simply editing a JSON file. Built with Next.js and Tailwind CSS, it's fast, responsive, and easy to deploy. No multiple redeployments needed.",
-                "githubLink": "https://github.com/bhargav-rathod/json-folio",
+                "githubUrl": "https://github.com/bhargav-rathod/json-folio",
                 "technologies": [
                     "Next.js",
                     "Tailwind CSS"
@@ -473,7 +410,7 @@
             {
                 "title": "Training & Placement System",
                 "description": "Engineered a comprehensive T&P portal for colleges and universities. Enables Training & Placement Officers to manage company visits and recruitment announcements. Students can view opportunities, apply, and access results. Includes faculty notices, alumni insights, and secure login-based access for stakeholders.",
-                "githubLink": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
+                "githubUrl": "https://github.com/bhargav-rathod/Training-and-Placement-Systems",
                 "technologies": [
                     ".NET",
                     "C#",
@@ -511,7 +448,6 @@
             {
                 "name": "May Season of #T20DSAChallenge ft. \"Recursion & Backtracking\"",
                 "issuer": "Algo University",
-                "icon": "",
                 "url": "https://d1lrk9cp1c3gxw.cloudfront.net/static/certificates/audevday5/bhargav-rathod.png"
             }
         ]
@@ -523,57 +459,57 @@
         "highlight": "About Me",
         "items": [
             {
-                "receivedFrom": "Dr. Brijesh Bhatt",
+                "author": "Dr. Brijesh Bhatt",
                 "designation": "NLP Researcher & Professor at Dharmsinh Desai University",
-                "linkedinUserName": "drbrijeshbhatt",
+                "linkedin": "drbrijeshbhatt",
                 "message": "I have taught Bhargav Design and analysis of algorithm and Software Engineering during his Bachelor of technology.\n\nI have also mentored him in laboratory work and I also mentored him during his Project on 'Training and Placement Systems'. He is true team leader, he has very high coding skills and he gives his high level of dedication and commitment towards work. He has ablities on learning new things and had an excellent grasping power.\n\nI can say that he will contribute wherever he goes since he possesses genuine interest in the subject, works tirelessly in knowing the subject well, is a quick learner and also good at time management."
             },
             {
-                "receivedFrom": "Ashish Gor",
+                "author": "Ashish Gor",
                 "designation": "Assistant Professor at Dharmsinh Desai University",
-                "linkedinUserName": "ashish-gor-b8758863",
+                "linkedin": "ashish-gor-b8758863",
                 "message": "I had the opportunity to teach Bhargav in several core subjects, including Algorithms, Mathematics for Machine Learning, Cryptography & Network Security, and Compiler Construction. He has a clear understanding of fundamentals and approaches problems with logical and structured thinking.\n\nBhargav is sincere and curious, and he is always willing to go beyond what is taught in the classroom. He has a good ability to connect theoretical concepts with practical understanding, which prepares him well for real-world challenges. I am confident he will do very well in his career and be a valuable contributor wherever he works."
             },
             {
-                "receivedFrom": "Hariom Pandya",
+                "author": "Hariom Pandya",
                 "designation": "Researcher at Dharmsinh Desai University",
-                "linkedinUserName": "pandya-hariom",
+                "linkedin": "pandya-hariom",
                 "message": "I remember Bhargav as one of my enthusiastic and hard-working students. He has learned C programming, Linux OS concepts, DSA, and core computer engineering principles under me during his B.Tech program. His problem-solving capacity and eagerness towards learning the concepts in depth make him the best fit for the industry. I wish Bhargav all the very best in his future endeavors!"
             },
             {
-                "receivedFrom": "John Boyle",
+                "author": "John Boyle",
                 "designation": "Director, Digital & AI at Lumen",
-                "linkedinUserName": "johnboyle0628",
+                "linkedin": "johnboyle0628",
                 "message": "I had the pleasure of working with Bhargav Rathod during our time supporting the Lumen and CenturyLink RPA portfolio. Bhargav consistently demonstrated strong technical acumen and leadership, designing and delivering robust RPA solutions that continue to run smoothly in production. His dedication and collaborative spirit made him an invaluable partner, and I highly recommend him for any future endeavors in automation and enterprise transformation."
             },
             {
-                "receivedFrom": "Neeraj B",
+                "author": "Neeraj B",
                 "designation": "Technology Lead at Infosys",
-                "linkedinUserName": "neeraj-b-46967540",
+                "linkedin": "neeraj-b-46967540",
                 "message": "Bhargav is a real gem to work with. He is very hard working and posses good technical understanding. He has good problem solving skills and is a quick learner. He has worked extensively on c# . Net and RPA."
             },
             {
-                "receivedFrom": "Amit Karir",
+                "author": "Amit Karir",
                 "designation": "Senior Manager at Amgen",
-                "linkedinUserName": "amit-karir-63096a39",
+                "linkedin": "amit-karir-63096a39",
                 "message": "Bhargav was part of my team supporting a major US telecom customer for their business process optimization program by leveraging RPA and custom-code automation. He has performed the role of automation developer and supported various process functions while part of this automation account. He is a hard working developer and I would highly recommend him for any technical and engineering profile or work."
             },
             {
-                "receivedFrom": "G V Roshan Kumar",
+                "author": "G V Roshan Kumar",
                 "designation": "Product Manager at Nielsen",
-                "linkedinUserName": "g-v-roshan-kumar",
+                "linkedin": "g-v-roshan-kumar",
                 "message": "I had the pleasure of collaborating with Bhargav at Edgeverve on the CoE Cockpit project. As a product manager, I was consistently impressed by his technical acumen, problem-solving skills, and unwavering dedication. Bhargav's ability to bridge the gap between engineering and product, coupled with his collaborative spirit, made him a valuable asset to our team. I wholeheartedly recommend Bhargav for any role that requires a talented and versatile individual."
             },
             {
-                "receivedFrom": "Swasti Ray",
+                "author": "Swasti Ray",
                 "designation": "Senior Consultant at Infosys",
-                "linkedinUserName": "swasti-ray-4a77b296",
+                "linkedin": "swasti-ray-4a77b296",
                 "message": "Bhargav was an intern in Infosys Limited. He worked enthusiastically on application development using .Net Technologies - C#, SQL Server, EF Core and various front end tools."
             },
             {
-                "receivedFrom": "Shraddha Kulkarni",
+                "author": "Shraddha Kulkarni",
                 "designation": "Team Lead at Infosys",
-                "linkedinUserName": "shraddha-wagh-kulkarni-05921a41",
+                "linkedin": "shraddha-wagh-kulkarni-05921a41",
                 "message": "I had pleasure of working with Bhargav on several RPA and .Net projects. Bhargav consistently demonstrated exceptional technical skills and deep understanding of RPA tools and methologies. Beyond technical expertise, he is a proactive and collaborative team member. His positive attitude and dedication to continuous learning is commendable."
             }
         ]
@@ -614,12 +550,12 @@
         ]
     },
     "contactForm": {
-        "emailJsConfig": {
+        "emailJs": {
             "serviceId": "service_wtvd89b",
             "templateId": "template_i61yh8q",
             "publicKey": "fNx1j7-rMJ08ylQDD"
         },
-        "formFields": {
+        "fields": {
             "name": {
                 "label": "Name",
                 "placeholder": "First Name and Last Name"
@@ -641,13 +577,15 @@
                 "placeholder": "Hello Bhargav, I'd like to talk about..."
             }
         },
-        "submitButton": {
-            "text": "Send Message",
-            "sendingText": "Sending..."
+        "submit": {
+            "label": "Send Message",
+            "sendingLabel": "Sending..."
         },
-        "successMessage": "Message sent successfully! I'll get back to you soon.",
-        "errorMessage": "Failed to send message. Please try again or contact me directly at bhargavrathod98@gmail.com",
-        "validationMessages": {
+        "messages": {
+            "success": "Message sent successfully! I'll get back to you soon.",
+            "error": "Failed to send message. Please try again or contact me directly at bhargavrathod98@gmail.com"
+        },
+        "validation": {
             "name": "Name is too short",
             "email": "Please enter a valid email address",
             "messageMin": "Message is too short",
