@@ -297,7 +297,7 @@
                 "id": 1,
                 "title": "Full-Stack Software Developer",
                 "period": "Apr 2024 - Current",
-                "company": "DataArt (Client - IQVIA Healthcare)",
+                "company": "(DataArt)[https://www.dataart.com/] (Client - IQVIA Healthcare)",
                 "location": "Bangalore, India",
                 "description": [
                     "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
@@ -309,7 +309,7 @@
                 "id": 2,
                 "title": "Member of Technical Staff",
                 "period": "Dec 2021 - Mar 2024",
-                "company": "EdgeVerve Systems Limited (An Infosys Company)",
+                "company": "(EdgeVerve Systems Limited)[https://www.edgeverve.com/] (An Infosys Company)",
                 "location": "Pune, India",
                 "description": [
                     "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
@@ -322,7 +322,7 @@
                 "id": 3,
                 "title": "Senior Systems Engineer",
                 "period": "Aug 2019 - Dec 2021",
-                "company": "Infosys Limited",
+                "company": "(Infosys Limited)[https://www.infosys.com/]",
                 "location": "Pune, India",
                 "description": [
                     "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
@@ -333,7 +333,7 @@
                 "id": 4,
                 "title": "Intern",
                 "period": "Dec 2018 - May 2019",
-                "company": "Infosys Limited",
+                "company": "(Infosys Limited)[https://www.infosys.com/]",
                 "location": "Mysore, India",
                 "description": [
                     "Worked on Python3 programming training, RPA skills development, and created a set of activities to implement AssistEdge Automation RPA Studio Product."
