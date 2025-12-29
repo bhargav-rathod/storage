@@ -587,12 +587,12 @@
             "sendingLabel": "Sending..."
         },
         "messages": {
-            "success": "Message sent successfully! I'll get back to you soon.",
+            "success": "Message sent! I'll get back to you soon.",
             "error": "Failed to send message. Please try again or contact me directly at bhargavrathod98@gmail.com"
         },
         "validation": {
             "name": "Name is too short",
-            "email": "Please enter a valid email address",
+            "email": "Email is not valid",
             "messageMin": "Message is too short",
             "messageMax": "Message exceeds 1000 characters",
             "subject": "Subject is too short"
