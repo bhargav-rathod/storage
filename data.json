@@ -704,19 +704,18 @@
                 "items": [
                     {
                         "name": "Harry Potter",
-                        "author": "J.K. Rowling",
-                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wizarding_World_of_Harry_Potter_Castle.jpg/500px-Wizarding_World_of_Harry_Potter_Castle.jpg"
+                        "author": "J.K. Rowling"
                     },
                     {
-                        "name": "Death",
+                        "name": "Death; An Inside Story: A book for all those who shall die",
                         "author": "Sadhguru Jaggi Vasudev"
                     }
                 ]
             },
             {
                 "id": "series",
-                "title": "Series & Documentaries - I'm Hooked On",
-                "highlight": "Series & Documentaries",
+                "title": "Series & Docos - My Abosolute Favourites",
+                "highlight": "Series & Docos",
                 "enabled": true,
                 "order": 4,
                 "items": [
@@ -765,21 +764,21 @@
                         "name": "Swami Vivekananda",
                         "description": "Vedanta, self-belief, and fearless clarity.",
                         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Swami_Vivekananda-1893-09-signed.jpg/500px-Swami_Vivekananda-1893-09-signed.jpg"
-                      },
-                      {
+                    },
+                    {
                         "name": "Dr. A. P. J. Abdul Kalam",
                         "description": "Vision, humility, science-driven dreams, and service to the nation.",
                         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/500px-A._P._J._Abdul_Kalam.jpg"
-                      },
-                      {
+                    },
+                    {
                         "name": "Sadhguru",
                         "description": "Inner engineering, consciousness, and blending modern life with ancient wisdom.",
                         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Sadhguru-Jaggi-Vasudev.jpg/500px-Sadhguru-Jaggi-Vasudev.jpg"
-                      },
-                      {
+                    },
+                    {
                         "name": "Premanand Swami Maharaj",
                         "description": "<i>Radhe Radhe!</i> Bhakti, simplicity, and unconditional devotion."
-                      }                      
+                    }
                 ]
             }
         ]
