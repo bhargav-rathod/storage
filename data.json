@@ -651,8 +651,8 @@
     },
     "misc": {
         "enabled": true,
-        "title": "Beyond Code",
-        "highlight": "Beyond",
+        "title": "What Remains When the Code Is Done",
+        "highlight": "What Remains",
         "sections": [
             {
                 "id": "youtube-channels",
