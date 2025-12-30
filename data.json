@@ -51,6 +51,12 @@
                 "section": "contact",
                 "enabledDesktop": true,
                 "enabledMobile": true
+            },
+            {
+                "label": "Miscellaneous",
+                "section": "/misc",
+                "enabledDesktop": true,
+                "enabledMobile": true
             }
         ]
     },
@@ -185,7 +191,6 @@
         "limit": 3,
         "showMoreLabel": "See More",
         "items": [
-            
             {
                 "title": "Transformers",
                 "description": "Transformers understand language by letting every word look at every other word, using attention, while remembering word order — creating rich, context-aware meanings.",
@@ -643,6 +648,141 @@
             },
             "defaultSource": "direct/unknown"
         }
+    },
+    "misc": {
+        "enabled": true,
+        "title": "Beyond Code",
+        "highlight": "Beyond",
+        "sections": [
+            {
+                "id": "youtube-channels",
+                "title": "YouTube Channels - I Actually Learn From",
+                "highlight": "YouTube Channels",
+                "enabled": true,
+                "order": 1,
+                "items": [
+                    {
+                        "name": "Andrej Karpathy",
+                        "description": "Deep dives into AI, neural nets, and how machines really think.",
+                        "url": "https://www.youtube.com/@karpathy",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Andrej_Karpathy%2C_OpenAI.png"
+                    },
+                    {
+                        "name": "Kilian Weinberger",
+                        "description": "Clean, theory-backed perspectives on modern machine learning.",
+                        "url": "https://www.youtube.com/@kilianweinberger",
+                        "image": "https://www.cs.cornell.edu/~kilian/files/kilian.png"
+                    }
+                ]
+            },
+            {
+                "id": "speakers",
+                "title": "Voices - I Tune Into",
+                "highlight": "Voices",
+                "enabled": true,
+                "order": 2,
+                "items": [
+                    {
+                        "name": "Raj Shamani",
+                        "description": "Real conversations about money, mindset, and modern life.",
+                        "url": "https://www.youtube.com/@rajshamani",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Raj_Shamani.jpg"
+                    },
+                    {
+                        "name": "Dwarkesh Patel",
+                        "description": "Long-form, high-signal conversations with people shaping the future.",
+                        "url": "https://www.youtube.com/@DwarkeshPatel"
+                    }
+                ]
+            },
+            {
+                "id": "books",
+                "title": "Books - That Shaped My Imagination",
+                "highlight": "Books",
+                "enabled": true,
+                "order": 3,
+                "items": [
+                    {
+                        "name": "Harry Potter",
+                        "author": "J.K. Rowling",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wizarding_World_of_Harry_Potter_Castle.jpg/500px-Wizarding_World_of_Harry_Potter_Castle.jpg"
+                    },
+                    {
+                        "name": "Death",
+                        "author": "Sadhguru Jaggi Vasudev"
+                    }
+                ]
+            },
+            {
+                "id": "series",
+                "title": "Series & Documentaries - I'm Hooked On",
+                "highlight": "Series & Documentaries",
+                "enabled": true,
+                "order": 4,
+                "items": [
+                    {
+                        "name": "Thinking Game",
+                        "description": "Google DeepMind's documentary series exploring the mind and work of AI Lab.",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX1ksY7Z1XjCsxmY31hC4VMdQ0RlTrChwcPX2ZSG2w7oYkt421dgeLbNff6UcIxc103UsiSzH9GESCXrJKqT7leOHde28q602-UE5bdupEQA&s=10"
+                    },
+                    {
+                        "name": "Stranger Things",
+                        "description": "Sci-fi nostalgia, friendships, and chaos from the Upside Down.",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Stranger_Things_logo.png/500px-Stranger_Things_logo.png"
+                    },
+                    {
+                        "name": "Locke & Key",
+                        "description": "Dark fantasy, mystery, and secrets hidden in plain sight.",
+                        "image": "https://upload.wikimedia.org/wikipedia/en/9/95/Locke_%26_Key_%28TV_series%29_Title_Card.png"
+                    },
+                    {
+                        "name": "Game of Thrones",
+                        "description": "Fantasy, drama, and power struggles in the Seven Kingdoms.",
+                        "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg"
+                    },
+                    {
+                        "name": "Inside Bill's Brain: Decoding Bill Gates",
+                        "description": "A documentary series exploring the mind and work of Bill Gates."
+                    },
+                    {
+                        "name": "The Social Dilemma",
+                        "description": "A documentary exploring the impact of social media on our lives."
+                    },
+                    {
+                        "name": "Trip to Infinity",
+                        "description": "Explores the concept of infinity through interviews with mathematicians, physicists and philosophers around the world."
+                    }
+                ]
+            },
+            {
+                "id": "spiritual-leaders",
+                "title": "Thinkers - Beyond Time",
+                "highlight": "Thinkers",
+                "enabled": true,
+                "order": 5,
+                "items": [
+                    {
+                        "name": "Swami Vivekananda",
+                        "description": "Vedanta, self-belief, and fearless clarity.",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Swami_Vivekananda-1893-09-signed.jpg/500px-Swami_Vivekananda-1893-09-signed.jpg"
+                      },
+                      {
+                        "name": "Dr. A. P. J. Abdul Kalam",
+                        "description": "Vision, humility, science-driven dreams, and service to the nation.",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/500px-A._P._J._Abdul_Kalam.jpg"
+                      },
+                      {
+                        "name": "Sadhguru",
+                        "description": "Inner engineering, consciousness, and blending modern life with ancient wisdom.",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Sadhguru-Jaggi-Vasudev.jpg/500px-Sadhguru-Jaggi-Vasudev.jpg"
+                      },
+                      {
+                        "name": "Premanand Swami Maharaj",
+                        "description": "<i>Radhe Radhe!</i> Bhakti, simplicity, and unconditional devotion."
+                      }                      
+                ]
+            }
+        ]
     },
     "customSections": [
         {
