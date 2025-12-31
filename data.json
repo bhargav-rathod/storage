@@ -780,6 +780,15 @@
                         "description": "<i>Radhe Radhe!</i> Bhakti, simplicity, and unconditional devotion."
                     }
                 ]
+            },
+            {
+                "id": "gallery",
+                "title": "AI Arts - Which I \"Love\" to See",
+                "highlight": "Love",
+                "subtext": "<i>Here are a few of my favourites — not created by me, just pieces I keep looking.</i>",
+                "enabled": true,
+                "order": 6,
+                "path": "https://github.com/bhargav-rathod/storage/tree/main/gallery"
             }
         ]
     },
