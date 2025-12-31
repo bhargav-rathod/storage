@@ -65,7 +65,7 @@
         "enabled": true,
         "tagline": "<b>< Hi, I'm Bhargav Rathod /></b>",
         "professional": "Software Engineer",
-        "description": "I'm a <b>Senior Software Engineer</b> who lives and breathes <b>Data Structures, Algorithms, and Machine Learning</b>—because let's be real, <b>tech stacks evolve, but solid logic never goes out of style</b>.\n\nMy work spans <b>Machine Learning research, Python, .NET, and Angular</b>, where I design and ship end-to-end, production-ready systems. From building efficient APIs and optimizing performance-critical code to crafting clean, intuitive user interfaces, I focus on creating software that is scalable, maintainable, and built to last.\n\n<b>System design?</b> Been there, built that—and iterated on it. I enjoy breaking down large, ambiguous problems into well-structured components and making thoughtful trade-offs across scalability, reliability, and simplicity.\n\nRecently, my (machine learning research paper)[https://www.ijfmr.com/research-paper.php?id=64396] was published in the International Journal for Multidisciplinary Research (IJFMR).\n\nBeyond writing code, I actively share my learnings through (Bear Blog)[https://bhargav-rathod.bearblog.dev/], where I publish articles on engineering fundamentals, machine learning concepts, real-world problem solving, and lessons from building systems at scale.",
+        "description": "I'm a <b>Senior Software Engineer</b> who lives and breathes <b>Data Structures, Algorithms, and Machine Learning</b>—because let's be real, <b>tech stacks evolve, but solid logic never goes out of style</b>.\n\nMy work spans <b>Machine Learning research, Python, .NET, and Angular</b>, where I design and ship end-to-end, production-ready systems. From building efficient APIs and optimizing performance-critical code to crafting clean, intuitive user interfaces, I focus on creating software that is scalable, maintainable, and built to last.\n\n<b>System design?</b> Been there, built that—and iterated on it. I enjoy breaking down large, ambiguous problems into well-structured components and making thoughtful trade-offs across scalability, reliability, and simplicity.\n\nRecently, my [machine learning research paper](https://www.ijfmr.com/research-paper.php?id=64396) was published in the International Journal for Multidisciplinary Research (IJFMR).\n\nBeyond writing code, I actively share my learnings through [Bear Blog](https://bhargav-rathod.bearblog.dev/), where I publish articles on engineering fundamentals, machine learning concepts, real-world problem solving, and lessons from building systems at scale.",
         "avatar": {
             "enabled": true,
             "image": "https://raw.githubusercontent.com/bhargav-rathod/storage/main/dp/bhargav-rathod.png",
@@ -171,7 +171,7 @@
         "items": [
             {
                 "title": "A Comprehensive Comparative Analysis of Machine Learning Algorithms for Predictive Diagnosis of Cardiovascular Disease",
-                "description": "International Journal for Multidisciplinary Research (IJFMR), Volume 7, Issue 6 (November–December 2025)",
+                "description": "International Journal for Multidisciplinary Research (IJFMR), Volume 7, Issue 6 (November - December 2025)",
                 "url": "https://www.ijfmr.com/research-paper.php?id=64396",
                 "platform": "IJFMR",
                 "date": "2025-12-23",
@@ -302,7 +302,7 @@
                 "id": 1,
                 "title": "Full-Stack Software Developer",
                 "period": "Apr 2024 - Current",
-                "company": "(DataArt)[https://www.dataart.com/] (Client - IQVIA Healthcare)",
+                "company": "[DataArt](https://www.dataart.com/) (Client - IQVIA Healthcare)",
                 "location": "Bangalore, India",
                 "description": [
                     "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
@@ -314,7 +314,7 @@
                 "id": 2,
                 "title": "Member of Technical Staff",
                 "period": "Dec 2021 - Mar 2024",
-                "company": "(EdgeVerve Systems Limited)[https://www.edgeverve.com/] (An Infosys Company)",
+                "company": "[EdgeVerve Systems Limited](https://www.edgeverve.com/) (An Infosys Company)",
                 "location": "Pune, India",
                 "description": [
                     "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
@@ -327,7 +327,7 @@
                 "id": 3,
                 "title": "Senior Systems Engineer",
                 "period": "Aug 2019 - Dec 2021",
-                "company": "(Infosys Limited)[https://www.infosys.com/]",
+                "company": "[Infosys Limited](https://www.infosys.com/)",
                 "location": "Pune, India",
                 "description": [
                     "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
@@ -338,7 +338,7 @@
                 "id": 4,
                 "title": "Intern",
                 "period": "Dec 2018 - May 2019",
-                "company": "(Infosys Limited)[https://www.infosys.com/]",
+                "company": "[Infosys Limited](https://www.infosys.com/)",
                 "location": "Mysore, India",
                 "description": [
                     "Worked on Python3 programming training, RPA skills development, and created a set of activities to implement AssistEdge Automation RPA Studio Product."
