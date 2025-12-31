@@ -68,11 +68,11 @@
         "description": "I'm a <b>Senior Software Engineer</b> who lives and breathes <b>Data Structures, Algorithms, and Machine Learning</b>—because let's be real, <b>tech stacks evolve, but solid logic never goes out of style</b>.\n\nMy work spans <b>Machine Learning research, Python, .NET, and Angular</b>, where I design and ship end-to-end, production-ready systems. From building efficient APIs and optimizing performance-critical code to crafting clean, intuitive user interfaces, I focus on creating software that is scalable, maintainable, and built to last.\n\n<b>System design?</b> Been there, built that—and iterated on it. I enjoy breaking down large, ambiguous problems into well-structured components and making thoughtful trade-offs across scalability, reliability, and simplicity.\n\nRecently, my (machine learning research paper)[https://www.ijfmr.com/research-paper.php?id=64396] was published in the International Journal for Multidisciplinary Research (IJFMR).\n\nBeyond writing code, I actively share my learnings through (Bear Blog)[https://bhargav-rathod.bearblog.dev/], where I publish articles on engineering fundamentals, machine learning concepts, real-world problem solving, and lessons from building systems at scale.",
         "avatar": {
             "enabled": true,
-            "image": "https://raw.githubusercontent.com/bhargav-rathod/storage/main/bhargav-rathod.png",
+            "image": "https://raw.githubusercontent.com/bhargav-rathod/storage/main/dp/bhargav-rathod.png",
             "alt": "Avatar"
         },
         "resume": {
-            "url": "https://github.com/bhargav-rathod/storage/raw/main/Bhargav_Rathod_Resume.pdf",
+            "url": "https://github.com/bhargav-rathod/storage/raw/main/resume/Bhargav_Rathod_Resume.pdf",
             "label": "Download CV",
             "fileName": "Bhargav_Rathod_Resume.pdf"
         }
