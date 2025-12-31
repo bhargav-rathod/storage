@@ -783,9 +783,9 @@
             },
             {
                 "id": "gallery",
-                "title": "AI Arts & Pictures - Which I \"Love\" to See",
+                "title": "Creations I \"Love\" Exploring",
                 "highlight": "Love",
-                "subtext": "<i>Here are a few of my favourites — not created by me, just pieces I keep looking.</i>",
+                "subtext": "<i>Here are a few of my favourites — not created by me, just pieces I keep coming back to.</i>",
                 "enabled": true,
                 "order": 6,
                 "path": "https://github.com/bhargav-rathod/storage/tree/main/gallery"
