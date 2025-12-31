@@ -177,7 +177,7 @@
                 "date": "2025-12-23",
                 "type": "Research Paper",
                 "tags": [
-                    "Reasearch Paper",
+                    "Research Paper",
                     "Machine Learning"
                 ]
             }
@@ -606,7 +606,7 @@
     "quote": {
         "index": 11,
         "enabled": true,
-        "text": "Brute force isn't stupidity - it's the spark that starts the real solution."
+        "text": "Brute force isn't stupidity — it's the spark that starts the real solution."
     },
     "footer": {
         "enabled": true,
@@ -714,7 +714,7 @@
             },
             {
                 "id": "series",
-                "title": "Series & Docos - My Abosolute Favourites",
+                "title": "Series & Docos - My Absolute Favourites",
                 "highlight": "Series & Docos",
                 "enabled": true,
                 "order": 4,
