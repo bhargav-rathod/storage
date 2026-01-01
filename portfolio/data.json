@@ -656,8 +656,8 @@
         "sections": [
             {
                 "id": "youtube-channels",
-                "title": "YouTube Channels - I Actually Learn From",
-                "highlight": "YouTube Channels",
+                "title": "Channels - I Actually Learn From",
+                "highlight": "persons",
                 "enabled": true,
                 "order": 1,
                 "items": [
@@ -672,11 +672,6 @@
                         "description": "Clean, theory-backed perspectives on modern machine learning.",
                         "url": "https://www.youtube.com/@kilianweinberger698",
                         "image": "https://www.cs.cornell.edu/~kilian/files/kilian.png"
-                    },
-                    {
-                        "name": "Demis Hassabis",
-                        "description": "Gain thoughts on research, current progresses and perspectives on AGI.",
-                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg/500px-Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg"
                     }
                 ]
             },
@@ -699,9 +694,9 @@
                         "url": "https://www.youtube.com/@DwarkeshPatel"
                     },
                     {
-                        "name": "Google DeepMind: The Podcast",
-                        "description": "Professor Hannah Fry to uncover the extraordinary ways AI is transforming our world.",
-                        "url": "https://www.youtube.com/playlist?list=PLqYmG7hTraZBiUr6_Qf8YTS2Oqy3OGZEj"
+                        "name": "Demis Hassabis",
+                        "description": "Thoughts on Research and Perspectives on AGI.",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg/500px-Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg"
                     }
                 ]
             },
