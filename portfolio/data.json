@@ -672,6 +672,11 @@
                         "description": "Clean, theory-backed perspectives on modern machine learning.",
                         "url": "https://www.youtube.com/@kilianweinberger698",
                         "image": "https://www.cs.cornell.edu/~kilian/files/kilian.png"
+                    },
+                    {
+                        "name": "Demis Hassabis",
+                        "description": "Gain thoughts on research, current progresses and perspectives on AGI.",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg/500px-Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg"
                     }
                 ]
             },
