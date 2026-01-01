@@ -657,7 +657,7 @@
             {
                 "id": "youtube-channels",
                 "title": "Channels - I Actually Learn From",
-                "highlight": "persons",
+                "highlight": "Channels",
                 "enabled": true,
                 "order": 1,
                 "items": [
