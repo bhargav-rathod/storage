@@ -568,23 +568,28 @@
         "fields": {
             "name": {
                 "label": "Name",
-                "placeholder": "First Name and Last Name"
+                "placeholder": "First Name and Last Name",
+                "tooltip": ""
             },
             "email": {
                 "label": "Email Address",
-                "placeholder": "your.email@example.com"
+                "placeholder": "your.email@example.com",
+                "tooltip": ""
             },
             "phone": {
                 "label": "Phone (Optional)",
-                "placeholder": "+1 234 567 8900"
+                "placeholder": "+1 234 567 8900",
+                "tooltip": "Include only if you prefer a call or WhatsApp"
             },
             "subject": {
                 "label": "Subject",
-                "placeholder": "What's this about?"
+                "placeholder": "What's this about?",
+                "tooltip": ""
             },
             "message": {
                 "label": "Your Message",
-                "placeholder": "Hello Bhargav, I'd like to talk about..."
+                "placeholder": "Hello Bhargav, I'd like to talk about...",
+                "tooltip": ""
             }
         },
         "submit": {
