@@ -579,7 +579,7 @@
             "phone": {
                 "label": "Phone (Optional)",
                 "placeholder": "+1 234 567 8900",
-                "tooltip": "Include only if you prefer a call or WhatsApp"
+                "tooltip": "Optional - If you prefer a call"
             },
             "subject": {
                 "label": "Subject",
