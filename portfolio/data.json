@@ -60,6 +60,10 @@
             }
         ]
     },
+    "footer": {
+        "enabled": true,
+        "text": "© {year} Bhargav Rathod | All rights reserved."
+    },
     "about": {
         "index": 1,
         "enabled": true,
@@ -183,6 +187,60 @@
             }
         ]
     },
+    "experience": {
+        "index": 4,
+        "enabled": true,
+        "title": "Work Experience",
+        "highlight": "Experience",
+        "items": [
+            {
+                "id": 1,
+                "title": "Full-Stack Software Developer",
+                "period": "Apr 2024 - Current",
+                "company": "[DataArt](https://www.dataart.com/) (Client - IQVIA Healthcare)",
+                "location": "Bangalore, India",
+                "description": [
+                    "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
+                    "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
+                    "Conducted performance optimization, code reviews, and security audits. Developed end-to-end test suites, improving release quality and reducing regression incidents by ~60%."
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Member of Technical Staff",
+                "period": "Dec 2021 - Mar 2024",
+                "company": "[EdgeVerve Systems Limited](https://www.edgeverve.com/) (An Infosys Company)",
+                "location": "Pune, India",
+                "description": [
+                    "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
+                    "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ~50% and enabling containerization.",
+                    "Developed full-stack features using Angular, implemented role-based access control, and integrated telemetry to track user behavior.",
+                    "Authored integration and unit test frameworks, improving code coverage to 89%+ and ensuring system stability during major releases."
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Senior Systems Engineer",
+                "period": "Aug 2019 - Dec 2021",
+                "company": "[Infosys Limited](https://www.infosys.com/)",
+                "location": "Pune, India",
+                "description": [
+                    "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
+                    "Integrated RPA with back-end systems and APIs, reducing manual effort by ~92% and enhancing operational accuracy across client business processes."
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Intern",
+                "period": "Dec 2018 - May 2019",
+                "company": "[Infosys Limited](https://www.infosys.com/)",
+                "location": "Mysore, India",
+                "description": [
+                    "Worked on Python3 programming training, RPA skills development, and created a set of activities to implement AssistEdge Automation RPA Studio Product."
+                ]
+            }
+        ]
+    },
     "blogs": {
         "index": 5,
         "enabled": true,
@@ -292,84 +350,6 @@
             }
         ]
     },
-    "experience": {
-        "index": 4,
-        "enabled": true,
-        "title": "Work Experience",
-        "highlight": "Experience",
-        "items": [
-            {
-                "id": 1,
-                "title": "Full-Stack Software Developer",
-                "period": "Apr 2024 - Current",
-                "company": "[DataArt](https://www.dataart.com/) (Client - IQVIA Healthcare)",
-                "location": "Bangalore, India",
-                "description": [
-                    "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
-                    "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
-                    "Conducted performance optimization, code reviews, and security audits. Developed end-to-end test suites, improving release quality and reducing regression incidents by ~60%."
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Member of Technical Staff",
-                "period": "Dec 2021 - Mar 2024",
-                "company": "[EdgeVerve Systems Limited](https://www.edgeverve.com/) (An Infosys Company)",
-                "location": "Pune, India",
-                "description": [
-                    "Engineered core product modules using .NET Core, Entity Framework, and Node.js for both SaaS and on-prem deployments, enabling modular scaling across multiple tenants.",
-                    "Refactored legacy .NET Framework modules into unified .NET Core services, improving response time by ~50% and enabling containerization.",
-                    "Developed full-stack features using Angular, implemented role-based access control, and integrated telemetry to track user behavior.",
-                    "Authored integration and unit test frameworks, improving code coverage to 89%+ and ensuring system stability during major releases."
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Senior Systems Engineer",
-                "period": "Aug 2019 - Dec 2021",
-                "company": "[Infosys Limited](https://www.infosys.com/)",
-                "location": "Pune, India",
-                "description": [
-                    "Designed 10+ complex enterprise workflows for telecoms and healthcare clients using Robotic Process Automation (RPA) AssistEdge platform.",
-                    "Integrated RPA with back-end systems and APIs, reducing manual effort by ~92% and enhancing operational accuracy across client business processes."
-                ]
-            },
-            {
-                "id": 4,
-                "title": "Intern",
-                "period": "Dec 2018 - May 2019",
-                "company": "[Infosys Limited](https://www.infosys.com/)",
-                "location": "Mysore, India",
-                "description": [
-                    "Worked on Python3 programming training, RPA skills development, and created a set of activities to implement AssistEdge Automation RPA Studio Product."
-                ]
-            }
-        ]
-    },
-    "education": {
-        "index": 7,
-        "enabled": false,
-        "title": "Education",
-        "highlight": "Education",
-        "items": [
-            {
-                "degree": "B.Tech",
-                "stream": "Computer Engineering",
-                "institute": "Dharmsinh Desai University",
-                "result": "CGPA 8.29 / 10",
-                "duration": "2015-2019",
-                "location": "Nadiad, Gujarat, India"
-            },
-            {
-                "degree": "HSC",
-                "stream": "Science",
-                "institute": "Gyanmanjari Vidhyapith",
-                "result": "99.91 %tile",
-                "duration": "2013-2015",
-                "location": "Bhavnagar, Gujarat, India"
-            }
-        ]
-    },
     "projects": {
         "index": 6,
         "enabled": true,
@@ -424,6 +404,30 @@
                     "MSSQL"
                 ],
                 "type": "MVC, Full-Stack Implementation, Database Management, Role-Based Features"
+            }
+        ]
+    },
+    "education": {
+        "index": 7,
+        "enabled": false,
+        "title": "Education",
+        "highlight": "Education",
+        "items": [
+            {
+                "degree": "B.Tech",
+                "stream": "Computer Engineering",
+                "institute": "Dharmsinh Desai University",
+                "result": "CGPA 8.29 / 10",
+                "duration": "2015-2019",
+                "location": "Nadiad, Gujarat, India"
+            },
+            {
+                "degree": "HSC",
+                "stream": "Science",
+                "institute": "Gyanmanjari Vidhyapith",
+                "result": "99.91 %tile",
+                "duration": "2013-2015",
+                "location": "Bhavnagar, Gujarat, India"
             }
         ]
     },
@@ -559,6 +563,97 @@
             }
         ]
     },
+    "quote": {
+        "index": 11,
+        "enabled": true,
+        "text": "Brute force isn't stupidity — it's the spark that starts the real solution."
+    },
+    "customSections": [
+        {
+            "index": 12,
+            "enabled": false,
+            "id": "learning",
+            "title": "What I am Learning",
+            "description": "A rotating set of topics I'm deep-diving into each quarter.",
+            "type": "info",
+            "content": {
+                "list": [
+                    "TypeScript Advanced Patterns",
+                    "Next.js 14 App Router",
+                    "AI Prompt Engineering"
+                ]
+            }
+        },
+        {
+            "index": 13,
+            "enabled": false,
+            "id": "github-repos",
+            "title": "GitHub Repo List",
+            "description": "A couple of weekend experiments that are fun to browse.",
+            "type": "links",
+            "content": {
+                "links": [
+                    {
+                        "label": "My Portfolio",
+                        "url": "https://github.com/username/portfolio",
+                        "description": "The code powering this JSON-driven site."
+                    },
+                    {
+                        "label": "Cool Project",
+                        "url": "https://github.com/username/cool-project",
+                        "description": "A hackathon prototype that still ships features."
+                    }
+                ]
+            }
+        },
+        {
+            "index": 14,
+            "enabled": false,
+            "id": "favourite-speakers",
+            "title": "Favourite Speakers",
+            "description": "Voices that keep me inspired when I'm shipping late-night features.",
+            "type": "info",
+            "content": {
+                "list": [
+                    "Simon Sinek",
+                    "Brene Brown",
+                    "Gary Vaynerchuk"
+                ]
+            }
+        },
+        {
+            "index": 15,
+            "enabled": false,
+            "id": "newsletter",
+            "title": "Join My Newsletter",
+            "eyebrow": "Weekly dispatch",
+            "description": "One thoughtful email every Sunday covering system design, ML experiments, and the playbooks I use with enterprise teams.",
+            "type": "newsletter",
+            "content": {
+                "newsletter": {
+                    "placeholder": "your.email@example.com",
+                    "ctaLabel": "Subscribe for free",
+                    "ctaUrl": "https://newsletter.example.com",
+                    "note": "No spam, unsubscribe anytime.",
+                    "pitch": "Actionable notes on engineering leadership, AI, and productivity—designed to be read in under five minutes.",
+                    "stats": [
+                        {
+                            "label": "Builders reading",
+                            "value": "2.1K+"
+                        },
+                        {
+                            "label": "Avg. open rate",
+                            "value": "61%"
+                        },
+                        {
+                            "label": "Years running",
+                            "value": "3+"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "contactForm": {
         "emailJs": {
             "serviceId": "service_wtvd89b",
@@ -608,14 +703,73 @@
             "subject": "Subject is too short"
         }
     },
-    "quote": {
-        "index": 11,
-        "enabled": true,
-        "text": "Brute force isn't stupidity — it's the spark that starts the real solution."
-    },
-    "footer": {
-        "enabled": true,
-        "text": "© {year} Bhargav Rathod | All rights reserved."
+    "ui": {
+        "loading": {
+            "default": "Loading",
+            "data": "Loading data",
+            "projects": "Loading projects",
+            "experience": "Loading experience",
+            "blogs": "Loading blogs",
+            "publications": "Loading publications"
+        },
+        "errors": {
+            "default": "Failed to load data. Please try again later.",
+            "dataLoad": "Failed to load data.",
+            "blogsLoad": "Failed to load blogs. Please try again later.",
+            "publicationsLoad": "Failed to load publications. Please try again later.",
+            "miscellaneousLoad": "Failed to load miscellaneous content."
+        },
+        "empty": {
+            "projects": "No projects available.",
+            "blogs": "No blogs available.",
+            "publications": "No publications available.",
+            "testimonials": "No testimonials available.",
+            "experience": "No experience available.",
+            "content": "No content available."
+        },
+        "navigation": {
+            "home": "Home",
+            "menu": "Menu",
+            "back": "Back"
+        },
+        "carousel": {
+            "previousProject": "Previous project",
+            "nextProject": "Next project",
+            "goToProject": "Go to project",
+            "previousTestimonial": "Previous testimonial",
+            "nextTestimonial": "Next testimonial",
+            "goToTestimonial": "Go to testimonial"
+        },
+        "projects": {
+            "technologies": "Technologies:",
+            "concepts": "Concepts:",
+            "viewOnGitHub": "View on GitHub"
+        },
+        "achievements": {
+            "achievements": "Achievements",
+            "certifications": "Certifications"
+        },
+        "contact": {
+            "email": "Email",
+            "location": "Location",
+            "social": "Social"
+        },
+        "testimonials": {
+            "viewProfile": "View Profile"
+        },
+        "avatar": {
+            "alt": "Avatar"
+        },
+        "miscellaneous": {
+            "galleryImage": "Gallery image",
+            "by": "by"
+        },
+        "pageLayout": {
+            "portfolio": "Portfolio"
+        },
+        "footer": {
+            "allRightsReserved": "All rights reserved."
+        }
     },
     "tracking": {
         "enabled": true,
@@ -801,91 +955,5 @@
                 "path": "https://github.com/bhargav-rathod/storage/tree/main/gallery"
             }
         ]
-    },
-    "customSections": [
-        {
-            "index": 12,
-            "enabled": false,
-            "id": "learning",
-            "title": "What I am Learning",
-            "description": "A rotating set of topics I'm deep-diving into each quarter.",
-            "type": "info",
-            "content": {
-                "list": [
-                    "TypeScript Advanced Patterns",
-                    "Next.js 14 App Router",
-                    "AI Prompt Engineering"
-                ]
-            }
-        },
-        {
-            "index": 13,
-            "enabled": false,
-            "id": "github-repos",
-            "title": "GitHub Repo List",
-            "description": "A couple of weekend experiments that are fun to browse.",
-            "type": "links",
-            "content": {
-                "links": [
-                    {
-                        "label": "My Portfolio",
-                        "url": "https://github.com/username/portfolio",
-                        "description": "The code powering this JSON-driven site."
-                    },
-                    {
-                        "label": "Cool Project",
-                        "url": "https://github.com/username/cool-project",
-                        "description": "A hackathon prototype that still ships features."
-                    }
-                ]
-            }
-        },
-        {
-            "index": 14,
-            "enabled": false,
-            "id": "favourite-speakers",
-            "title": "Favourite Speakers",
-            "description": "Voices that keep me inspired when I'm shipping late-night features.",
-            "type": "info",
-            "content": {
-                "list": [
-                    "Simon Sinek",
-                    "Brene Brown",
-                    "Gary Vaynerchuk"
-                ]
-            }
-        },
-        {
-            "index": 15,
-            "enabled": false,
-            "id": "newsletter",
-            "title": "Join My Newsletter",
-            "eyebrow": "Weekly dispatch",
-            "description": "One thoughtful email every Sunday covering system design, ML experiments, and the playbooks I use with enterprise teams.",
-            "type": "newsletter",
-            "content": {
-                "newsletter": {
-                    "placeholder": "your.email@example.com",
-                    "ctaLabel": "Subscribe for free",
-                    "ctaUrl": "https://newsletter.example.com",
-                    "note": "No spam, unsubscribe anytime.",
-                    "pitch": "Actionable notes on engineering leadership, AI, and productivity—designed to be read in under five minutes.",
-                    "stats": [
-                        {
-                            "label": "Builders reading",
-                            "value": "2.1K+"
-                        },
-                        {
-                            "label": "Avg. open rate",
-                            "value": "61%"
-                        },
-                        {
-                            "label": "Years running",
-                            "value": "3+"
-                        }
-                    ]
-                }
-            }
-        }
-    ]
+    }
 }
