@@ -73,7 +73,8 @@
         "avatar": {
             "enabled": true,
             "image": "https://raw.githubusercontent.com/bhargav-rathod/storage/main/dp/bhargav-rathod.png",
-            "alt": "Avatar"
+            "alt": "Avatar",
+            "scribbleOverlay": true
         },
         "resume": {
             "url": "https://github.com/bhargav-rathod/storage/raw/main/resume/Bhargav_Rathod_Resume.pdf",
