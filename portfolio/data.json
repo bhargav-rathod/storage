@@ -74,7 +74,7 @@
             "enabled": true,
             "image": "https://raw.githubusercontent.com/bhargav-rathod/storage/main/dp/bhargav-rathod.png",
             "alt": "Avatar",
-            "scribbleOverlay": false
+            "scribbleOverlay": true
         },
         "resume": {
             "url": "https://github.com/bhargav-rathod/storage/raw/main/resume/Bhargav_Rathod_Resume.pdf",
@@ -707,18 +707,18 @@
     "ui": {
         "loading": {
             "default": "Loading",
-            "data": "Loading data",
-            "projects": "Loading projects",
-            "experience": "Loading experience",
-            "blogs": "Loading blogs",
-            "publications": "Loading publications"
+            "data": "Loading",
+            "projects": "Loading",
+            "experience": "Loading",
+            "blogs": "Loading",
+            "publications": "Loading"
         },
         "errors": {
-            "default": "Failed to load data. Please try again later.",
-            "dataLoad": "Failed to load data.",
-            "blogsLoad": "Failed to load blogs. Please try again later.",
-            "publicationsLoad": "Failed to load publications. Please try again later.",
-            "miscellaneousLoad": "Failed to load miscellaneous content."
+            "default": "Failed to load.",
+            "dataLoad": "Failed to load.",
+            "blogsLoad": "Failed to load.",
+            "publicationsLoad": "Failed to load.",
+            "miscellaneousLoad": "Failed to load."
         },
         "empty": {
             "projects": "No projects available.",
