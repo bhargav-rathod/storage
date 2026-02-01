@@ -74,7 +74,8 @@
             "enabled": true,
             "image": "https://raw.githubusercontent.com/bhargav-rathod/storage/main/dp/bhargav-rathod.png",
             "alt": "Avatar",
-            "scribbleOverlay": true
+            "scribbleOverlay": true,
+            "scribbleColor": "blue"
         },
         "resume": {
             "url": "https://github.com/bhargav-rathod/storage/raw/main/resume/Bhargav_Rathod_Resume.pdf",
