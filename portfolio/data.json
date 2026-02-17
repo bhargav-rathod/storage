@@ -2,7 +2,7 @@
     "meta": {
         "title": "Bhargav Rathod - Portfolio",
         "description": "Senior Software Engineer specializing in full-stack development and system design.",
-        "favicon": "/favicon.ico"
+        "favicon": "https://raw.githubusercontent.com/bhargav-rathod/storage/refs/heads/main/portfolio/favicon/favicon.ico"
     },
     "header": {
         "enabled": true,
