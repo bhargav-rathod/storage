@@ -194,12 +194,12 @@
         "items": [
             {
                 "id": 1,
-                "title": "Full-Stack Software Developer",
+                "title": "Senior Software Engineer",
                 "period": "Apr 2024 - Current",
-                "company": "[DataArt](https://www.dataart.com/) (Client - IQVIA Healthcare)",
+                "company": "[DataArt](https://www.dataart.com/) (With - IQVIA Healthcare)",
                 "location": "Bangalore, India",
                 "description": [
-                    "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
+                    "Designing and developing end-to-end scalable features with machine learning, microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
                     "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
                     "Conducted performance optimization, code reviews, and security audits. Developed end-to-end test suites, improving release quality and reducing regression incidents by ~60%."
                 ]
