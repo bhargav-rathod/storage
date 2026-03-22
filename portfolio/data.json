@@ -13,56 +13,57 @@
             {
                 "label": "About",
                 "section": "about",
-                "enabledDesktop": true,
-                "enabledMobile": true
+                "enabledForDesktop": true,
+                "enabledForMobile": true
             },
             {
                 "label": "Skills",
                 "section": "skills",
-                "enabledDesktop": false,
-                "enabledMobile": false
+                "enabledForDesktop": false,
+                "enabledForMobile": false
             },
             {
                 "label": "Publications",
                 "section": "publications",
-                "enabledDesktop": true,
-                "enabledMobile": true
+                "enabledForDesktop": true,
+                "enabledForMobile": true
             },
             {
                 "label": "Experience",
                 "section": "experience",
-                "enabledDesktop": true,
-                "enabledMobile": true
+                "enabledForDesktop": true,
+                "enabledForMobile": true
             },
             {
                 "label": "Projects",
                 "section": "portfolio",
-                "enabledDesktop": false,
-                "enabledMobile": false
+                "enabledForDesktop": false,
+                "enabledForMobile": false
             },
             {
                 "label": "Achievements",
                 "section": "achievements",
-                "enabledDesktop": false,
-                "enabledMobile": false
+                "enabledForDesktop": false,
+                "enabledForMobile": false
             },
             {
                 "label": "Blog",
                 "section": "/blog",
-                "enabledDesktop": true,
-                "enabledMobile": true
+                "_help": "section values - 'blog': '/home#blog'; '/blog': blog page route.",
+                "enabledForDesktop": true,
+                "enabledForMobile": true
             },
             {
                 "label": "Contact",
                 "section": "contact",
-                "enabledDesktop": true,
-                "enabledMobile": true
+                "enabledForDesktop": true,
+                "enabledForMobile": true
             },
             {
                 "label": "Mind Snacks",
                 "section": "/miscellaneous",
-                "enabledDesktop": true,
-                "enabledMobile": true
+                "enabledForDesktop": true,
+                "enabledForMobile": true
             }
         ]
     },
