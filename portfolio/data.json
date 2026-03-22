@@ -37,12 +37,18 @@
             {
                 "label": "Projects",
                 "section": "portfolio",
-                "enabledDesktop": true,
-                "enabledMobile": true
+                "enabledDesktop": false,
+                "enabledMobile": false
             },
             {
                 "label": "Achievements",
                 "section": "achievements",
+                "enabledDesktop": false,
+                "enabledMobile": false
+            },
+            {
+                "label": "Blog",
+                "section": "blog",
                 "enabledDesktop": true,
                 "enabledMobile": true
             },
@@ -194,12 +200,12 @@
         "items": [
             {
                 "id": 1,
-                "title": "Senior Software Engineer",
+                "title": "Full-Stack Software Developer",
                 "period": "Apr 2024 - Current",
-                "company": "[DataArt](https://www.dataart.com/) (With - IQVIA Healthcare)",
+                "company": "[DataArt](https://www.dataart.com/) (Client - IQVIA Healthcare)",
                 "location": "Bangalore, India",
                 "description": [
-                    "Designing and developing end-to-end scalable features with machine learning, microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
+                    "Designing and developing end-to-end scalable features with microservices architecture using .NET, integrating with SQL databases and deployed through DevOps CI/CD pipelines for critical healthcare applications.",
                     "Developing modular and responsive UI/UX components using Angular 18+ and TypeScript, incorporating advanced state management and performance optimization.",
                     "Conducted performance optimization, code reviews, and security audits. Developed end-to-end test suites, improving release quality and reducing regression incidents by ~60%."
                 ]
@@ -240,11 +246,11 @@
             }
         ]
     },
-    "blogs": {
+    "blog": {
         "index": 5,
         "enabled": true,
-        "title": "Blogs & Tech Drafts",
-        "highlight": "Blogs",
+        "title": "Tech Drafts - Blog",
+        "highlight": "Blog",
         "limit": 3,
         "showMoreLabel": "See More",
         "items": [
@@ -708,19 +714,19 @@
             "data": "Loading",
             "projects": "Loading",
             "experience": "Loading",
-            "blogs": "Loading",
+            "blog": "Loading",
             "publications": "Loading"
         },
         "errors": {
             "default": "Failed to load.",
             "dataLoad": "Failed to load.",
-            "blogsLoad": "Failed to load.",
+            "blogLoad": "Failed to load.",
             "publicationsLoad": "Failed to load.",
             "miscellaneousLoad": "Failed to load."
         },
         "empty": {
             "projects": "No projects available.",
-            "blogs": "No blogs available.",
+            "blog": "No blog posts available.",
             "publications": "No publications available.",
             "testimonials": "No testimonials available.",
             "experience": "No experience available.",
