@@ -48,7 +48,7 @@
             },
             {
                 "label": "Blog",
-                "section": "blog",
+                "section": "/blog",
                 "enabledDesktop": true,
                 "enabledMobile": true
             },
