@@ -474,6 +474,12 @@
         "highlight": "About Me",
         "items": [
             {
+                "author": "Dr. Bhavika Gambhava",
+                "designation": "Academician and Researcher",
+                "linkedin": "bhavika-gambhava-608a7936",
+                "message": "Bhargav has always impressed me with his intelligence, sincerity, and respectful demeanor. He is a value-oriented individual who approaches both personal and professional responsibilities with integrity and commitment. His strong analytical skills and passion for technology have enabled him to build expertise as a Software Engineer in the fields of Artificial Intelligence and Machine Learning. Bhargav is a continuous learner who readily embraces new challenges and applies innovative thinking to solve complex problems. Beyond his technical capabilities, he is dependable, humble, and a pleasure to work with. I am confident that he will continue to make significant contributions and achieve greater success in his career."
+            },
+            {
                 "author": "Dr. Brijesh Bhatt",
                 "designation": "NLP Researcher & Professor at Dharmsinh Desai University",
                 "linkedin": "drbrijeshbhatt",
