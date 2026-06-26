@@ -777,7 +777,9 @@
             "by": "by",
             "watchOnYouTube": "Watch on YouTube",
             "previousVideo": "Previous video",
-            "nextVideo": "Next video"
+            "nextVideo": "Next video",
+            "playlistLoading": "Loading playlist...",
+            "playlistError": "Could not load playlist."
         },
         "pageLayout": {
             "portfolio": "Portfolio"
@@ -881,6 +883,7 @@
                 "subtext": "Talks and videos — I keep coming back to",
                 "enabled": true,
                 "order": 3,
+                "playlistId": "PLSOST3iRGJLi3qghkLO3kWg8TLk5UO2pG",
                 "items": [
                     {
                         "name": "Let's build GPT: from scratch, in code, spelled out",
