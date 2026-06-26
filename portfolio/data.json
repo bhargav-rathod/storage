@@ -61,7 +61,7 @@
             },
             {
                 "label": "Mind Snacks",
-                "section": "/miscellaneous",
+                "section": "/mind-snacks",
                 "enabledForDesktop": true,
                 "enabledForMobile": true
             }
@@ -779,7 +779,9 @@
             "previousVideo": "Previous video",
             "nextVideo": "Next video",
             "playlistLoading": "Loading playlist...",
-            "playlistError": "Could not load playlist."
+            "playlistError": "Could not load playlist.",
+            "previousFilmStrip": "Previous film strip items",
+            "nextFilmStrip": "Next film strip items"
         },
         "pageLayout": {
             "portfolio": "Portfolio"
@@ -827,13 +829,19 @@
     },
     "miscellaneous": {
         "enabled": true,
-        "title": "\"What Remains When the Code Is Done\"",
+        "title": "What Remains When the Code Is Done",
         "highlight": "What Remains",
+        "titleImage": "https://i.pinimg.com/originals/c8/f5/89/c8f5899fd1931e685b3f60697f654ac1.gif",
+        "brandLabel": "Bhargav's Mind Snacks",
+        "navAriaLabel": "Bhargav's Mind Snacks navigation",
+        "footerText": "That's the snack for now",
+        "footerBackLabel": "Back to portfolio",
         "sections": [
             {
                 "id": "youtube-channels",
                 "title": "Channels - I Actually Learn From",
                 "highlight": "Channels",
+                "titleImage": "https://media.tenor.com/9o09nI5is5oAAAAM/mark-zuckerberg.gif",
                 "enabled": true,
                 "order": 1,
                 "items": [
@@ -855,6 +863,7 @@
                 "id": "speakers",
                 "title": "Voices - I Tune Into",
                 "highlight": "Voices",
+                "titleImage": "https://static.toiimg.com/photo/imgsize-2026334,msid-80568748/80568748.jpg",
                 "enabled": true,
                 "order": 2,
                 "items": [
@@ -880,45 +889,38 @@
                 "id": "playlist",
                 "title": "Playlist - Worth Watching",
                 "highlight": "Playlist",
-                "subtext": "Talks and videos — I keep coming back to",
+                "titleImage": "https://blog.push.fm/wp-content/uploads/2026/01/giphy.gif",
+                "subtext": "Talks and videos I keep coming back to — play here or open on YouTube.",
                 "enabled": true,
                 "order": 3,
                 "playlistId": "PLJzqr5-6a5HA",
-                "items": [
-                    {
-                        "name": "Let's build GPT: from scratch, in code, spelled out",
-                        "description": "Andrej Karpathy walks through building a GPT-style model step by step.",
-                        "url": "https://www.youtube.com/watch?v=kCc8FmEpGAY"
-                    },
-                    {
-                        "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI"
-                    },
-                    {
-                        "url": "https://youtu.be/PqVbypvxDto?si=VQ3GWbT2bKqG8Fez"
-                    }
-                ]
+                "items": []
             },
             {
                 "id": "books",
                 "title": "Books - That Shaped My Imagination",
                 "highlight": "Books",
+                "titleImage": "https://sorry-im-booked.com/wp-content/uploads/2019/11/5-relatable-reader-gifs-1.gif",
                 "enabled": true,
                 "order": 4,
                 "items": [
                     {
                         "name": "Harry Potter",
-                        "author": "J.K. Rowling"
+                        "author": "J.K. Rowling",
+                        "image": "https://covers.openlibrary.org/b/isbn/9780747532743-M.jpg"
                     },
                     {
                         "name": "Death; An Inside Story: A book for all those who shall die",
-                        "author": "Sadhguru Jaggi Vasudev"
+                        "author": "Sadhguru Jaggi Vasudev",
+                        "image": "https://covers.openlibrary.org/b/isbn/9780143450832-M.jpg"
                     }
                 ]
             },
             {
                 "id": "series",
-                "title": "Series & Docos - My Absolute Favourites",
+                "title": "Series & Docos - My Abs Favourites",
                 "highlight": "Series & Docos",
+                "titleImage": "https://media.tenor.com/8-GuLDkwPegAAAAM/friends-friends-tv.gif",
                 "enabled": true,
                 "order": 5,
                 "items": [
@@ -961,6 +963,7 @@
                 "id": "idols",
                 "title": "Thinkers - Beyond Time",
                 "highlight": "Thinkers",
+                "titleImage": "https://i.pinimg.com/originals/8c/2c/3f/8c2c3f6015dfa40e82750807fd480836.gif",
                 "enabled": true,
                 "order": 6,
                 "items": [
@@ -987,9 +990,10 @@
             },
             {
                 "id": "gallery",
-                "title": "Creations I \"Love\" Exploring",
-                "highlight": "Love",
+                "title": "Creations - I \"Love\" Exploring",
+                "highlight": "Creations",
                 "subtext": "<i>Here are a few of my favourites — not created by me, just pieces I keep coming back to.</i>",
+                "titleImage": "https://cdn.mos.cms.futurecdn.net/ZSgrD8vjZCqiFmztgRfDM3.gif",
                 "enabled": true,
                 "order": 6,
                 "path": "https://github.com/bhargav-rathod/storage/tree/main/gallery"
