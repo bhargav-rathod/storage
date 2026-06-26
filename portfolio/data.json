@@ -81,7 +81,7 @@
             "enabled": true,
             "image": "https://raw.githubusercontent.com/bhargav-rathod/storage/main/dp/bhargav-rathod.png",
             "alt": "Avatar",
-            "scribbleOverlay": true,
+            "scribbleOverlay": false,
             "scribbleColor": "blue"
         },
         "resume": {
