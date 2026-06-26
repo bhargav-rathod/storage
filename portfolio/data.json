@@ -774,7 +774,10 @@
         },
         "miscellaneous": {
             "galleryImage": "Gallery image",
-            "by": "by"
+            "by": "by",
+            "watchOnYouTube": "Watch on YouTube",
+            "previousVideo": "Previous video",
+            "nextVideo": "Next video"
         },
         "pageLayout": {
             "portfolio": "Portfolio"
@@ -872,11 +875,32 @@
                 ]
             },
             {
+                "id": "playlist",
+                "title": "Playlist - Worth Watching",
+                "highlight": "Playlist",
+                "subtext": "Talks and videos I keep coming back to — play here or open on YouTube.",
+                "enabled": true,
+                "order": 3,
+                "items": [
+                    {
+                        "name": "Let's build GPT: from scratch, in code, spelled out",
+                        "description": "Andrej Karpathy walks through building a GPT-style model step by step.",
+                        "url": "https://www.youtube.com/watch?v=kCc8FmEpGAY"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI"
+                    },
+                    {
+                        "url": "https://youtu.be/PqVbypvxDto?si=VQ3GWbT2bKqG8Fez"
+                    }
+                ]
+            },
+            {
                 "id": "books",
                 "title": "Books - That Shaped My Imagination",
                 "highlight": "Books",
                 "enabled": true,
-                "order": 3,
+                "order": 4,
                 "items": [
                     {
                         "name": "Harry Potter",
@@ -893,7 +917,7 @@
                 "title": "Series & Docos - My Absolute Favourites",
                 "highlight": "Series & Docos",
                 "enabled": true,
-                "order": 4,
+                "order": 5,
                 "items": [
                     {
                         "name": "Thinking Game",
@@ -935,7 +959,7 @@
                 "title": "Thinkers - Beyond Time",
                 "highlight": "Thinkers",
                 "enabled": true,
-                "order": 5,
+                "order": 6,
                 "items": [
                     {
                         "name": "Swami Vivekananda",
