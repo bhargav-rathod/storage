@@ -917,7 +917,8 @@
                     },
                     {
                         "name": "Inside Bill's Brain: Decoding Bill Gates",
-                        "description": "A documentary series exploring the mind and work of Bill Gates."
+                        "description": "A documentary series exploring the mind and work of Bill Gates.",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Bill_Gates_with_Tandy_2000_running_Windows_1.0_%281984%29.jpg/500px-Bill_Gates_with_Tandy_2000_running_Windows_1.0_%281984%29.jpg"
                     },
                     {
                         "name": "The Social Dilemma",
