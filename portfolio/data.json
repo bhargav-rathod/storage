@@ -878,7 +878,7 @@
                 "id": "playlist",
                 "title": "Playlist - Worth Watching",
                 "highlight": "Playlist",
-                "subtext": "Talks and videos I keep coming back to — play here or open on YouTube.",
+                "subtext": "Talks and videos — I keep coming back to",
                 "enabled": true,
                 "order": 3,
                 "items": [
