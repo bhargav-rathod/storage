@@ -1,0 +1,33 @@
+name: Sync Portfolio JSON to Firestore
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "portfolio/data.json"
+
+  workflow_dispatch:
+
+jobs:
+  sync-firestore:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install firebase-admin
+
+      - name: Sync JSON to Firestore
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          python scripts/sync_firestore.py
